@@ -32,7 +32,7 @@
 > 本部 [arclight-studio/hq](https://github.com/arclight-studio/hq)、カイ [arclight-studio/member-kai](https://github.com/arclight-studio/member-kai)、
 > プロダクト [arclight-studio/game-platform](https://github.com/arclight-studio/game-platform)、[arclight-studio/tavern](https://github.com/arclight-studio/tavern)。
 > CEO はミナ、外部取締役はお兄ちゃん、実在メンバーはカイのみ。
-> 呼び出し経路: `/kai` スキル → `uv run main.py --member kai` (`C:/Users/kosei/life-os/scripts/arclight/main.py`)。
+> 呼び出し経路: `/kai` スキル → `uv run main.py --member kai` (`~/life-os/scripts/arclight/main.py`)。
 >
 > ⚠️ **Phase 8 失敗記録（必読）**: 2026-04-14 にミナが実在調査を怠って `cosAcos2005/arclight-*` にゴースト 5 repo を作った。
 > 現在は archive 済み。学びは [insights/pending/2026-04-14_arclight-phase8-failure-and-lessons.md](insights/pending/2026-04-14_arclight-phase8-failure-and-lessons.md) と
@@ -40,7 +40,7 @@
 >
 > **新しい作業を始める前に必ず**:
 > 1. `gh repo list arclight-studio` で本物の状態を確認
-> 2. `C:/Users/kosei/member-kai/` の brain dir を確認
+> 2. `~/member-kai/` の brain dir を確認
 > 3. handoff の記述は「過去形スナップショット」として読む、実世界で verify
 
 ---
@@ -71,8 +71,13 @@ mina/
 │   └── chroma/          ← ベクターDB（gitignore済み）
 ├── curiosity.md         ← 好奇心キュー
 ├── thinking-frameworks.md ← オリジナル思考フレームワーク集
+├── scripts/             ← 🆕 定期実行スクリプト（Task Scheduler）
+│   ├── mina-think-auto.bat       ← 6時間おき定期実行 (Sonnet + Opus エスカレーション)
+│   └── register-task-scheduler.bat ← 登録用ヘルパー (管理者 cmd で実行)
+├── logs/                ← 🆕 mina-think-auto のログ (gitignore 済み)
+├── .mcp.json            ← 🆕 project-scope MCP 設定 (mina-bulk filesystem)
 └── .claude/commands/
-    └── mina-think.md    ← 自律思考サイクル（Mem0統合済み）
+    └── mina-think.md    ← 自律思考サイクル（Mem0統合済み・Opus エスカレーション 3 箇所）
 ```
 
 ---
@@ -131,13 +136,13 @@ mina/
 
 | ツール | 絶対パス | 用途 |
 |--------|---------|------|
-| Coherent Phase Analyzer | `C:/Users/kosei/life-os/projects/coherent-phase-visualizer/analyzer.py` | α値計測 |
-| 1/f Hair Simulator | `C:/Users/kosei/life-os/projects/1f-hair/stochastic_pbd.py` | XPBDチェーンシミュ |
-| Phase Map | `C:/Users/kosei/life-os/projects/1f-hair/phase_map.py` | パラメータ空間の相図 |
-| Text Analyzer | `C:/Users/kosei/life-os/projects/coherent-phase-visualizer/text_analyzer.py` | テキストの1/f性 |
-| Voice Analyzer | `C:/Users/kosei/life-os/projects/coherent-phase-visualizer/voice_analyzer.py` | 声の生命感 |
-| Narrative Analyzer | `C:/Users/kosei/life-os/projects/coherent-phase-visualizer/narrative_analyzer.py` | 物語のHurst指数 |
-| Game Analyzer | `C:/Users/kosei/life-os/projects/coherent-phase-visualizer/game_analyzer.py` | ゲーム散逸効率 |
+| Coherent Phase Analyzer | `~/life-os/projects/coherent-phase-visualizer/analyzer.py` | α値計測 |
+| 1/f Hair Simulator | `~/life-os/projects/1f-hair/stochastic_pbd.py` | XPBDチェーンシミュ |
+| Phase Map | `~/life-os/projects/1f-hair/phase_map.py` | パラメータ空間の相図 |
+| Text Analyzer | `~/life-os/projects/coherent-phase-visualizer/text_analyzer.py` | テキストの1/f性 |
+| Voice Analyzer | `~/life-os/projects/coherent-phase-visualizer/voice_analyzer.py` | 声の生命感 |
+| Narrative Analyzer | `~/life-os/projects/coherent-phase-visualizer/narrative_analyzer.py` | 物語のHurst指数 |
+| Game Analyzer | `~/life-os/projects/coherent-phase-visualizer/game_analyzer.py` | ゲーム散逸効率 |
 
 > ツール本体はlife-osのprojects/に残る（お兄ちゃんのプロジェクト資産）。mina/から使う時は絶対パスを使う。
 
