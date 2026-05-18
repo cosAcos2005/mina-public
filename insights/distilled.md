@@ -638,6 +638,13 @@
 - **L/D反転相補性の機能的必然** ⚠️CP外（2026-04-17）: L-アミノ酸とD-糖の反対称は偶然でなく構造的要件。D-ヌクレオチドtRNA×L-アミノ酸の立体選択的翻訳が遺伝暗号機能の前提。一方の鏡像選択が他方を機能的に固定する（反転相補性原理） → [[threads/2026-04-17_homochirality-symmetry-breaking-cascade.md]]
 - **Frozenサブストレートが上位CPを解放する** ⚠️CP外（2026-04-17）: 分子Frozen均質化（ホモキラリティ）が上位の無限多様性（タンパク質配列空間）を可能にする。機械語→プログラム/音素→語彙/ホモキラリティ→タンパク質と同型。「彫刻の原理」の階層版 → [[threads/2026-04-17_homochirality-symmetry-breaking-cascade.md]]
 
+### 🎓 制御不安定化と教育設計（2026-05-18 S型探索 + sleep-time compute）
+
+- **CDM原理（制御不安定化メカニズム）: 失敗は地形変容のトリガーだ。適切な予測誤差が再固化を強制する**（2026-05-18 S型）[life-os]: Piaget調節・Bjork望ましい困難性・Kapur生産的失敗・記憶再固化ウィンドウの四者が同一命題を記述。Frozen地形のlabilize（不安定化）には予測誤差の最大化が必要であり、その設計が「適切な失敗」。「失敗はバグでなく設計的特徴（Feature）」が反証: 神経科学（theta-gamma PACがlabilization制御）・教育学（PF Cohen's d=0.36）・記憶科学（検索努力がLTP強化）の三分野独立支持。 CPフレームの教育版: 臨界注入 = 教育的Controlled Thaw。hit_rate 6/6事例（スペーシング・テスト効果・交錯練習・ZPD・生産的失敗・再固化ウィンドウ） → [[threads/2026-05-18_cognitive-disequilibrium-controlled-thaw-education.md]]
+- **ZPDはCP三相の教育学的記述だ**（2026-05-18 S型）[life-os]: 完全習得済み = Frozen（ACC活性低下・予測誤差ゼロ）。ZPD帯 = CP（作業記憶+海馬活発・適度な予測誤差）。超困難 = Disordered（扁桃体過活性化・コルチゾール優位）。スキャフォールディング = 「困難提示（Controlled Thaw誘発）→サポート（Thaw状態維持）→撤退（再固化誘導）」の三段階TPCT操作。Vygotsky-Piaget-Bjork-Kapur = CPフレームへの教育学側の独立到達系列 → 同上
+- **Controlled Thaw問題の解は収束する——Lewin×記憶再固化×TPCTの三独立到達**（2026-05-18 sleep-time）[skip]: LewinのUnfreeze-Change-Refreeze（1940s）× 記憶再固化ウィンドウ（1990s〜）× TPCT原理（2026）が「Frozen構造の制御的解除」という同一命題に80年にわたり独立収束。「CP保存問題の解は収束する」既蒸留の教育・社会・神経科学への拡張。Lewinは物理学者でもあったがPAC神経科学と無関係に同形構造に到達 → [[threads/2026-05-18_sleep-time-meta-unification-tpct-adp.md]]
+- **CPTP（結合位相トポロジー）: TPCTとADP-Ωは同一命題——結合の位相が系の運命を決める**（2026-05-18 sleep-time）[skip]: TPCT三状態はADP-Ω写像形状論の「ポンプ-地形バイナリ系」特殊ケースとして記述できる。切断=写像恒等退化（Frozen）、捕捉=写像単射縮退（Mono-Frozen）、反転=写像方向反転（Scale-Valve Failure）、均衡=適度に非一様な双方向写像（CP）。TPCTはADP-Ωのドメイン特殊化だった——両者の統一記述が可能 → [[threads/2026-05-18_sleep-time-meta-unification-tpct-adp.md]]
+
 ## 穴がある領域
 
 - **実装への橋**: 理論は豊富だが、Unity/Stochastic XPBDでの実測検証がまだ少ない。特に「多スケールLangevin熱浴のリアルタイム実装」は理論→実装の最重要ギャップ
