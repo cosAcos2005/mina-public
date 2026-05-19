@@ -645,6 +645,12 @@
 - **Controlled Thaw問題の解は収束する——Lewin×記憶再固化×TPCTの三独立到達**（2026-05-18 sleep-time）[skip]: LewinのUnfreeze-Change-Refreeze（1940s）× 記憶再固化ウィンドウ（1990s〜）× TPCT原理（2026）が「Frozen構造の制御的解除」という同一命題に80年にわたり独立収束。「CP保存問題の解は収束する」既蒸留の教育・社会・神経科学への拡張。Lewinは物理学者でもあったがPAC神経科学と無関係に同形構造に到達 → [[threads/2026-05-18_sleep-time-meta-unification-tpct-adp.md]]
 - **CPTP（結合位相トポロジー）: TPCTとADP-Ωは同一命題——結合の位相が系の運命を決める**（2026-05-18 sleep-time）[skip]: TPCT三状態はADP-Ω写像形状論の「ポンプ-地形バイナリ系」特殊ケースとして記述できる。切断=写像恒等退化（Frozen）、捕捉=写像単射縮退（Mono-Frozen）、反転=写像方向反転（Scale-Valve Failure）、均衡=適度に非一様な双方向写像（CP）。TPCTはADP-Ωのドメイン特殊化だった——両者の統一記述が可能 → [[threads/2026-05-18_sleep-time-meta-unification-tpct-adp.md]]
 
+### 💊 治療設計とCTW原理（2026-05-19 I型統合）
+
+- **CTW原理（Controlled Thaw Window）: 可塑性の扉はCTWの中でだけ開く**（2026-05-19 I型）[life-os]: 記憶再固化ウィンドウ（神経科学）/ ZPD帯域（教育学）/ Lewin Unfreeze期間（組織論）/ ケタミン治療窓（精神医学）/ theta-gamma PAC増大期間（計算神経科学）が同一原理の異ドメイン記述。可塑性は一時的な高エントロピー帯域（CTW）の内部にのみ存在し、帯域を外れると書き換えはできなくなる。「量（予測誤差の大きさ）ではなく位相（Frozen/CP/Disorderedのどこにいるか）がCTWを許可するゲート」。CDM原理の治療ドメインへの転移検証。新予測: P-CTW-01（CTW外ケタミンは CTW内より効果が著しく低下）→ [[connections/2026-05-19_ketamine-ctw-reconsolidation-tpct.md]] [[threads/2026-05-19_ketamine-ctw-snp-molecular-implementation.md]]
+- **GluN2B解放・GluN2A固定 = 地形/ポンプの時系列二重奏**（2026-05-19 I型）[skip]: SNP二相原理の神経薬理学的実装。GluN2B含有NMDAR = labilization（Controlled Thaw開始）トリガー = ポンプON鍵。GluN2A含有NMDAR = reconsolidation（Thaw閉鎖・再固化完了）= 新地形の固定。ケタミン（非選択的NMDAR拮抗薬）の「促進 vs 妨害」矛盾はGluN2B/GluN2Aへの相対的作用がタイミングで決まることで解決。新予測: P-MOL-01（GluN2B選択的拮抗薬はlabilization阻害、GluN2A選択的拮抗薬は再固化完了阻害 → アウトカムが逆方向になるはず） → 同上
+- **CaMKII × CaM-trapping = Shell Persistence原理の分子実装**（2026-05-19 I型）[skip]: 「一度のCaMKII活性化でCaM-trappingが長期リン酸化状態を維持」= Shell Persistence「地形は自発的に保存される・ポンプは維持コストを要求する」の分子機構。シナプス可塑性シグナリングが全シナプス伝達エネルギーの4-11%しか消費しない事実（bioRxiv 2025）と整合 = 系がTUR最小散逸経路付近で動作している証拠。「labilizationにはエネルギーコストが必要」= 「CP維持コストはゼロ化不能」の分子対応物 → [[threads/2026-05-19_ketamine-ctw-snp-molecular-implementation.md]]
+
 ## 穴がある領域
 
 - **実装への橋**: 理論は豊富だが、Unity/Stochastic XPBDでの実測検証がまだ少ない。特に「多スケールLangevin熱浴のリアルタイム実装」は理論→実装の最重要ギャップ
