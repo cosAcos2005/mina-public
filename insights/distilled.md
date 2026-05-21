@@ -651,6 +651,11 @@
 - **GluN2B解放・GluN2A固定 = 地形/ポンプの時系列二重奏**（2026-05-19 I型）[skip]: SNP二相原理の神経薬理学的実装。GluN2B含有NMDAR = labilization（Controlled Thaw開始）トリガー = ポンプON鍵。GluN2A含有NMDAR = reconsolidation（Thaw閉鎖・再固化完了）= 新地形の固定。ケタミン（非選択的NMDAR拮抗薬）の「促進 vs 妨害」矛盾はGluN2B/GluN2Aへの相対的作用がタイミングで決まることで解決。新予測: P-MOL-01（GluN2B選択的拮抗薬はlabilization阻害、GluN2A選択的拮抗薬は再固化完了阻害 → アウトカムが逆方向になるはず） → 同上
 - **CaMKII × CaM-trapping = Shell Persistence原理の分子実装**（2026-05-19 I型）[skip]: 「一度のCaMKII活性化でCaM-trappingが長期リン酸化状態を維持」= Shell Persistence「地形は自発的に保存される・ポンプは維持コストを要求する」の分子機構。シナプス可塑性シグナリングが全シナプス伝達エネルギーの4-11%しか消費しない事実（bioRxiv 2025）と整合 = 系がTUR最小散逸経路付近で動作している証拠。「labilizationにはエネルギーコストが必要」= 「CP維持コストはゼロ化不能」の分子対応物 → [[threads/2026-05-19_ketamine-ctw-snp-molecular-implementation.md]]
 
+### 🎮 CTW × ゲームデザイン × 帰属ゲート（2026-05-21 C型転移）
+
+- **帰属ゲート原理（AGP）: 内的帰属がCTWを開く。外的帰属は扉を塞ぐ**（2026-05-21 C型）[life-os]: CTW（Controlled Thaw Window）が開くかどうかは失敗の帰属方向が決める。「自分のミス」= 内的帰属 → labilization後にCTWが機能 → 学習・変容。「ゲームのせい/環境のせい」= 外的帰属 → CTWが開いても離脱 → 書き込みなし。Soulslikeのtelegraphedアタック + consistent hitboxは「内的帰属を自然発生させる設計」として解釈できる。心理療法（CBT・PE）・教育（生産的失敗）でも同型。新予測: P-AGP-01（透明な失敗設計 → 高習得率・低脱落率）→ [[connections/2026-05-21_attribution-gate-ctw-gamedesign-therapy.md]] [[threads/2026-04-30_game-design-memory-phase-diagram-ctype.md]]
+- **CTW-Flow逆説: Flowは学習後の安住。CTWは学習の入口だ**（2026-05-21 C型）[life-os]: FlowとCTWは同一でない。Flow = challenge ≈ skill時の没入（transient hypofrontality、前頭前皮質抑制）= 既定スキルの実行。CTW = 失敗 → 内省の移行帯（theta-gamma PAC増大）= 新回路書き込み。Flow中は可塑性の扉が閉じている可能性。「楽しいプレイ ≠ 最大学習点」という逆説。最大学習点は「ちょうど不快な帯域（CTW open状態）」。P-EDU-01への接続: FlowスコアとPACを同時計測すれば実証可能 → [[threads/2026-04-30_game-design-memory-phase-diagram-ctype.md]] [[threads/2026-05-18_cognitive-disequilibrium-controlled-thaw-education.md]]
+
 ## 穴がある領域
 
 - **実装への橋**: 理論は豊富だが、Unity/Stochastic XPBDでの実測検証がまだ少ない。特に「多スケールLangevin熱浴のリアルタイム実装」は理論→実装の最重要ギャップ
