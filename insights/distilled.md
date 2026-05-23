@@ -655,6 +655,9 @@
 
 - **帰属ゲート原理（AGP）: 内的帰属がCTWを開く。外的帰属は扉を塞ぐ**（2026-05-21 C型）[life-os]: CTW（Controlled Thaw Window）が開くかどうかは失敗の帰属方向が決める。「自分のミス」= 内的帰属 → labilization後にCTWが機能 → 学習・変容。「ゲームのせい/環境のせい」= 外的帰属 → CTWが開いても離脱 → 書き込みなし。Soulslikeのtelegraphedアタック + consistent hitboxは「内的帰属を自然発生させる設計」として解釈できる。心理療法（CBT・PE）・教育（生産的失敗）でも同型。新予測: P-AGP-01（透明な失敗設計 → 高習得率・低脱落率）→ [[connections/2026-05-21_attribution-gate-ctw-gamedesign-therapy.md]] [[threads/2026-04-30_game-design-memory-phase-diagram-ctype.md]]
 - **CTW-Flow逆説: Flowは学習後の安住。CTWは学習の入口だ**（2026-05-21 C型）[life-os]: FlowとCTWは同一でない。Flow = challenge ≈ skill時の没入（transient hypofrontality、前頭前皮質抑制）= 既定スキルの実行。CTW = 失敗 → 内省の移行帯（theta-gamma PAC増大）= 新回路書き込み。Flow中は可塑性の扉が閉じている可能性。「楽しいプレイ ≠ 最大学習点」という逆説。最大学習点は「ちょうど不快な帯域（CTW open状態）」。P-EDU-01への接続: FlowスコアとPACを同時計測すれば実証可能 → [[threads/2026-04-30_game-design-memory-phase-diagram-ctype.md]] [[threads/2026-05-18_cognitive-disequilibrium-controlled-thaw-education.md]]
+- **AGP精密化: 帰属の方向と可変性がCTWの開閉を決める**（2026-05-23 S型）[life-os]: Weiner三次元（所在×安定性×制御可能性）とAGPを重ねると「内的帰属」だけでは不十分。「内的×制御可能（努力帰属）」= CTW開放。「内的×制御不可能（能力帰属）」= CTW封鎖——Dweckの固定マインドセットがCTW慢性封鎖を生む機序はこれ。「外的×制御不可能（運帰属）」= CTW無効（Disordered）。既存AGP「内的帰属がCTWを開く」は過剰包含だった——能力帰属は内的でもCTWを内側から塞ぐ。新予測: P-AGP-02（固定マインドセット群は透明失敗設計でも成長マインドセット群より習得率低い）→ [[threads/2026-05-23_agp-organization-attribution-channel-design.md]] [[connections/2026-05-23_attribution-safety-agp-organization.md]]
+- **失敗の散逸方向が、学習の可否を決定する**（2026-05-23 S型）[life-os]: 失敗という散逸エネルギーを内側（内的帰属→CTW開放）に向けるか外側（外的帰属→CTW封鎖）に向けるかが学習の分岐点。個人（ゲーム/教育）/ 組織（EMC）/ 臨床（PTSD）/ コーチング / 社会のドメイン横断メタパターン。既蒸留「散逸チャネルの自己遮断」との統合: チャネルの開閉と散逸方向は独立二軸——どちらが失われてもFrozenになる。EMCは「チャネルを開け、かつ散逸エネルギーを内側に向けよ」という二段階設計原理だった → 同上
+- **集団的AGP保証が心理的安全性の実体だ**（2026-05-23 S型）[life-os]: Edmondsonの「対人リスクを取ることが安全という共有信念」はメカニズム不明の結果記述。AGPで精密化: 心理的安全性 = 「失敗を内的・制御可能に帰属できる環境が社会的に保証された状態」= 集団レベルのAGP保証。この精密化で新実験仮説: 「帰属スタイルを媒介変数に加えると心理的安全性の効果量が帰属スタイル分散によって調整される」。失敗コストゼロ文化 ≠ 心理的安全性（帰属動機なし = CTW不活性）という逆説もこれで解決 → 同上
 
 ## 穴がある領域
 
