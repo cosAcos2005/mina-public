@@ -35,6 +35,11 @@
 - **BCS原理: 地形圧縮×動的ストリーミングは速度を得てCPを犠牲にする**（2026-04-30 Neuralocks転移）: 静的境界（地形・制約構造）をオフライン圧縮し、動的入力（ダイナミクス・状況）をオンラインストリームとして受け取る設計（Boundary-Compression Streaming）。Neuralocks（z_lock=地形latent × velocity history=ダイナミクス）がプロトタイプ。**SBE（Static Boundary Encoding）vs DBS（Dynamic Boundary Sampling）の設計二分岐**: SBEは速度を得る代わりにFrozen方向への偏り（more damped = α降下）を買う。DBSはCP保持の代わりに計算コストを払う（XPBD型）。CPフレームは「何が起きているか（α降下）」を記述するが、メカニズム（ローパスフィルタ効果・訓練データ統計偏り・次元圧縮）はCP外の独立説明が必要——「地形内容はCPの外にある」の計算的対応物。⚠️**SNP接続（2026-05-12 精緻化）**: SBE = AMGのrestrictionのみ（粗粒度化）でprolongation（細粒度再展開）なし = SNPの半サイクル。「スケールを降りるが戻らない」ためα降下（more damped）が必然的に生じる——BCS原理の「なぜCPを犠牲にするか」の機構論的根拠がSNPフレームで初めて閉じた → Neuralocks EuroGraphics 2026 + [[threads/2026-04-29_terrain-autonomy-language-change-transfer.md]]
 - **feedforward MLPは多アトラクター地形を単一アトラクターに圧縮する**（2026-04-30）: 反復ソルバー（XPBD）= 推論時に地形を探索（terrain-aware inference）。feedforward MLP = 訓練時に地形を期待値圧縮し推論時は再利用（terrain-encoded inference）。多アトラクター物理解空間の統計平均を学習することで高周波振動（アトラクター間遷移）が消える = more damped の構造的原因。「決定論はCPを殺す」の地形探索版: **「地形の平均化はCPを殺す」** → 同上
 
+### 🔄 DiffMind — 逆問題としての介入設計（2026-05-29 S型探索）
+
+- **可塑性 = 微分可能性。CTW開口 = 勾配到達条件**（2026-05-29）: DiffHair（物理シミュの逆問題解法）とCTW/DRP原理群の構造的同型から抽出。物体が接触しなければ勾配がゼロ = スキーマがlabilizeされなければ変容の勾配は一切流れない。「Frozen地形」は数学的には「微分不可能な状態」の認知実装。Recursive CTW原理のB0段は「接触（可塑性）を生じさせる」操作として再記述できる → [[threads/2026-05-29_diffmind-inverse-problem-intervention.md]]
+- **逆算不可 = Forwardモデルの失格通知**（2026-05-29）: Forwardモデルの妥当性を検証する最鋭の問いは「逆問題が定式化できるか？」。逆算できない = Forwardモデルに明示されていない変数がある。CTW/DRP/Recursive CTW原理群が「正しい」なら「観察された変容パターン → 介入パラメータ逆算」が定式化できるはず。「予測生成が本物の洞察の指標（既メタ原理）」の逆から攻める形。DiffHairが物理学の逆問題に使ったアーキテクチャ（微分可能Forwardモデル）が、介入設計の逆問題定式化にも必要 → 同上
+
 ### 🔬 合成の論理（2026-04-25 新発見）
 
 - **帰納は原理を生む。アブダクションは原理を束ねる**（2026-04-25）: 説明的原理の発見はアブダクション（複数の確認済み事実への最小説明仮説）を経る。ワトソン＆クリックが新実験なしに確認済み証拠を統合したように。境界条件：相関パターンの発見は帰納で足りる。hit_rate 83%（6事例） → [[connections/2026-04-25_abduction-synthesis-engine.md]]
