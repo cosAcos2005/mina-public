@@ -693,6 +693,12 @@
 - **中程度のPEがFrozen地形（B0段）を溶かす**（2026-05-27 C型）[life-os]: 能力安定帰属スキーマ（Frozen地形）のlabilizationには「スキーマの想起 + 中程度PE」が必要。PE三型: A（安定性次元反証: 「この困難は一時的・正常」）/ B（能力帰属直接反証: 予期せぬ成功）/ C（制御可能性転換: 方略帰属化）。小さすぎるPE = スキーマ更新なし（想定内）。大きすぎるPE = 例外処理（例外化）。中程度が最適 = 記憶再固化研究の「予測誤差がlabilizationを駆動する」と同型。Wilson & Linville（1985）の効果機序: 「困難は一時的」= Type A型の中程度PE = B0段CTW開口 → B段（AGP）復活 → [[threads/2026-05-27_recursive-ctw-b0-labilization.md]]
 - **社会的正規化がType A PEの最軽量B0段介入**（2026-05-27 C型）[life-os]: 「この困難は正常・一時的」という情報提供（Type A PE）が安定性次元を直接書き換えてB0段を開く。ゲーム（「93%のプレイヤーがここで死ぬ」）/ 教育（Wilson & Linville型）/ 組織変革（Kotter Short-Term Wins）/ PTSD治療（CPTのスタックポイント特定+ソクラテス問いかけ）の全ドメインで同型の設計パターンが存在する。最軽量実装: 1回の情報提供で機能する可能性がある。重要警告: 内容の正確さ（実際に一時的か）が必須 — 虚偽の正規化は長期的にスキーマ更新を妨げる → [[threads/2026-05-27_recursive-ctw-b0-labilization.md]]
 
+### 🔬 PE Goldilocks × h関数同定（2026-06-04 S型）
+
+- **h(PE, θ)はinverted-U。スキーマ強度がGoldilocksを上方移動する**（2026-06-04 S型）[life-os]: h関数（`dτ/dt = h(PE_B0, θ_B0)`）の形はNMPH「Nonmonotonic Plasticity Hypothesis」inverted-U型 `h ≈ β·PE·exp(-PE/κ)` が最有力。NMPH（生化学的）/ Gershman Latent-State Bayesian（確率論的）/ Friston Precision-weighted PE（予測符号化）の三モデルが独立収束。θ_B0（スキーマ強度）↑ → κ（Goldilocks窓位置）↑ がChen 2021で実証（強化恐怖記憶は1回のPEでは不十分、複数回必要）。これは「可塑性地形原理」の定量的精密化。限界: κの絶対値はCPフレームから導出不可 → [[threads/2026-06-04_pe-goldilocks-h-function-labilization.md]]
+- **Theta-gamma PACはh関数の神経実装だ**（2026-06-04 S型）[life-os]: Ferrara 2020（JNeurosci, 因果的証拠）: 内側中隔遮断→PAC消失+薬理的健忘消失。Theta-burst刺激→PAC人工誘発→通常では不安定化できない強記憶でも不安定化成功。CaMKII→theta-gamma PAC→labilizationの分子連鎖確認(2025)。`dτ/dt`の神経実装=theta-gamma PAC振幅が因果的に確定。含意: DiffMind「区分的微分可能なForwardモデルだけが変容の逆問題を持つ」の実験的橋渡し — h(PE)の入力変数（PE）を神経科学的に直接操作できる（逆問題設計の必要条件を満たす） → 同上
+- **AND型スキーマほど正確なPEが必要だ**（2026-06-04 S型）[life-os]: CES-Filippov相同性（「積・min・和は代替弾力性の連続体」の既蒸留）がlabilizability連続体として神経科学的根拠を獲得。σ≈0（Leontief/AND型）=κ高く窓が狭い=高精度PE設計必須=Frozen地形の実体。σ中=Goldilocks窓が広い=設計可能。σ大（OR型）=スキーマなし=Disordered。「積・min・和は代替弾力性の連続体だ」の拡張: 静的集約構造（σ）→動的変容特性（κ、窓幅）への写像が確立。新予測 P-σ-01: Dweck尺度 × PAC計測 × PE操作でσ-κ関係の実証可能 → 同上
+
 ## 穴がある領域
 
 - **実装への橋**: 理論は豊富だが、Unity/Stochastic XPBDでの実測検証がまだ少ない。特に「多スケールLangevin熱浴のリアルタイム実装」は理論→実装の最重要ギャップ
