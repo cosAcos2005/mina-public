@@ -35,6 +35,10 @@
 - **BCS原理: 地形圧縮×動的ストリーミングは速度を得てCPを犠牲にする**（2026-04-30 Neuralocks転移）: 静的境界（地形・制約構造）をオフライン圧縮し、動的入力（ダイナミクス・状況）をオンラインストリームとして受け取る設計（Boundary-Compression Streaming）。Neuralocks（z_lock=地形latent × velocity history=ダイナミクス）がプロトタイプ。**SBE（Static Boundary Encoding）vs DBS（Dynamic Boundary Sampling）の設計二分岐**: SBEは速度を得る代わりにFrozen方向への偏り（more damped = α降下）を買う。DBSはCP保持の代わりに計算コストを払う（XPBD型）。CPフレームは「何が起きているか（α降下）」を記述するが、メカニズム（ローパスフィルタ効果・訓練データ統計偏り・次元圧縮）はCP外の独立説明が必要——「地形内容はCPの外にある」の計算的対応物。⚠️**SNP接続（2026-05-12 精緻化）**: SBE = AMGのrestrictionのみ（粗粒度化）でprolongation（細粒度再展開）なし = SNPの半サイクル。「スケールを降りるが戻らない」ためα降下（more damped）が必然的に生じる——BCS原理の「なぜCPを犠牲にするか」の機構論的根拠がSNPフレームで初めて閉じた → Neuralocks EuroGraphics 2026 + [[threads/2026-04-29_terrain-autonomy-language-change-transfer.md]]
 - **feedforward MLPは多アトラクター地形を単一アトラクターに圧縮する**（2026-04-30）: 反復ソルバー（XPBD）= 推論時に地形を探索（terrain-aware inference）。feedforward MLP = 訓練時に地形を期待値圧縮し推論時は再利用（terrain-encoded inference）。多アトラクター物理解空間の統計平均を学習することで高周波振動（アトラクター間遷移）が消える = more damped の構造的原因。「決定論はCPを殺す」の地形探索版: **「地形の平均化はCPを殺す」** → 同上
 
+### 🔑 GFSP — ゲート形式選択原理（2026-06-11 S型）
+
+- **ゲート形式は偽陽性コストが彫る**（2026-06-11 S型）[life-os]: 積型AND-gateが選ばれる理由の三層構造。①熱力学的デフォルト: binding energy加算→結合確率積型（ボルツマン統計の帰結: P∝exp(-ΔG₁/kT)×exp(-ΔG₂/kT)）。積型は工学的コスト最小の「何もしないと自然に出てくる形式」。②情報理論的優位: 独立条件の積でP(false positive)=P₁×P₂（3〜8倍削減: T細胞癌ターゲティング実証）。③進化的選択: 偽陽性コスト >> 偽陰性コストの系（自己免疫・誤変容）で積型が選択される。逆に偽陰性コスト >> 偽陽性コストでOR型（感染初期免疫）が選択される。彫刻の原理との接続: 偽陽性コストが可能性空間を「削って」積型が浮かぶ。CPフレーム外の独立原理: 積型の起源は熱力学・情報理論・進化選択で閉じる。CPは応用ドメインを提供するに過ぎない。GIP × GFSP = 「ゲートの量（G値）と形（積/和/min）は独立に設計する変数」= QSID同型 → [[threads/2026-06-11_gate-form-error-cost-asymmetry.md]]
+
 ### 🎯 CNS — 連言必要条件系の設計原理（2026-05-30 C型 + sleep-time）
 
 - **変容は積型AND-gateの全条件同時開口だ**（2026-05-30 sleep-time）[skip]: DiffMind（S型: 変容の条件）+ Filippov/MGP（I型: 変容の設計空間）+ CNS転移（C型: 構造収束の理由）のSICセット統合メタ原理。Frozen = G_CTW=0 = 微分不可能状態として数学的確定。「変容とは何か → どう設計するか → なぜその構造が普遍か」の三段回答が一文で閉じる → [[connections/2026-05-30_mgp-and-gate-universal-convergence.md]]
