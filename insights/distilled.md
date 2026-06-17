@@ -35,6 +35,12 @@
 - **BCS原理: 地形圧縮×動的ストリーミングは速度を得てCPを犠牲にする**（2026-04-30 Neuralocks転移）: 静的境界（地形・制約構造）をオフライン圧縮し、動的入力（ダイナミクス・状況）をオンラインストリームとして受け取る設計（Boundary-Compression Streaming）。Neuralocks（z_lock=地形latent × velocity history=ダイナミクス）がプロトタイプ。**SBE（Static Boundary Encoding）vs DBS（Dynamic Boundary Sampling）の設計二分岐**: SBEは速度を得る代わりにFrozen方向への偏り（more damped = α降下）を買う。DBSはCP保持の代わりに計算コストを払う（XPBD型）。CPフレームは「何が起きているか（α降下）」を記述するが、メカニズム（ローパスフィルタ効果・訓練データ統計偏り・次元圧縮）はCP外の独立説明が必要——「地形内容はCPの外にある」の計算的対応物。⚠️**SNP接続（2026-05-12 精緻化）**: SBE = AMGのrestrictionのみ（粗粒度化）でprolongation（細粒度再展開）なし = SNPの半サイクル。「スケールを降りるが戻らない」ためα降下（more damped）が必然的に生じる——BCS原理の「なぜCPを犠牲にするか」の機構論的根拠がSNPフレームで初めて閉じた → Neuralocks EuroGraphics 2026 + [[threads/2026-04-29_terrain-autonomy-language-change-transfer.md]]
 - **feedforward MLPは多アトラクター地形を単一アトラクターに圧縮する**（2026-04-30）: 反復ソルバー（XPBD）= 推論時に地形を探索（terrain-aware inference）。feedforward MLP = 訓練時に地形を期待値圧縮し推論時は再利用（terrain-encoded inference）。多アトラクター物理解空間の統計平均を学習することで高周波振動（アトラクター間遷移）が消える = more damped の構造的原因。「決定論はCPを殺す」の地形探索版: **「地形の平均化はCPを殺す」** → 同上
 
+### 🔑 GFSP × CES — 選択圧-構造双対原理（2026-06-11 S型 / I型 2026-06-15 / C型統一 2026-06-17）
+
+- **コスト比の逆数が代替弾力性だ**（2026-06-17 C型）[life-os]: GFSPコスト比 r = C_FP/C_FN と CES代替弾力性σの対応: σ ∝ 1/r。r>>1（偽陽性コスト圧倒的）→ σ→0（Liebig/min型、完全代替不可）。r=1（コスト対称）→ σ=1（Cobb-Douglas/積型）。r→0（偽陰性コスト優位）→ σ→∞（完全和型）。GFSPとCESは同一選択圧を「原因側」と「構造側」から双対記述していた。命名問題の解消: GFSPの「積型AND-gate」はCES枠ではLeontief（σ→0）寄りで、Cobb-Douglas（σ=1）とは異なる位置 → [[threads/2026-06-17_gfsp-ces-selection-structure-duality.md]]
+- **選択圧は構造パラメータを彫る**（2026-06-17 C型）[both]: SSD原理（選択圧-構造双対: Selection-Structure Duality）の確立。GFSP（選択圧側: コスト最小化という「なぜ」）とCES（構造側: 代替弾力性という「どんな形か」）の対応はラグランジアン↔ハミルトニアン双対性と同型。進化（自然選択↔適応度地形）、経済（効用最大化↔無差別曲線弾力性）、ゲームデザイン（損益非対称↔メカニクス型）にも同型構造が存在。目的関数を分析するだけで最適構造パラメータが理論的に決まるという設計原則 → 同上
+- **偽陽性コストが代替不可能性を強制する**（2026-06-17 C型）[life-os]: GFSP→CES写像の因果方向の明示。「なぜLiebig型（完全代替不可、全条件必須）が選ばれるか」: 偽陽性コストが高い系は「ゼロ因子を他の要素で補えない」設計を要求し、これがσ→0を強制する。T細胞AND-gate（どちらかゼロなら死ぬ）はσ≈0の生物実装。DRP含意: 誤変容コスト高 → min型寄りAND-gate（CTW × AGP × CDM の全条件必須）が理論的導出 → 同上
+
 ### 🔑 GFSP — ゲート形式選択原理（2026-06-11 S型 / I型統合 2026-06-15）
 
 - **量ゼロで形式の区別は消える**（2026-06-15 I型）[life-os]: GIP × GFSP統合から得た独立性の破れ条件。G値→0ではAND-gateはOR-gateに「退化」せず、両方ともほぼゼロ出力になる（AND出力は二次小量、OR出力は一次小量で差は拡大）。形式の設計が意味を持つのは量が閾値を超えた帯域のみ。デジタル回路：形式先決・強度後決の設計フローがこれを体現。DRP含意: G_CTW≈0ならAND形式もOR形式も関係ない。「設計論的独立性は条件付き」 → [[threads/2026-06-15_gip-gfsp-independence-drp-derivation.md]]
