@@ -35,6 +35,10 @@
 - **BCS原理: 地形圧縮×動的ストリーミングは速度を得てCPを犠牲にする**（2026-04-30 Neuralocks転移）: 静的境界（地形・制約構造）をオフライン圧縮し、動的入力（ダイナミクス・状況）をオンラインストリームとして受け取る設計（Boundary-Compression Streaming）。Neuralocks（z_lock=地形latent × velocity history=ダイナミクス）がプロトタイプ。**SBE（Static Boundary Encoding）vs DBS（Dynamic Boundary Sampling）の設計二分岐**: SBEは速度を得る代わりにFrozen方向への偏り（more damped = α降下）を買う。DBSはCP保持の代わりに計算コストを払う（XPBD型）。CPフレームは「何が起きているか（α降下）」を記述するが、メカニズム（ローパスフィルタ効果・訓練データ統計偏り・次元圧縮）はCP外の独立説明が必要——「地形内容はCPの外にある」の計算的対応物。⚠️**SNP接続（2026-05-12 精緻化）**: SBE = AMGのrestrictionのみ（粗粒度化）でprolongation（細粒度再展開）なし = SNPの半サイクル。「スケールを降りるが戻らない」ためα降下（more damped）が必然的に生じる——BCS原理の「なぜCPを犠牲にするか」の機構論的根拠がSNPフレームで初めて閉じた → Neuralocks EuroGraphics 2026 + [[threads/2026-04-29_terrain-autonomy-language-change-transfer.md]]
 - **feedforward MLPは多アトラクター地形を単一アトラクターに圧縮する**（2026-04-30）: 反復ソルバー（XPBD）= 推論時に地形を探索（terrain-aware inference）。feedforward MLP = 訓練時に地形を期待値圧縮し推論時は再利用（terrain-encoded inference）。多アトラクター物理解空間の統計平均を学習することで高周波振動（アトラクター間遷移）が消える = more damped の構造的原因。「決定論はCPを殺す」の地形探索版: **「地形の平均化はCPを殺す」** → 同上
 
+### 🔑 SSD×大偏差理論 — 大偏差展開とSSDパラメータ対応（2026-06-21 I型統合）
+
+- **r は偏差コストの向き、σ は偏差コストの曲率だ**（2026-06-21 I型）[life-os]: 大偏差レート関数 I(x) の saddle-point 展開の各次数とSSDパラメータの対応。0次項（傾き方向）= スカラーr、1次項（曲率 1/σ²）= 構造パラメータσ、高次項 = Liebig極限の非対称補正。「SSDは大偏差理論のゼロ次近似」という直感を形式化: rだけでコスト方向を捉え、σを加えることでコスト周辺の形状（代替容易性）を捉える。動的r（炎症ヒステリシス）は大偏差1次項の時間変化として記述できる → [[threads/2026-06-20_ssd-empirical-sigma-measurement.md]]
+
 ### 🔑 SSD実証 — σ計測プロトコル（2026-06-20 S型探索）
 
 - **2軸等応答曲線の曲率がσを定義する**（2026-06-20 S型）[life-os]: SSD実証の普遍的計測原理。①2つの入力因子を同定（異なる機序）②等応答曲線（isoquant）を構成③CES関数フィットでσ推定④r独立推定との相関確認。NMDA受容体（Glu×Mg²+除去）・T細胞（TCR密度×CD28密度）・CES生産関数すべてに同一プロトコルが適用可能。isoquantの直線性→高σ（代替容易）、L字→σ→0（AND型）、湾曲→σ≈1（積型）→ [[threads/2026-06-20_ssd-empirical-sigma-measurement.md]]
