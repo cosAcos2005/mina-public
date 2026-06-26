@@ -35,6 +35,25 @@
 - **BCS原理: 地形圧縮×動的ストリーミングは速度を得てCPを犠牲にする**（2026-04-30 Neuralocks転移）: 静的境界（地形・制約構造）をオフライン圧縮し、動的入力（ダイナミクス・状況）をオンラインストリームとして受け取る設計（Boundary-Compression Streaming）。Neuralocks（z_lock=地形latent × velocity history=ダイナミクス）がプロトタイプ。**SBE（Static Boundary Encoding）vs DBS（Dynamic Boundary Sampling）の設計二分岐**: SBEは速度を得る代わりにFrozen方向への偏り（more damped = α降下）を買う。DBSはCP保持の代わりに計算コストを払う（XPBD型）。CPフレームは「何が起きているか（α降下）」を記述するが、メカニズム（ローパスフィルタ効果・訓練データ統計偏り・次元圧縮）はCP外の独立説明が必要——「地形内容はCPの外にある」の計算的対応物。⚠️**SNP接続（2026-05-12 精緻化）**: SBE = AMGのrestrictionのみ（粗粒度化）でprolongation（細粒度再展開）なし = SNPの半サイクル。「スケールを降りるが戻らない」ためα降下（more damped）が必然的に生じる——BCS原理の「なぜCPを犠牲にするか」の機構論的根拠がSNPフレームで初めて閉じた → Neuralocks EuroGraphics 2026 + [[threads/2026-04-29_terrain-autonomy-language-change-transfer.md]]
 - **feedforward MLPは多アトラクター地形を単一アトラクターに圧縮する**（2026-04-30）: 反復ソルバー（XPBD）= 推論時に地形を探索（terrain-aware inference）。feedforward MLP = 訓練時に地形を期待値圧縮し推論時は再利用（terrain-encoded inference）。多アトラクター物理解空間の統計平均を学習することで高周波振動（アトラクター間遷移）が消える = more damped の構造的原因。「決定論はCPを殺す」の地形探索版: **「地形の平均化はCPを殺す」** → 同上
 
+### 🔄 ニッチ構築 × SPMP双対性 — CPの動力学的安定根拠（2026-06-26 S型）
+
+- **適応はニッチを彫り、ニッチが次の適応圧を定義する**（2026-06-26 S型）[both]: SPMP双対性（Niche Construction × SPMP Reciprocal）。SPMPはr→σの前向きのみ記述していたが、逆路γ→[niche modification]→r'が閉ループを形成する。双対ランドスケープ動力学系: dσ/dt=F(r,σ)（Forward SPMP）× dr/dt=G(σ,r)（ニッチ構築）。固定点(r*,σ*)が共進化引力子。CPは安定固定点（自己維持ニッチを構築できる唯一の相）、Frozenは準安定固定点（γ多様性欠如でΔr=0）、Disorderedは不安定（ΔrがノイズでCPに戻れない）。**CPが普遍的引力子である動力学的根拠を初めて得た**。P-NC-01: 合成データ訓練ループはニッチ構築閉鎖によりFrozen（model collapse）が加速する → [[threads/2026-06-26_niche-construction-spmp-reciprocal-stype.md]] + [[connections/2026-06-26_niche-construction-cp-dual-landscape.md]]
+- **CPは自己維持ニッチを構築する唯一の相だ**（2026-06-26 S型）[both]: autopoiesis（Maturana/Varela 1972）の選択圧版。Frozen: γ多様性なし→環境修正不能→rが固定→脱出不可。Disordered: γがランダム→環境修正がノイズ→rが発散→収束不可。CP: 構造的γ→有益なニッチ修正→CPを維持するr*へ収束→**自己の選択圧を維持する閉ループ**。散逸チャネル維持（既蒸留）の再解釈: 散逸チャネル = ニッチ構築フィードバック路の維持そのもの → 同上
+
+### 📐 双対ランドスケープの情報幾何 × Fisher計量（2026-06-26 I型）
+
+- **進化ダイナミクスはFisher多様体上の自然勾配流だ**（2026-06-26 I型）[both]: Harper 2009: Replicator equations ≡ Fisher計量 G(σ) = diag(σ)-σσᵀ による自然勾配流 G(σ)⁻¹∇V(σ)。CP固定点 (r*,σ*) の robustness = 自然曲率テンソル K(r*,σ*) の最小固有値 λ₁ > 0。Frozen: det G→0（計量退化 = 識別能力消失）、Disordered: G が一様（曲率なし）、CP: 有限かつ非退化な Fisher曲率 → 唯一 robustness が正。**P-FG-02予測**: CP→Frozen遷移直前に det(G) が急速低下 = model collapse の事前検出可能な先行指標。GBT（Geometric Bifurcation Theory）との接続: det(G)→0 が分岐点の検出器として機能する → [[threads/2026-06-26_dual-landscape-fisher-geometry-itype.md]]
+- **HMIはFisher計量誘導のメカニズム論だ**（2026-06-26 I型）[both]: HMI（凍結層が上位空間にRiemann計量を誘導、既蒸留）の数学的根拠がFisher幾何で閉じた。凍結層σN → Fisher計量 G(σN) が上位空間に誘導 → 上位の自然勾配流が well-defined → 上位 CP が安定化。HMIが「何が起きるか」を記述し、Fisher幾何が「なぜ起きるか」を与える。Edge of Stability（ML訓練安定性閾値）= CP固定点のFisher Hessian最大固有値が閾値以下に保たれている状態 = CP は「edge」で operating している → 同上
+
+### 🔮 Yoneda補題 × 共進化引力子（2026-06-26 C型）
+
+- **引力子はその吸引盆地と等値だ — Yoneda補題の動力学的実装**（2026-06-26 C型）[both]: 圏論Yoneda: X ≅ Hom(-,X)。動力学系版: 共進化引力子 (r*,σ*) ≅ {(r*,σ*)に収束する全軌道} = 吸引盆地。引力子の「実体（固定点）」より「関係（全射）」が本質。CP識別法の転換: α≈1の「内部測定」から「このシステムへの全応答の多様性」という「外部測定」へ。Frozen = Hom 貧困（同質応答のみ）、Disordered = Hom 不定義（収束する軌道が存在しない）、CP = Hom 豊富・多様（多様な外部からの収束） → [[threads/2026-06-26_yoneda-coevolutionary-attractor-ctype.md]] + [[connections/2026-06-26_yoneda-cp-coevolutionary-attractor.md]]
+- **autopoiesis・Yoneda補題・CP引力子は同一深層構造の三言語表現だ**（2026-06-26 C型）[both]: Maturana/Varela「細胞は自己維持プロセスの集合」= Yoneda「対象は外部からの全射の集合」= CP「引力子は自己を維持するニッチ構築の全過程」。60年のタイムラグで生物学・圏論・物理学が同じ構造を独立発見していた。autopoiesis = Yoneda の生物版、CP引力子 = Yoneda の動力学版 → 同上
+
+### 🎼 音楽和声 × ニッチ構築（2026-06-26 新SICセット S型）
+
+- **調性音楽システムは世代を越えたニッチ構築の産物だ**（2026-06-26 S型）[skip]: 作曲家σ→演奏→聴者r更新→次世代σ'制約 の世代間閉ループが西洋音楽史。Frozen = バロック対位法（ニッチが完全内面化、r'を生む変形が減少）、CP = ジャズハーモニー（ii-V-I基礎の無限変形）、Disordered = フリージャズ（r'の内面化なしにσが先走る）。Coltrane Changes = 既存ニッチのFrozen後の質的転換（三全音軸という新ニッチを構築）。tritone代理はニッチ修正の最小単位。P-MH-01: ジャズ和声複雑度の歴史的変化はS字曲線を描く（Frozen化→新ニッチへの質的転換サイクル） → [[threads/2026-06-26_music-harmony-niche-construction-stype.md]]
+
 ### 🧠 感情構成理論（TCE）× SSD — 感情粒度と代替弾力性σの同型（2026-06-24 S型探索）
 
 - **感情粒度は感情空間の代替弾力性σだ**（2026-06-24 S型）[life-os]: TCE（Barrett）の感情粒度（emotional granularity）とSSDのσは同一計算構造。高粒度 = 同一内受容信号に多様な感情概念を割り当てられる（大σ）。低粒度 = 「良い/悪い」のほぼ二値（σ≈0, Frozen）。アレキシサイミア = 感情Frozen（概念辞書貧困による予測誤差ラベリング不全）。これはバグでなく最適化の産物の可能性（偽陽性コストが代替不可能性を強制するGFSP感情版）。**注意**: Panksepp限界 = 一次情動（皮質下）には不適用。TCEの「上層（概念的感情構成）」のみに成立 → [[connections/2026-06-24_emotional-granularity-ssd-sigma.md]]

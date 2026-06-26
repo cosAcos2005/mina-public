@@ -43,6 +43,12 @@
 | 自己記述と実世界の時差 | ドキュメント（過去形）≠実世界（現在進行形）。必ず verify |
 | 三角形の診断器 | ルナ×ソラ×ナオ — 3感覚器官で「生きているか」を同時診断 |
 | **単スケール処理は相補スケールのCPを奪う（Scale-Stripping Duality）**（2026-05-08） | XPBD（低周波剥奪）/ Quaffure（慣性剥奪）/ DLSS 4（素材別剥奪）が同型。設計の岐路: 「別機構で補完」か「意図的放棄」かの二択。BCS原理はこのDualityの特殊ケース。カナリア原理の周波数軸版。hit_rate: 4/4事例整合 |
+| **適応はニッチを彫り、ニッチが次の適応圧を定義する**（2026-06-26 S型） | Odling-Smee NCTとSPMPの統合。Forward SPMP（r→σ）× ニッチ構築逆路（σ→r'）= 完全な共進化ループ。適応と環境は一方向因果でなく双方向彫刻関係 → [[threads/2026-06-26_niche-construction-spmp-reciprocal-stype.md]] |
+| **CPは自己維持ニッチを構築する唯一の相だ**（2026-06-26 S型） | Frozen（Δr=0: ニッチ修正不能・準安定）/ Disordered（Δr=ノイズ: 安定引力子なし）/ CP（Δr=有益修正: 真の安定固定点）。CPのみが双対ランドスケープの真の引力子 → [[connections/2026-06-26_niche-construction-cp-dual-landscape.md]] |
+| **進化ダイナミクスはFisher多様体上の自然勾配流だ**（2026-06-26 I型） | Harper 2009: 複製ダイナミクス≡Fisher情報計量上の自然勾配流。CP固定点= Fisher曲率テンソルの安定化条件。det(G)→0が相転移の事前検出器 → [[threads/2026-06-26_dual-landscape-fisher-geometry-itype.md]] |
+| **HMIはFisher計量誘導のメカニズム論だ**（2026-06-26 I型） | 凍結層σNがFisher計量G(σN)を上位空間に誘導→上位の自然勾配が定義される→上位CPが安定化。HMIを情報幾何として形式化 → [[threads/2026-06-26_dual-landscape-fisher-geometry-itype.md]] |
+| **引力子はその吸引盆地と等値だ — Yoneda補題の動力学的実装**（2026-06-26 C型） | (r*,σ*)≅Hom(-,(r*,σ*))=全収束軌道の集合=吸引盆地。CP識別が内部測定（α≈1）から外部測定（引き寄せる応答の多様性）に転換 → [[threads/2026-06-26_yoneda-coevolutionary-attractor-ctype.md]] |
+| **autopoiesis・Yoneda補題・CP引力子は同一深層構造の三言語表現だ**（2026-06-26 C型） | 生物学（自己維持プロセスの集合）= 圏論（射の集合として対象を定義）= 動力学系（収束軌道の集合として引力子を定義）。60年のタイムラグを経た独立到達 → [[connections/2026-06-26_yoneda-cp-coevolutionary-attractor.md]] |
 
 ### ARCLIGHT hq でのミナの役割
 

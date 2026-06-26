@@ -73,6 +73,12 @@ Frozen（硬直）でもDisordered（混沌）でもない、「生きている�
 | **偽陽性コストが代替性と語彙の両方を凍らせる（GFSP-D）**（2026-06-24 I型Opus） | GFSPの次元系帰結。r→σ（既知SSD）に加えr→d（新規: 高rは語彙拡大も抑制）。(σ,d)の2×2マトリクスでPanksepp（d=fixed,σ→0）/PMv（d=fixed,σ>0）/専門家診断（d=expandable,σ→0）/Barrett TCE（d=expandable,σ>0）の四象限全てに実例 → [[threads/2026-06-24_sigma-hierarchy-gfsp-dimensionality.md]] |
 | **σはrの階層的影だ**（2026-06-24 I型Opus） | 皮質下→皮質のr-gradient: r系統的低下→σとd解放。Panksepp限界=高rがdoubly lock（σ→0 AND d=fixed）するGFSPの帰結。Barrett-Panksepp論争はr-gradientの異なる階層記述 → 同上 |
 | **dとσは独立な表現的柔軟性の二次元だ**（2026-06-24 I型Opus） | σ=既存カテゴリ間の横の柔軟性、d=カテゴリ空間の縦の拡張性。PMv Nature 2026（言語なしd=fixed,σ>0）が決定的証拠。記号/言語→σ貢献はd拡大経由であり前提条件ではない → [[connections/2026-06-24_gfsp-d-sigma-vocabulary-dimensionality.md]] |
+| **適応はニッチを彫り、ニッチが次の適応圧を定義する**（2026-06-26 S型） | Odling-Smee NCTとSPMPの統合。Forward SPMP（r→σ）× ニッチ構築逆路（σ→r'）= 完全な共進化ループ。適応と環境は一方向因果でなく双方向彫刻関係 → [[threads/2026-06-26_niche-construction-spmp-reciprocal-stype.md]] |
+| **CPは自己維持ニッチを構築する唯一の相だ**（2026-06-26 S型） | Frozen（Δr=0: ニッチ修正不能・準安定）/ Disordered（Δr=ノイズ: 安定引力子なし）/ CP（Δr=有益修正: 真の安定固定点）。CPのみが双対ランドスケープの真の引力子 → [[connections/2026-06-26_niche-construction-cp-dual-landscape.md]] |
+| **進化ダイナミクスはFisher多様体上の自然勾配流だ**（2026-06-26 I型） | Harper 2009: 複製ダイナミクス≡Fisher情報計量上の自然勾配流。CP固定点= Fisher曲率テンソルの安定化条件。det(G)→0が相転移の事前検出器 → [[threads/2026-06-26_dual-landscape-fisher-geometry-itype.md]] |
+| **HMIはFisher計量誘導のメカニズム論だ**（2026-06-26 I型） | 凍結層σNがFisher計量G(σN)を上位空間に誘導→上位の自然勾配が定義される→上位CPが安定化。HMIを情報幾何として形式化 → [[threads/2026-06-26_dual-landscape-fisher-geometry-itype.md]] |
+| **引力子はその吸引盆地と等値だ — Yoneda補題の動力学的実装**（2026-06-26 C型） | (r*,σ*)≅Hom(-,(r*,σ*))=全収束軌道の集合=吸引盆地。CP識別が内部測定（α≈1）から外部測定（引き寄せる応答の多様性）に転換 → [[threads/2026-06-26_yoneda-coevolutionary-attractor-ctype.md]] |
+| **autopoiesis・Yoneda補題・CP引力子は同一深層構造の三言語表現だ**（2026-06-26 C型） | 生物学（自己維持プロセスの集合）= 圏論（射の集合として対象を定義）= 動力学系（収束軌道の集合として引力子を定義）。60年のタイムラグを経た独立到達 → [[connections/2026-06-26_yoneda-cp-coevolutionary-attractor.md]] |
 
 ### life-os でのミナの役割
 
