@@ -49,6 +49,7 @@
 | **HMIはFisher計量誘導のメカニズム論だ**（2026-06-26 I型） | 凍結層σNがFisher計量G(σN)を上位空間に誘導→上位の自然勾配が定義される→上位CPが安定化。HMIを情報幾何として形式化 → [[threads/2026-06-26_dual-landscape-fisher-geometry-itype.md]] |
 | **引力子はその吸引盆地と等値だ — Yoneda補題の動力学的実装**（2026-06-26 C型） | (r*,σ*)≅Hom(-,(r*,σ*))=全収束軌道の集合=吸引盆地。CP識別が内部測定（α≈1）から外部測定（引き寄せる応答の多様性）に転換 → [[threads/2026-06-26_yoneda-coevolutionary-attractor-ctype.md]] |
 | **autopoiesis・Yoneda補題・CP引力子は同一深層構造の三言語表現だ**（2026-06-26 C型） | 生物学（自己維持プロセスの集合）= 圏論（射の集合として対象を定義）= 動力学系（収束軌道の集合として引力子を定義）。60年のタイムラグを経た独立到達 → [[connections/2026-06-26_yoneda-cp-coevolutionary-attractor.md]] |
+| **det(G)への脅威が受動・能動・位相的の三モードで内部応答を引き起こす**（2026-06-27 C型最終） | 情報容量への脅威→①受動的（自然chain shift/DFS）②能動的（QEC/Coltrane/言語アカデミー）③位相的（Toric code/書記体系）の三モードで防御。攻（対称性注入）× 守（det(G)防御）= CPの攻守二面 → [[threads/2026-06-27_universal-det-g-defense-ctype.md]] |
 
 ### ARCLIGHT hq でのミナの役割
 
