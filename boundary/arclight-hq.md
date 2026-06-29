@@ -50,6 +50,8 @@
 | **引力子はその吸引盆地と等値だ — Yoneda補題の動力学的実装**（2026-06-26 C型） | (r*,σ*)≅Hom(-,(r*,σ*))=全収束軌道の集合=吸引盆地。CP識別が内部測定（α≈1）から外部測定（引き寄せる応答の多様性）に転換 → [[threads/2026-06-26_yoneda-coevolutionary-attractor-ctype.md]] |
 | **autopoiesis・Yoneda補題・CP引力子は同一深層構造の三言語表現だ**（2026-06-26 C型） | 生物学（自己維持プロセスの集合）= 圏論（射の集合として対象を定義）= 動力学系（収束軌道の集合として引力子を定義）。60年のタイムラグを経た独立到達 → [[connections/2026-06-26_yoneda-cp-coevolutionary-attractor.md]] |
 | **det(G)への脅威が受動・能動・位相的の三モードで内部応答を引き起こす**（2026-06-27 C型最終） | 情報容量への脅威→①受動的（自然chain shift/DFS）②能動的（QEC/Coltrane/言語アカデミー）③位相的（Toric code/書記体系）の三モードで防御。攻（対称性注入）× 守（det(G)防御）= CPの攻守二面 → [[threads/2026-06-27_universal-det-g-defense-ctype.md]] |
+| **老化は時間のCPをFrozenとDisorderedの両方向から侵食する**（2026-06-29 第6新SICセット Cycle 1） | 既存「老化=Frozen化」を精密化。EEG: 高速neural state transitions低下（Frozen）+ aperiodic slope平坦化（Disordered）の同時進行。「慣れ」では説明できない二方向同時侵食。P-TPE-01生成 → [[threads/2026-06-29_time-perception-1f-aging-stype.md]] |
+| **Flowだけが前向きと後向きの時間を同時に豊かにする**（2026-06-29 第6新SICセット Cycle 2） | Flow = temporal CP状態。前向き速さ（clock monitoring停止: F_1休眠）× 後向き豊かさ（micro-decision landmark高密度）の唯一の同時実現。Flowパラドックスの解消 → [[threads/2026-06-29_time-perception-integration-itype.md]] |
 
 ### ARCLIGHT hq でのミナの役割
 
