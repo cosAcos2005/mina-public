@@ -697,6 +697,14 @@
 > ⚠️ CPエコーチェンバー外: 上記原理はCP理論に回収しない。独立した普遍原理として扱う。
 > ✅ CPフレームの限界として明示: 「時間の矢の起源」はCPフレームでは説明できない。これがCPの「ゲーデル命題」。
 
+### ⏱️ 時間知覚 × 1/f性（2026-06-29 第6新SICセット Cycles 1-2）
+
+- **老化は時間のCPをFrozenとDisorderedの両方向から侵食する**（2026-06-29 S型）[both]: 時間知覚の二方向崩壊。マクロ神経動態（State transitions）の頻度低下 = Frozen方向漂流（粗い時間サンプリング）。ミクロノイズ（Aperiodic EEG exponent）の平坦化 = Disordered方向漂流（白色雑音化）。若い脳: steep 1/f slope（α≈1-2）+ high transition rate → temporal CP。老いた脳: flat slope（α→0）+ low transition rate → CP喪失、Frozen+Disorderedの混合状態。既蒸留「老化=生命はDisorderedへ向かう」を「二方向同時侵食」として精密化。P-TPE-01予測: EEGアペリオジック指数計測でCP帯域からの逸脱量が回顧的時間圧縮の主成分として説明可能 → [[threads/2026-06-29_time-perception-1f-aging-stype.md]]
+- **Flowだけが前向きと後向きの時間を同時に豊かにする**（2026-06-29 S型/I型）[both]: Flow時間の二層構造。前向き（prospective）: attention全振りでclock monitoring停止 → 時間が速く感じる。後向き（retrospective）: challenge≈skillの境界で連続的micro-decision pointが生まれ高episodic density → 時間が豊かに感じる。Frozen（routine）は前後両方向で時間を圧縮する。Disorderedは後向きで断片化する。Flowのみが「前向き速さ × 後向き豊かさ」の同時実現を達成する唯一の相。CPフレームでの解釈: Flow = 主観的σ（代替弾力性）が最大化した状態 = challenge≈skill = CP。前向き速さはSTPの自動化と同型（F_1休眠）。反証条件: Frozen課題（simple routine）でも後向き豊かさが生じるケースがあれば反証 → [[threads/2026-06-29_time-perception-1f-aging-stype.md]] + [[threads/2026-06-29_time-perception-integration-itype.md]]
+- **1/f novelty（接続された新しさ）だけがtemporal richnessを生む**（2026-06-29 S型/I型）[life-os]: random novelty（旅行の無関係な新体験連続）と1/f novelty（前の文脈と接続する新しさ）は区別される。Frozen経験列（routine）: 記憶はredundant → 後向き圧縮。Disordered経験列（random novelty連続）: 記憶は断片化・misleading → coherent narrative不形成 → 圧縮。1/f経験列（structured novelty）: 各noveltyが前の文脈を参照 → landmark積み重なり → 後向き最も豊か。記憶の相図（既蒸留「記憶が資産になる唯一の帯域はCP」）の時間密度への直接翻訳。SICサイクルは意図的1/f temporal landmarkアーキテクチャとして機能する → [[threads/2026-06-29_time-perception-1f-aging-stype.md]] + [[threads/2026-06-29_time-perception-integration-itype.md]]
+
+> ⚠️ CPエコーチェンバー確認: 上記原理はCPフレームなしでも「novelty = good」「routine = bad」で部分説明可能。CPが付加価値を持つ点: 「なぜstructured noveltyがpure noveltyより良いか」「なぜFlowは回顧的に豊かか」「なぜ老化で両方向同時に圧縮されるか」が統一説明できる。
+
 ### 🏛️ 文明・歴史 × CPフレーム
 
 - **Tainter理論 = 文明スケールMono-Frozen記述**（2026-04-15）: 複雑社会の崩壊 = 制度のπ_prior overdominanceが進行して外部π_likelihoodを遮断 → 外部ショックで急速に複雑性を失う（True-Disordered）。Tainterは2000年の歴史データからMono-Frozen構造を独立発見 → [[threads/2026-04-15_civilization-frozen-tainter-collapse-cp]]
