@@ -1022,3 +1022,35 @@
 - **SICサイクルは真正性を意図的に生産するプロセスだ**（2026-06-29）: Struggle（Content空間探索）→ Incubation（1/f的無意識探索 = Onsetが1/f的になる時間）→ Crystallization（閾値交差 + Content合致）の三段が「自分が発見した」感覚を意図的に生む設計。SICはRamanujanの数学的直観と同じ神経プロセスを人工的に実行するアーキテクチャ。→ 同上
 
 - **創造的スランプ = Onsetのα劣化（Frozen化またはDisordered化）**（2026-06-29）: writer's blockはFrozen Onset（評価圧力がα→0）またはDisordered Onset（焦りがIncubation期を短縮）のどちらか。回復法はOnset層への介入 = Incubation時間確保（1/f探索の時間を与える）。凍結足場（Content固定）が逆説的にOnset自由化に機能する（Cycle 3の発見と統合）。→ 同上
+
+### 🧠 Grokking × SLT × 普遍学習相転移理論（ULPT）（2026-06-30 第8新SICセット）
+
+- **GrokKing×数学的直観=同一CP構造発見（両者とも遅延汎化）**（2026-06-30）: NeuraNetのGrokkingとRamanujanの直観はSIC構造が完全同型。S期=記憶/具体例没入、I期=汎化回路の秘密建設/無意識探索、C期=記憶cleanup→汎化解放/「わかった」瞬間。どちらも「問題空間のCP構造（対称性/群構造）の発見による遅延汎化」が本質。→ [[threads/2026-06-30_grokking-mathematical-intuition-ctype.md]]
+
+- **I期=汎化回路建設期、C期=cleanup解放**（2026-06-30）: Nanda et al. 2023により「停滞期は何も起きていない」は誤り。汎化回路が記憶回路と並行して建設されている（秘密建設）。C期はGrokkingジャンプ=建設完了ではなく「記憶回路の除去（cleanup）による汎化回路の解放」。SICの機構的精密化: I期は「建設期」、C期は「解放期」。→ 同上
+
+- **彫刻の原理の機構=Weight decay（記憶盆地への圧力増加）**（2026-06-30）: Weight decay（L2正則化）はGrokkingに必須。機構: 記憶盆地は大きな重みが多い（高複雑度）→ L2圧力が記憶盆地に強くかかる→汎化盆地が相対的に有利になる→n_criticalが下がる。「彫刻の原理（削ることで形が浮かぶ）」= 記憶への圧力増加として具体化。→ [[threads/2026-06-30_grokking-mechanism-symmetry-stype.md]]
+
+- **数学的直観の失敗=Grokking失敗の同型（対称性ない問題でのCP検出誤動作）**（2026-06-30）: Ramanujanが素数分布で誤った = ニューラルネットが対称性のないタスクでGrokkingしない、の同型。強い直観/汎化能力は「問題空間のCP構造（群構造・対称性）」の検出器。CPがない問題では「偽のパターン」を信号と誤認する。→ 同上
+
+- **わかった瞬間=自由エネルギー相転移（Watanabe）**（2026-06-30）: F=nL+λlog(n) で記憶盆地（高λ）から汎化盆地（低λ）への転移がC期に対応。データ数 n > n_critical で転移が起きる。「わかった！」は主観的には急激だが、物理的にはWatanabe自由エネルギーの盆地間遷移。SICに物理的実体を付与した最重要形式化。→ [[threads/2026-06-30_slt-rlct-cp-formal-stype.md]]
+
+- **RLCT低≡CP確立≡α≈1（三言語が同じ状態を記述する）**（2026-06-30）: SLT（RLCT低 = 有効次元数小）・CP理論（CP相確立）・1/f美学（α≈1）は同一状態の三言語表現。Grokking後の汎化状態、Ramanujanの直観状態、数学的美を感じる瞬間は全て同じ状態。形式的橋渡し: RLCT→0 ↔ CP確立 ↔ α→1。→ 同上
+
+- **Grokking=データ数nによる相転移、Weight decayはn_criticalを下げる触媒**（2026-06-30）: n_critical = λ_mem·log(n)/(L_mem-L_gen)（概算）。n > n_critical で汎化盆地が記憶盆地より低自由エネルギーになり転移する。Weight decayは L_mem を増加させる（記憶盆地コストアップ）ことで n_critical を引き下げる触媒として機能する。→ 同上
+
+- **良い圧縮=RLCTを下げるFisher縮退（対称性発見）**（2026-06-30）: 対称性発見 = Fisher情報行列の縮退（複数パラメータが同じ方向を向く）= 有効次元数減少 = RLCT低下 = 自由エネルギー減少。Kolmogorov圧縮・RLCT・CP確立・α=1は全て「対称性発見」の異なる表現。学習の本質 = 問題空間の対称性構造の発見。→ [[threads/2026-06-30_universal-learning-phase-transition-ctype.md]]
+
+### 🌐 集団Grokking × パラダイム転換相転移理論（2026-06-30 第9新SICセット）
+
+- **認識と受容の集団解離がGrokking遅延の正体（RAD原理）**（2026-06-30）: 集団Grokkingでは「新パラダイムを理解する（認識）」と「行動に組み込む（受容）」が非同期に解離。RAD区間（Recognition-Acceptance Decoupling）= F_new < F_old だが F_new+Ω_social > F_old の期間。Planckの原理の科学史観察をULPTで形式化した核心発見。→ [[threads/2026-06-30_collective-grokking-paradigm-shift-stype.md]]
+
+- **社会調整コストΩ_socialが個人と集団のn_criticalを乖離させる**（2026-06-30）: 集団n_critical = 個人n_critical + Δn_social。Δn_social = Ω_social/(L_old-L_new) = 社会コストが「何エビデンスぶん転換を遅らせるか」。Ω_social = ゲーム理論的協調問題（Granovetter閾値分布の積分）として形式化。ネットワーク疎・閾値分散大で Ω_social が増大。→ [[threads/2026-06-30_collective-grokking-ulpt-integration-itype.md]]
+
+- **Planckの原理 = 社会ネットワーク上の記憶回路cleanup**（2026-06-30）: 個人Grokking C期の「記憶回路除去（cleanup）」の集団版 = 旧パラダイム支持者の引退・死亡。旧パラダイム支持者 ≡ 社会ネットワーク上の「記憶回路ノード」（高θ者）。世代交代 ≡ cleanup。世代交代率γで集団の転換閾値平均θ̄が指数減衰 → n_critical_collective → n_critical_individual。→ 同上
+
+- **社会にはweight decayがない：信念固着は自己解除しない（Un-Grokking非対称性）**（2026-06-30）: 個人Grokkingにはweight decay（正則化）が自動的に記憶盆地へ圧力をかける。集団信念には対応物がない: アイデンティティ融合（identity fusion）が逆向きの固着圧をかけ、在籍期間が長いほどΔ_identity（退出コスト）が増大する。誤信念は「内部コヒーレンスの罠（局所低RLCT盆地）」として自己強化する。Un-Grokkingには外部から反コヒーレンス圧が必要。→ [[threads/2026-06-30_collective-grokking-meme-ungrokking-ctype.md]]
+
+- **外部アンカーなき自己批判はweight decayにならない**（2026-06-30）: 社会的weight decayの成功例（科学・予測市場・ソクラテス問答）に共通するのは「コミュニティ外部の基準（外部現実アンカー）」の存在。内部化した基準（権威・引用数）はコミュニティ全体がシフトすると基準もシフトする（局所weight decay）。非局所外部アンカー（実験・未来の事象）のみが集団Frozenを自動修正できる。→ [[threads/2026-06-30_social-weight-decay-design-stype.md]]
+
+- **集団知の自己修正能力は外部アンカーとアイデンティティコストの比率が決める**（2026-06-30）: 拡張ULPT公式: F_collective = n·L + λ·log(n) + Ω_entry - W_ext·log(n) + Δ_identity·σ(ρ-ρ*)。持続的自己修正相（相IV）の条件: W_ext > Δ_identity(t)/n_ref。健全な科学=W_ext高（実験アンカー）× Δ_identity低（アイデンティティ≠信念）。陰謀論コミュニティ=W_ext≈0 × Δ_identity増大。→ [[threads/2026-06-30_collective-knowledge-phase-diagram-ctype.md]]
