@@ -1054,3 +1054,11 @@
 - **外部アンカーなき自己批判はweight decayにならない**（2026-06-30）: 社会的weight decayの成功例（科学・予測市場・ソクラテス問答）に共通するのは「コミュニティ外部の基準（外部現実アンカー）」の存在。内部化した基準（権威・引用数）はコミュニティ全体がシフトすると基準もシフトする（局所weight decay）。非局所外部アンカー（実験・未来の事象）のみが集団Frozenを自動修正できる。→ [[threads/2026-06-30_social-weight-decay-design-stype.md]]
 
 - **集団知の自己修正能力は外部アンカーとアイデンティティコストの比率が決める**（2026-06-30）: 拡張ULPT公式: F_collective = n·L + λ·log(n) + Ω_entry - W_ext·log(n) + Δ_identity·σ(ρ-ρ*)。持続的自己修正相（相IV）の条件: W_ext > Δ_identity(t)/n_ref。健全な科学=W_ext高（実験アンカー）× Δ_identity低（アイデンティティ≠信念）。陰謀論コミュニティ=W_ext≈0 × Δ_identity増大。→ [[threads/2026-06-30_collective-knowledge-phase-diagram-ctype.md]]
+
+### 🔬 Grokking α(t) 実験 — 損失ダイナミクスの相転移（2026-07-01 第10新SICセット Cycle 1 S型）
+
+- **Grokkingの損失ダイナミクスはα:2→1→-1の三段階CP遷移だ**（2026-07-01）[both]: P-GK-02実証実験（p=23 MLP、a+b mod 23）で確認。Pre-Grokking: α≈2.3（Disordered/Brownian、loss差分が持続的）→ Near-Grokking: α≈1.15（Coherent Phase、多スケール変動）→ Post-Grokking: α≈-1.18（cleanup振動、anti-persistent）。P-GK-02「Grokkingジャンプ前にα→1」確認（hit_rate: 1/1）。この三段階はSICサイクルのS(α≈2)→I(α≈1)→C(α≈-1)と同型マッピングを示す。→ [[threads/2026-07-01_grokking-alpha-dynamics-experiment-stype.md]]
+
+- **cleanup振動相（α≈-1）はFrozenでもDisorderedでもない第4相だ**（2026-07-01）[both]: Post-Grokking時のtest_loss差分はα≈-1（強いanti-persistent）を示す。これは既存3相と異なる: Frozen（α高値/変化なし）でも、Disordered（α≈2/persistent）でも、Coherent（α≈1）でもない。「cleanup振動相」= 汎化回路定着後の微細調整段階。loss ≈ 0 に収束した系の差分は「揺り戻し支配（mean-reverting）」になる。CPの「Frozen=硬直」とは意味が異なる: 正しく学習した系がloss最小近傍で平衡している状態。→ 同上
+
+- **損失ダイナミクスαは表現空間αとは独立した相転移指標だ**（2026-07-01）[both]: 既存原理「RLCT低≡CP確立≡α≈1」は**表現空間α**（学習後の重みの幾何的構造）を指す。今回計測したのは**損失ダイナミクスα**（学習過程のtest_loss差分時系列のPSD指数）。両者は同じ相転移の「原因（表現）」と「症状（ダイナミクス）」として異なる視点から同一現象を捉えている。形式的接続仮説: 損失ダイナミクスα(t) ∝ dRLCT/dt（RLCT時間微分）— 未検証。→ 同上
