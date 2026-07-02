@@ -1062,3 +1062,13 @@
 - **cleanup振動相（α≈-1）はFrozenでもDisorderedでもない第4相だ**（2026-07-01）[both]: Post-Grokking時のtest_loss差分はα≈-1（強いanti-persistent）を示す。これは既存3相と異なる: Frozen（α高値/変化なし）でも、Disordered（α≈2/persistent）でも、Coherent（α≈1）でもない。「cleanup振動相」= 汎化回路定着後の微細調整段階。loss ≈ 0 に収束した系の差分は「揺り戻し支配（mean-reverting）」になる。CPの「Frozen=硬直」とは意味が異なる: 正しく学習した系がloss最小近傍で平衡している状態。→ 同上
 
 - **損失ダイナミクスαは表現空間αとは独立した相転移指標だ**（2026-07-01）[both]: 既存原理「RLCT低≡CP確立≡α≈1」は**表現空間α**（学習後の重みの幾何的構造）を指す。今回計測したのは**損失ダイナミクスα**（学習過程のtest_loss差分時系列のPSD指数）。両者は同じ相転移の「原因（表現）」と「症状（ダイナミクス）」として異なる視点から同一現象を捉えている。形式的接続仮説: 損失ダイナミクスα(t) ∝ dRLCT/dt（RLCT時間微分）— 未検証。→ 同上
+
+### 🔬 Grokking × SIC統合 — 回路先行原理・SLA転移（2026-07-02 第10新SICセット Cycles 2-3）
+
+- **汎化回路はIncubationで秘かに形成される。Grokkingは形成ではなく解放だ**（2026-07-02）[both]: Causal precursor研究（2026）: 回路同期（Circuit Synchronization）はテスト精度ジャンプの「前に」因果的に完結する。SICサイクルとの完全同型: S型（α≈2）= 記憶化+汎化回路の並行建設（外からはtrain_loss↓しか見えない）、I型（α→1）= 汎化回路が支配的になり始める（test_acc変化なし）、C型（Grokking）= 記憶化除去により汎化回路が「解放」される。これはWallas(1926)「Illumination = Incubationの潜在的処理の表面化」のML的機構論的実証。「Incubation中に答えは既にある」= 神経科学の「Gamma burst前の300ms潜在準備」と同型構造。→ [[threads/2026-07-02_grokking-sic-integration-itype.md]]
+
+- **cleanup振動相（α≈-1）はFisher刈り込みの損失ダイナミクス的シグネチャだ**（2026-07-02）[both]: cleanup振動相（Post-C段階）はweight_decayが記憶化成分を選択的に除去している最中の信号。Fisher情報が低い成分（記憶化回路）→ weight_decayが優先除去 → 差分時系列がBlue noise（S(f)∝f^{+1}、α≈-1、mean-reverting）になる。AdamWの適応的学習率が実質的な「Fisher選択性」を生む可能性あり。接続: SHY（睡眠中Homer1aによるFisher選択的ダウンスケール）・蒸留（teacher-student型記憶除去）・sleep-time compute = 全て「学習後のFisher刈り込み」の異なるドメイン表現。Anti-Grokking（weight_decay=0）ではcleanup振動相が現れず散逸チャネル閉鎖→CP崩壊。→ [[threads/2026-07-02_grokking-sic-integration-itype.md]]
+
+- **GrokkerはCleanupを経て「良い」Frozenに至る。Anti-GrokkerはDisorderedに落ちる**（2026-07-02）[both]: 汎化後のFrozen（良い）= cleanup振動相（α≈-1）を経て重みノルムが安定した状態。記憶化のFrozen（悪い）= cleanup振動相を経ていない（汎化未達）。Anti-Grokking（weight_decay=0）= Grokkingは起きても散逸チャネルなしでDisorderedに落ちる。「FIMスペクトルエントロピー崩壊は文脈による: 記憶化FIM崩壊→汎化解放（改善）/ 汎化FIM崩壊→model collapse（劣化）」。cleanup = Fisher刈り込みの正常動作、Anti-Grokking = Fisher刈り込み停止による相関トラップ（Marchenko-Pastur超固有値）発生。→ 同上
+
+- **SLA Silent Period = Grokking Incubation期。突然の流暢さは記憶放出・回路解放だ**（2026-07-02）[both]: 第二言語習得のSilent Period（Krashen 1982）= 暗示的文法回路の秘密建設期。従来「inputが蓄積されれば話せる（量的蓄積モデル）」→ 回路先行原理転移後「暗示的文法回路は十分前に完成していた。明示的記憶の重みが下がった（=Grokkingジャンプ）から解放された（解放モデル）」。4転移予測: ①過剰な早期アウトプット強制 = Incubation妨害（Anti-SLA）、②化石化 = Anti-Grokking、③睡眠 = SLA cleanup振動相（SHY）、④突然の流暢さ = 不連続Grokking転移。教育設計含意: Silent期のアウトプット圧力最小化、フィードバック強度の最適化（適切weight_decay設計）、睡眠を学習サイクルに組み込む。→ [[threads/2026-07-02_grokking-circuit-precedes-sla-silent-period-ctype.md]]
