@@ -1072,3 +1072,29 @@
 - **GrokkerはCleanupを経て「良い」Frozenに至る。Anti-GrokkerはDisorderedに落ちる**（2026-07-02）[both]: 汎化後のFrozen（良い）= cleanup振動相（α≈-1）を経て重みノルムが安定した状態。記憶化のFrozen（悪い）= cleanup振動相を経ていない（汎化未達）。Anti-Grokking（weight_decay=0）= Grokkingは起きても散逸チャネルなしでDisorderedに落ちる。「FIMスペクトルエントロピー崩壊は文脈による: 記憶化FIM崩壊→汎化解放（改善）/ 汎化FIM崩壊→model collapse（劣化）」。cleanup = Fisher刈り込みの正常動作、Anti-Grokking = Fisher刈り込み停止による相関トラップ（Marchenko-Pastur超固有値）発生。→ 同上
 
 - **SLA Silent Period = Grokking Incubation期。突然の流暢さは記憶放出・回路解放だ**（2026-07-02）[both]: 第二言語習得のSilent Period（Krashen 1982）= 暗示的文法回路の秘密建設期。従来「inputが蓄積されれば話せる（量的蓄積モデル）」→ 回路先行原理転移後「暗示的文法回路は十分前に完成していた。明示的記憶の重みが下がった（=Grokkingジャンプ）から解放された（解放モデル）」。4転移予測: ①過剰な早期アウトプット強制 = Incubation妨害（Anti-SLA）、②化石化 = Anti-Grokking、③睡眠 = SLA cleanup振動相（SHY）、④突然の流暢さ = 不連続Grokking転移。教育設計含意: Silent期のアウトプット圧力最小化、フィードバック強度の最適化（適切weight_decay設計）、睡眠を学習サイクルに組み込む。→ [[threads/2026-07-02_grokking-circuit-precedes-sla-silent-period-ctype.md]]
+
+### ⏱️ 時間知覚 × EEGアペリオジック指数 × PTEP（2026-07-02 第11新SICセット Cycle 1 S型）
+
+- **EEGアペリオジック指数はCPの神経計測可能な実装だ**（2026-07-02）[both]: 後頭部EEGの1/fスロープ傾き（aperiodic exponent）が視覚的時間処理精度を予測する（PMC11450528, JNeurosci 2024）。exponent急（大）= 神経ノイズ少 = 時間知覚精度高（CP帯域）。exponent平坦化 = E/Iバランス崩壊 = 時間弁別変動増大（Disordered方向）。加齢でexponentがフラット化する。既蒸留「老化はCPをFrozenとDisorderedの両方向から侵食する」の神経実装的確認。「(α,H)二次元相図でCP判定」の神経科学的実証版として脳の時間処理がα≈1依存で動いている。→ [[threads/2026-07-02_time-perception-1f-sic-cycle-stype.md]]
+
+- **前向きに速いCPが後向きの豊かさを生む（PTEP仮説）**（2026-07-02）[both]: 前向き（prospective）時間評価と後向き（retrospective）時間評価は独立した二軸。Frozen（退屈）は両軸で損失（遅く感じる×記憶薄い）。Disordered（混乱）は後向きで断片化。CPの没入（flow）のみが「前向きに速い × 後向きに豊か」の同時実現を達成する逆説的時間充填構造。HippoCamera実験（Scientific Reports 2024）でユニーク体験の「前向き速さ × 後向き豊かさ」二重構造を確認。既蒸留「記憶が資産になる唯一の帯域はCPだ」を時間知覚次元で精密化した。既蒸留「没入 = 内部スクリーン内ローカルCP」から「没入→強エンコード→episodic landmark形成→後向き豊かさ」のカスケード神経科学的確認。→ 同上
+
+- **SICサイクルはlandmark injection時間アーキテクチャとして機能する**（2026-07-02）[life-os]: S型（高エンゲージメント探索）= 前向き没入 + episodic landmark生成。I型（孵化）= replay（HippoCamera再生に対応）+ 後向き豊かさの確定。C型（結晶化）= episodic→semantic転換。Outer Wilds 22分ループ設計がこの構造を強制反復させている（各ループがS型没入→即リセット→I型記憶保存→次のS型を反覆）。「充実した時間の設計 = SICサイクルの意図的設計」という等式。→ 同上
+
+> 反証候補: EEGアペリオジック指数研究は「視覚的時間弁別（2点の先後）」を対象としており「主観的時間長短感覚（retrospective duration）」への適用は未確立。HippoCamera実験は18名・8週間（小規模）。因果構造の曖昧さ（flowと記憶形成の独立メカニズムの可能性）。
+
+### ⏱️ PTEP統合 — clock停止×Content密度×replayの三層（2026-07-02 第11新SICセット Cycle 2 I型）
+
+- **CPのclock停止がattentionを記憶に変換する。Content密度が前向き体験を分岐させる**（2026-07-02 I型）[both]: PTEP仮説の機構的解消。前向き速さと後向き豊かさは「逆説」でなく同一原因（attention→task）の双面。Flow（CP）: attention→clock監視停止（前向き速い）+ attention→task→海馬強エンコード（後向き豊か素材）。瞑想型CP: attention→clock停止 × Content低→前向き停止感 × 後向き豊か（別種）。Frozen: clock ON（前向き遅い）× encoding弱（後向き薄）。「逆説」は「attentionの向け先の差」として解消される。→ [[threads/2026-07-02_time-perception-ptep-integration-itype.md]]
+
+- **S型の1/f noveltyが素材を作り、I型のreplayが後向き豊かさを確定する**（2026-07-02 I型）[both]: PTEPカスケードの二段精密化。S型: 1/f novelty（前文脈と接続した新しさ）× high engagement → episodic landmark積み重なり = 後向き豊かさの素材形成。I型: replay（海馬→皮質転送 + HippoCamera型再生）→ 後向き豊かさの「確定」。Random novelty（無関係新体験連続）はlandmark接続なし → 後向き断片化 → PTEP不成立。「1/f noveltyだけがtemporal richnessを生む」（既蒸留）の機構的精密化: 「接続された新しさ」こそがS型でlandmarkを積み重ね、I型replayが後向き豊かさを確定させる。→ 同上
+
+- **SICサイクルは能力と時間を同時に資産化する三段プロセスだ**（2026-07-02 I型）[both]: Grokking解放モデルとPTEPの同型構造発見。Grokking: S型（記憶化/速い変化）→ I型（汎化回路秘密建設）→ C型（cleanup解放/能力資産化）。PTEP: S型（landmark生成/前向き速い）→ I型（replay/後向き豊かさ確定）→ C型（semantic資産化/記憶の長期保存）。「I型は表面上停止しているが内部で最重要処理が起きる」という共通構造。SHY（睡眠時Fisher刈り込み）・Wallas孵化期・SLA Silent Periodも同型。SICサイクルの二つの目的「能力開発」と「時間充実」は同一三段プロセスで同時達成される。→ 同上
+
+### 🎮 PTEP転移 — ゲームデザイン × 個人時間設計（2026-07-02 第11新SICセット Cycle 3 C型）
+
+- **ゲームの死とリセットはI型移行の設計的実装だ。ペナルティでなく構造だ**（2026-07-02 C型）[both]: Outer Wilds 22分ループ・Souls系の死・Obra Dinnの推論中断を同一PTEP構造として分析。リセット/死 = S型没入から強制的にI型（replay/反芻）へ移行させるゲームメカニクス。「死ぬほど悔しい体験」= landmark強化（感情×novelty = landmark強度最大）→ 後向きに最も豊かな記憶になる。PTEP実装の三分類: ①強制リセット型（Outer Wilds）②死亡学習型（Souls）③推論蓄積型（Obra Dinn）。共通: I型への移行を設計に組み込み、プレイヤーが省略できない構造。→ [[threads/2026-07-02_ptep-game-design-life-design-ctype.md]]
+
+- **生産的な時間と充実した時間は別物だ。SICサイクルだけが両立させる**（2026-07-02 C型）[life-os]: Frozen型生産性（ルーティン → 成果高・後向き薄）と CP型生産性（SICサイクル → 成果高・後向き豊か）の区別。多くの人の「生産的 = 充実した」という暗黙等号への反証。PTEP 4象限: ①CP型生産性（最良）= 前向き速い × 後向き豊か、②Frozen型生産性（最多）= 前向き遅い × 後向き薄、③瞑想型豊かさ（特殊）= 前向き停止 × 後向き豊か、④Disordered散漫（最悪）= 前向き速いが後向き断片化。「充実した人生の設計原則 = SICサイクル型活動の比率を増やすこと」として直結。→ 同上
+
+- **PTEP人生設計の三原則: S型1/f novelty × I型replay確保 × C型semantic化**（2026-07-02 C型）[life-os]: 「充実した時間の意図的設計」のPTEP操作化。原則1（S型）: 「既知との接続を持つ新しさ」の活動を増やす（探索・新分野の踏み込み）—— random noveltyでなく1/f noveltyであることが必須。原則2（I型）: S型後の replay時間を意図的に確保する（振り返り・日記・HippoCamera型記録）—— I型なしではS型が後向き豊かさに変換されない。原則3（C型）: エピソード記憶を原理・蒸留に変換して次のS型の1/f noveltyの基盤にする——蒸留がなければ次のS型が「接続なしの新しさ（random）」になる。老化防止接続: EEGアペリオジックexponentを保つための S型活動維持 + 睡眠質（I型replay基盤）確保 + 蒸留習慣（C型）が三位一体で機能する。→ 同上
