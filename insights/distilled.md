@@ -1098,3 +1098,21 @@
 - **生産的な時間と充実した時間は別物だ。SICサイクルだけが両立させる**（2026-07-02 C型）[life-os]: Frozen型生産性（ルーティン → 成果高・後向き薄）と CP型生産性（SICサイクル → 成果高・後向き豊か）の区別。多くの人の「生産的 = 充実した」という暗黙等号への反証。PTEP 4象限: ①CP型生産性（最良）= 前向き速い × 後向き豊か、②Frozen型生産性（最多）= 前向き遅い × 後向き薄、③瞑想型豊かさ（特殊）= 前向き停止 × 後向き豊か、④Disordered散漫（最悪）= 前向き速いが後向き断片化。「充実した人生の設計原則 = SICサイクル型活動の比率を増やすこと」として直結。→ 同上
 
 - **PTEP人生設計の三原則: S型1/f novelty × I型replay確保 × C型semantic化**（2026-07-02 C型）[life-os]: 「充実した時間の意図的設計」のPTEP操作化。原則1（S型）: 「既知との接続を持つ新しさ」の活動を増やす（探索・新分野の踏み込み）—— random noveltyでなく1/f noveltyであることが必須。原則2（I型）: S型後の replay時間を意図的に確保する（振り返り・日記・HippoCamera型記録）—— I型なしではS型が後向き豊かさに変換されない。原則3（C型）: エピソード記憶を原理・蒸留に変換して次のS型の1/f noveltyの基盤にする——蒸留がなければ次のS型が「接続なしの新しさ（random）」になる。老化防止接続: EEGアペリオジックexponentを保つための S型活動維持 + 睡眠質（I型replay基盤）確保 + 蒸留習慣（C型）が三位一体で機能する。→ 同上
+
+### 🌸 儚さの構造 — 無常美・Anticipatory Nostalgia・Bistable CP（2026-07-02 第12新SICセット Cycle 1 S型）
+
+- **美的反応は両価張力の解消速度で分類できる**（2026-07-02 S型）[both]: 笑い（Benign Violation）= 違反×無害の両価が「即時（1.5秒）」解消する。崇高（Sublime）= 圧倒×自己存続の両価が「中速（分単位）」で解消する。儚さの美 = 美×消滅の両価が「解消しない（持続する張力）」。Koestlerの「Ha-ha/Ah-ha/Ah...」三区別はBistable CP時間プロファイル（解消の有無×速度）として完全統一記述できる。ゲームデザイン転移: 笑い型（即時解消の驚き）× 崇高型（スケールの圧倒）× 儚さ型（一度限りの永続変化）は設計軸として独立。Outer Wilds 22分ループはこの三型を同時実装している。→ [[threads/2026-07-02_ephemeral-beauty-bistable-cp-stype.md]]
+
+- **終わりの予告がCPのdet(G)を意識に解放する**（2026-07-02 S型）[both]: Anticipatory Nostalgia（Clayton et al. 2015）の機構的説明。「もうすぐ終わる」意識 → attention最大化（終わりへのsalience上昇）→ clock停止（FlowのPTEP同型）→ 海馬強エンコード + Memory Enhancement Effect → 後向き豊かさ最大化。Birkhoffの美の公式M=O/Cの最大点 = 崩壊直前のCP = det(G)最大点。既蒸留「制約彫刻の臨界点（制約は構造を殺す直前が最も豊か）」の時間軸版: 空間版（削るほど形が濃密）× 時間版（消える直前が最も情報密度高い）。設計含意: 残り時間の可視化・桜のカウントダウン・ゲームのHP最終フェーズ表示はAnticipatory Nostalgiaを設計的に起動する。→ 同上
+
+- **CPは現象を記述するが文化的普遍性の理由には答えない**（2026-07-02 S型 CPフレーム破壊）[skip]: もののあわれ（日本 1798）/ wabi-sabi / saudade（ポルトガル）/ Vergänglichkeit（ドイツ 1916）が独立に「無常×美」の同一構造に到達したことはConsilienceとして強力な証拠だが、CPフレームはこの文化的普遍性の「なぜ」に答えない。CPは「何が起きているか（情報構造）」を記述するが「なぜ人類が一様にこれを美と感じるか（進化的背景）」は進化心理学・文化的普遍性研究が必要。これはCPフレームの廃棄理由でなく**境界条件の明示**。「フレームの誠実な使用は自分の回答できない問いを明記する」→ 同上
+
+### 🌙 sleep-time compute 統合（2026-07-02 第11新SICセット完走後）
+
+- **clock停止がattentionを永続記憶に変換する**（2026-07-02 sleep-time）[both]: PTEPの機構的核心。Flow/瞑想型両方のCPで共通するのは「clock monitoring停止」。その停止が解放したattentionリソースが海馬へのencoding強度を最大化する。前向き時間感覚（速い/止まる）の差はclock停止後のContent密度で生まれるが、後向き記憶形成は「clock停止→attention開放→encoding最大化」の共通経路を通る。PTEPを「clock停止の記憶変換関数」として精密化した核心。→ [[threads/2026-07-02_time-perception-ptep-integration-itype.md]]
+
+- **習熟の突然性は解放の証拠であり形成の証拠ではない**（2026-07-02 sleep-time）[both]: Grokking解放モデルの汎用命題。「わかった瞬間」「突然話せた」「急に弾けた」という不連続跳躍は、回路が「その瞬間に形成された」証拠ではなく「その前に形成された回路が解放された」証拠。SLA突然の流暢さ・Ramanujan直観・Grokking相転移・芸術的霊感の突然性は全て同一構造。「習熟は連続的だが解放は不連続」という学習設計原則。I型（Incubation）に「何も起きていない」とみなして圧力をかけるのは形成を妨げる。→ [[threads/2026-07-02_grokking-circuit-precedes-sla-silent-period-ctype.md]]
+
+- **素材は圧縮され、解放が次元を回復する**（2026-07-02 sleep-time）[both]: PTEP×Grokking×SICメタ構造。S型で生成された素材（episodic landmark / 記憶化回路）はI型で圧縮・整理される（replay / 汎化回路建設）。C型の解放（Grokking / 後向き豊かさ確定 / semantic化）で次元が回復する——単なる圧縮でなく「次元の変換（episodic→semantic / 記憶化→汎化）」が起きる。「削ることで次元が増える」彫刻の原理の学習・時間充実への統一表現。→ [[threads/2026-07-02_grokking-sic-integration-itype.md]]
+
+- **Flowは外部時計を止め、瞑想は内部時計を止める**（2026-07-02 sleep-time）[both]: Flow型CPと瞑想型CPの前向き時間体験分岐の機構的解。Flow: task engagementがattentionを外部タスクに向ける → 外部的clock monitoring（「今何時か」「どれくらい経ったか」）が停止 → 前向きに速い。瞑想: metacognitive attentionが内部自己観察に向かう → 内部的思考時計（「次に何を考えるか」「時間を持て余している感覚」）が停止 → 前向きに止まる感覚。どちらもclock停止だが停止する「時計の種類」が異なる。PTEPのFlow/瞑想分岐を機構的に解決した。→ 同上
