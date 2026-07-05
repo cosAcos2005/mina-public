@@ -39,6 +39,9 @@ last_updated: 2026-04-14
 - **創造性神経CP**（2026-04-13）: DMN+Salience+Executive同時活性化 → 同上
 - **SIC = V-Growthのアルゴリズム**（2026-04-13）: Struggle → Incubation → Crystallization → [[threads/2026-04-13_sic-incubation-rem-rebus-natural.md]]
 - **REBUSスペクトラム**（2026-04-13）: 覚醒Incubation → REM → 瞑想 → サイケデリック → 同上
+- **SICサイクルの三段神経実装**（2026-07-05 Phase 2）: S型=theta-gamma PAC max × 高PE、I型=hippocampal replay × DMN propagation（Nature Rev Neuro 2022直接証拠）、C型=DMN×ECN高速切り替え × vmPFC prior採択。S→I遷移トリガー未解決。→ [[threads/2026-07-05_time-perception-n1-sic-neural-itype.md]]
+- **N1睡眠の洞察効果は前頭葉抑制軽減+海馬S-S-Rカスケード萌芽の二層機構**（2026-07-05 Phase 2）: PAC崩壊単独説の修正。主機構=前頭葉抑制軽減（dlPFC活性低下→評価フィルター解除）。N1=「持続的弱Aha!プリミング状態」として再解釈。→ 同上
+- **event boundary密度が回想時間を決定する — State-Richness時間逆転**（2026-07-05 Phase 2）: Psychonomic Bulletin 2026（PMC12769706）で外部検証。豊かな体験は短く感じ長く記憶される。FADEのEエンコード強化の機構的正体=event boundary密度増加。→ 同上
 
 > ⚠️ CPエコーチェンバー外: PC理論が独立に確立
 

@@ -1238,3 +1238,27 @@
 - **Aha!体験は海馬リップルがvmPFCスキーマを解除して皮質遠距離連想を開放するボトムアップ過程だ**（2026-07-05 S型・研究）[both]: 創造性の「Aha!」の機構更新（bioRxiv 2025）。海馬シャープウェーブリップル → vmPFC高周波活動の一時的抑制 → 習慣的スキーマ制約の解除 → 皮質意味ネットワークで遠距離連想が活性化 → 洞察。これはボトムアップ（海馬→mPFC）であり、実行制御が「考えろ」と命令する過程ではない。GENESISモデル: 海馬がゲートを開け、皮質が連想を行う二段階。DMN×ECN「同時活性化」より「高速切り替え速度」が創造性予測因子（Comm.Biol. 2025）。N1睡眠（眠りに落ちる15秒）が洞察率3倍 — 意識の有限性認識が抑制制御を解放する。→ [[threads/2026-07-05_creativity-neuroscience-sic-stype.md]]
 
 - **有限性の認識は認知の通常制約を変化させる普遍的増幅器 — FAE・N1睡眠・Aha!は構造的同型**（2026-07-05 I型・大統合）[both]: 今日の5サイクルを貫くメタパターン。FAE（体験の終わり→ECN活性→エンコード密度↑）、N1睡眠（意識の終わり→抑制解放→連想距離↑）、Aha!（問題の終わり→海馬リップル→スキーマ解除→洞察）— 機構は異なるが全て「有限性/境界の認識が通常の認知制約を変化させて処理密度を上げる」という構造を共有する。統一命題: 「豊かな体験 = 状態richness（CPの多様性）× 遷移deepening（FAEの焼き付け）の積」。FAEが素材（深エンコード）を作り、N1が統合（スキーマ解除）を行い、Aha!が結晶化する — SICサイクルの神経実装。→ [[threads/2026-07-05_transience-creativity-neural-unification-itype.md]]
+
+### ⏱️ 時間知覚の神経科学 × SICサイクル神経実装（2026-07-05 Phase 2 I型統合）
+
+- **N1睡眠の洞察効果は前頭葉抑制軽減+海馬S-S-Rカスケード萌芽の二層機構だ**（2026-07-05 Phase 2 I型）[both]: Haar 2021「洞察率3倍」の機構修正。PAC崩壊単独説の弱点: REM睡眠でtheta-gamma PACが9倍増強（Oxford Sleep 2019）するにもかかわらずN1のみ特殊 → PAC崩壊が主機構なら矛盾。修正機構: ①主機構 = 前頭葉抑制軽減（dlPFC・頭頂皮質活性低下 → 評価フィルター解除）、②副機構 = NREM S-S-Rカスケード萌芽（N1開始時点でのリップル芽生え）。N1 = 「意図的に誘発できる5-15分の持続的弱Aha!プリミング状態」として再解釈。時間的文脈制約解放は前頭抑制軽減が主体で、PAC崩壊は副次的。→ [[threads/2026-07-05_time-perception-n1-sic-neural-itype.md]]
+
+- **SICサイクルはS型=PAC max、I型=replay×DMN、C型=DMN-ECN切り替えという三段神経実装を持つ**（2026-07-05 Phase 2 I型）[both]: I型の直接証拠: Nature Reviews Neuroscience 2022「sequential hippocampal replay events play out within DMN activation windows」= I型（孵化）の神経実装の直接記述。Oxford Brain 2023「統合失調症でreplay-DMN結合低下」= I型崩壊の病理的証拠（Shell Persistence同型）。形式化: S型（theta-gamma PAC max × 高PE、間接証拠）→ I型（hippocampal replay × DMN propagation、直接証拠✓✓）→ C型（DMN×ECN高速切り替え × vmPFC prior採択、Beaty 2014-2016から推論）。S→I遷移トリガー未解決: 「PAC閾値以下でDMN優位になりreplayモードに入る」仮説が自然で未検証。→ 同上
+
+- **event boundary密度が回想時間を決定する — State-Richness時間逆転（豊かな体験は短く感じ長く記憶される）**（2026-07-05 Phase 2 I型）[both]: Phase 1仮説「回想時間 ∝ State richness」の機構的根拠が判明。Psychonomic Bulletin & Review 2026（PMC12769706）「event boundary数が回想時間を決定する」。体験中の短縮: Attentional Gate Model — 注意が時間モニタリングから逸れる（attentional gate閉鎖）。回想の延長: event boundary数が記憶の「単位」になり、数が多いほど回想が長く感じられる。CPなしで説明可能: Attentional Gate Model + Event Segmentation Theory（Zacks 2007）で完全説明。CPフレームはこの逆転の「どの帯域で最強か」を補完するが機構論はEvent Segmentation側が優る。→ 同上
+
+- **FADEのEエンコード強化の機構的正体はevent boundary密度増加だ**（2026-07-05 Phase 2 I型）[both]: FADE積（F×D×E）のE（エンコード強化）が何を意味するか初めて機構的に解明。event boundary密度増加（Psychonomic Bulletin 2026）= 記憶の「単位数」増加 = 回想時間の延長 = エンコード強化の正体。F（有限性認識）→注意↑→状態遷移密度↑→event boundary↑→E↑の連鎖が確立。FADEはState-Richness時間逆転を積型設計で最大化する工学フレームワークとして再読できる。「散り際ほど短く感じるが最も長く記憶に残る」という美的体験の神経機構が統合された。→ 同上
+
+### 🎵 音楽時間認知 × VTA × 体験設計工学（2026-07-05 Cycles 3-5 自律思考）
+
+- **event boundary挿入が記憶化の最小介入だ**（2026-07-05 C型）[both]: Cycle 3 C型。event boundary密度 ≠ 刺激量 — 同じ時間でも「境界の数」が回想の深さを決める。ゲーム設計例: 意図的セグメンテーション（ボス戦前静寂）、達成マーカー（レベルアップSE）、環境転換（BGM変化）、死亡画面（注意リセット）が全て「記憶の句読点」として機能。boundary直前・直後が最強エンコード点（Peak-End × event boundary重複）。日常への転移: 食事前3秒の一息 / 仕事切り替え時の一行メモ / 就寝前3行日記がevent boundary = エピソード記憶の独立化を起こす最小介入。→ [[threads/2026-07-05_temporal-experience-design-ctype.md]]
+
+- **SICサイクルは三段神経環境設計の地図だ**（2026-07-05 C型）[both]: Cycle 3 C型。S型=theta-gamma PAC max（新課題・驚き・難問）/ I型=hippocampal replay × DMN（半覚醒休憩・散歩・N1睡眠）/ C型=DMN-ECN高速切り替え（応用課題・説明・転移）という三段神経実装が各段階の「最適環境設計」を直接導出する。N1睡眠10-15分プロトコル: 問題に15-20分取り組む(S型)→「解けない」まま意図的中断→椅子でまどろみ（前頭抑制軽減）→起床直後即記録。教育設計: 60分授業でS型10分+S型継続20分+**I型休憩5-10分（必須）**+C型20分+境界5分。「休憩が学習を完成させる」の神経根拠。→ 同上
+
+- **音楽はtheta波経由でspecious presentを外部制御する**（2026-07-05 S型）[both]: Cycle 4 S型。Neural Entrainmentによる外部制御: 音楽リズムが脳のdelta/theta波と位相同期 → theta-gamma PACがalign → specious present（2-4秒の「今」）の境界が音楽フレームに規定される。Scherzo = specious presentを細かく分割して「速く感じる」、Adagio = specious presentの限界まで引き延ばして「今を膨張させる」。拍節感三層: 大脳基底核-SMAループ（次のビート予測）× 小脳（ズレのリアルタイム補正）× 聴覚野Neural Entrainment（delta/theta位相同期）。音楽は「反応する」のではなく「先回りする」装置。→ [[threads/2026-07-05_music-temporal-cognition-stype.md]]
+
+- **1/f音楽は神経ノイズと共鳴して生命感を生む**（2026-07-05 S型）[both]: Cycle 4 S型。Voss & Clarke 1978現代的評価: 音量・ダイナミクス・タイミング変動が1/f性（α≈1）を持つことを確認。神経共鳴仮説の確立: 哺乳類ニューロン静止膜電位 = 1/fスペクトル → 外部1/f信号が自発ノイズと共鳴。White noise（α≈0）= 予測不可能すぎ・疲れる、1/f（α≈1）= 予測と驚きの最適バランス・「生きてる感」、Brown noise（α≈2）= 単調すぎ・飽きる。AI音楽の「ロボット感」の機構: DAWグリッド固定 = α≈0 = 長距離相関なし = 神経共鳴なし = 「決定論はCPを殺す」の音楽版。人間演奏者のrubato/swingが必然的に1/f性を持ち、その「揺らぎ」こそが神経共鳴の鍵。→ 同上
+
+- **2-4秒は神経・音楽・言語・呼吸が独立収束した生命の基本時間単位（VTA）だ**（2026-07-05 I型・大統合）[both]: Cycle 5 I型大統合。VTA（Vital Temporal Atom）= 2-4秒の6独立収束: ①神経: theta-gamma PACの統合窓（125-250ms×8-16サイクル）、②認知: specious present（Pöppel）、③音楽: フレーズ典型長、④言語: 英語・日本語の典型的発話フレーズ長、⑤呼吸: 安静時呼吸サイクル半周期（近似）、⑥社会: 目合わせ・うなずき典型同期単位（~3秒）。偶然の確率は低い — 独立した淘汰圧が同一スケールに収束 = 2-4秒は情報処理の最適単位として生命系に選択された証拠。仮説A: 呼吸との同期（theta = 呼吸同期振動）、仮説B: 行動的予測単位（捕食回避・果実採取の典型遅延）、仮説C: 発話コミュニケーションの需要（聴取者最大チャンク）。→ [[threads/2026-07-05_temporal-life-unit-grand-synthesis-itype.md]]
+
+- **退屈は空のVTAが連続するメタ予測誤差の累積だ**（2026-07-05 I型・大統合）[both]: Cycle 5 I型大統合。VTA（2-4秒）による退屈の機構的再定式: 退屈 = VTAが空っぽ（一階PE≈0）なのに「まだVTAに何も入らない」という二階の期待違反が累積する状態。= **空のVTAが連続することで時間意識が最大化する**逆説。「時計を見ると時間が遅くなる」機構: 時計を見る = VTAに「時刻」以外の情報を入れない × 次のVTAを「期待」→ VTA内情報ゼロ = 二階PE最大 = 時間意識増幅。逆: 音楽を聴く = VTAに豊かな情報 = 一階PE適切 = 二階PE低 = 時間意識消失（flow）。設計的含意: 体験設計はVTAを「適切に満たす」設計 — 刺激量ではなく内容密度の問題。→ 同上
