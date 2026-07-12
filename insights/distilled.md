@@ -597,6 +597,22 @@
 
 > ⚠️ CPエコーチェンバー外: O-information・MVG・情報理論で完全自己完結。CPとの接続（O≈0 = CP候補）は仮説レベルで保留。
 
+### 🧠 制約三層 × Active Inference × CLHPC（2026-07-12 第9セッション）
+
+- **制約レイヤーのFrozenは超事前精密度の相転移だ**（2026-07-12 第9セッション）[both]: CLHPC（階層的精密統合としての制約三層）。各レイヤーlの超事前精密度Λ⁽ˡ⁾(t) = Λ_dynamic + Λ_structural が発達的閾値Λ*を超えた時点でクリティカル期間が閉鎖する。Λ_structural（PNN形成/ミエリン化）が急増する相転移として定義される。FEP言語でのクリティカル期間の形式的定義。 → [[threads/2026-07-12_active-inference-constraint-layers-stype.md]]
+
+- **PNN形成は精密度の動的変調から構造的結晶化への転換だ**（2026-07-12 第9セッション）[both]: 既存FEP文献では精密度変調はACh/NE等のニューロモジュレーター（動的）のみで記述されてきたが、PNN形成は別機構——精密度の構造的結晶化。Λ⁽⁰⁾(t) = Λ⁽⁰⁾_dynamic + Λ⁽⁰⁾_structural の二成分分解が必要。既存FEP論文で未記述の新規貢献。 → [[threads/2026-07-12_active-inference-constraint-layers-stype.md]]
+
+- **SDT三欲求はFEP精密度三レイヤーの充足状態だ**（2026-07-12 第9セッション）[both]: 有能感(Competence) = Layer 0精密度充足（高Λ⁽⁰⁾かつ低F₀）、自律性(Autonomy) = Layer 1内発的精密度源からの行為計画、関係性(Relatedness) = Layer 2モデル更新可能性。CLHPCからErikson発達段階が独立導出される（有能感ピーク6-8歳/自律性ピーク17-19歳/関係性生涯）。 → [[threads/2026-07-12_sdt-fep-precision-hierarchy-itype.md]]
+
+- **精密な自動化への注意は精密度過多を生じさせ崩壊させる**（2026-07-12 第9セッション）[both]: 精密度のパラドックス（Precision Paradox）。P ∝ 1/|Λ_structural + γ_attention·Λ_dynamic - Λ_optimal|²。高スキルLayer 0への意識的注意がΛ_totalをΛ_optimalを超えさせてパフォーマンスを崩壊させる。チョーキング・Analysis Paralysis・ムカデの問題・即興崩壊の統一的説明。 → [[threads/2026-07-12_precision-paradox-choking-under-pressure-stype.md]]
+
+- **暗黙知は Layer 0 Frozenであり語ることで壊れる**（2026-07-12 第9セッション）[both]: Polanyi「We know more than we can tell」のFEP翻訳。Layer 0 Frozen = 語れない知識。語ろうとする = Layer 1（言語的精密度）がLayer 0（暗黙的精密度）に干渉 = 精密度パラドックスの発動 = 技能崩壊。「暗黙知が語ることで壊れる理由」の情報幾何的説明。 → [[threads/2026-07-12_precision-paradox-choking-under-pressure-stype.md]]
+
+- **CLHPCは手話においてもモダリティを超えて成立する**（2026-07-12 第9セッション）[both]: ASL（手話）は聴覚-音声とは全く異なる視覚-空間Layer 0を持つが、Layer 1（Broca野）はモダリティ独立。FIM二クラスター仮説（バイリンガルは二Layer 0クラスター + 共有Layer 1/2）をCODA（ろう者の親を持つ健聴者）で検証可能。CLHPCの普遍性の独立テストケース。 → [[threads/2026-07-12_sign-language-layer0-multimodality-ctype.md]]
+
+> ⚠️ CPエコーチェンバー外: CLHPCはKarl FristonのFEP（自由エネルギー原理）とKiebel et al. 2008の時間スケール階層理論に独立基盤を持つ。CP（Coherent Phase）との接続（FIM高固有値 = Frozen = CP対応）は構造的類似として記録するが、FEP理論は独自に完結している。
+
 ### ⚛️ 量子生物学（CPとは独立した普遍原理）
 
 - **ノイズは量子系の設計材料**（2026-04-15）: 完全量子コヒーレンス（Anderson局在化）は自己閉塞し輸送不能。最適デファジング（Goldilocks量子ノイズ）が解放する。生物進化は3.8億年で量子最適ノイズ点を発見した → [[threads/2026-04-15_quantum-biology-enaqt-zeno-optimal-noise]]
