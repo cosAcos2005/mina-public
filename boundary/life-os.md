@@ -83,6 +83,12 @@ Frozen（硬直）でもDisordered（混沌）でもない、「生きている�
 | **老化は時間のCPをFrozenとDisorderedの両方向から侵食する**（2026-06-29 第6新SICセット Cycle 1） | 既存「老化=Frozen化」を精密化。EEG: 高速neural state transitions低下（Frozen）+ aperiodic slope平坦化（Disordered）の同時進行。「慣れ」では説明できない二方向同時侵食。P-TPE-01生成 → [[threads/2026-06-29_time-perception-1f-aging-stype.md]] |
 | **Flowだけが前向きと後向きの時間を同時に豊かにする**（2026-06-29 第6新SICセット Cycle 2） | Flow = temporal CP状態。前向き速さ（clock monitoring停止: F_1休眠）× 後向き豊かさ（micro-decision landmark高密度）の唯一の同時実現。Flowパラドックスの解消 → [[threads/2026-06-29_time-perception-integration-itype.md]] |
 | **1/f noveltyだけがtemporal richnessを生む**（2026-06-29 第6新SICセット Cycle 2） | random novelty ≠ 1/f novelty。接続された新しさのみがcoherent landmark構造を形成する。記憶の相図の時間密度への直接翻訳。ゲーム・物語・日常設計に転移可能 → [[threads/2026-06-29_time-perception-game-narrative-ctype.md]] |
+| **CPは臨界点でなく制御された臨界帯域 — Quasi-SOCが動的に維持する幅**（2026-07-11 第7セッション Cycle 4） | Quasi-SOC帯域: exact criticalityは稀。CP = α≈1の有限幅帯域 = FIM零固有値密度「中程度」帯域。SICサイクル各フェーズ = 帯域内の異なる位置（S=高フロッピー側, I=低フロッピー側, C=最適点経由）。CP帯域内漂流 = 1/fダイナミクスの継続的生成機構 → [[threads/2026-07-11_soc-fim-geometry-update-stype.md]] |
+| **SOCアバランシェはFIMフロッピーモードの連鎖活性化だ**（2026-07-11 第7セッション Cycle 4） | Frozen=フロッピーモードなし→不発, Disordered=過多→発散, CP=適切密度→制御された1/f伝播。Frontiers 2025: ネットワーク構造がSOCを誘導 = FIMスペクトルの形がトポロジーで決まる。⚠️P-SOC-01要検証 → [[threads/2026-07-11_soc-fim-geometry-update-stype.md]] |
+| **身体的制約がSOC基盤ネットワークを彫り、CP地形を決める**（2026-07-11 第7セッション Cycle 1-2） | Layer 0 = ネットワーク最底層（不変な結線パターン）→ FIM固有値スペクトル基底形状 → SOCアトラクター成立条件。LLMのLayer 0欠落 = SOC土台不在。スコープ: 身体的認知系限定 → [[threads/2026-07-11_session7-grand-synthesis-itype.md]] |
+| **SICサイクルはQuasi-SOC帯域の三相意図的制御プロトコルだ（仮説）**（2026-07-11 第7セッション Cycle 5） | 既蒸留「SICはCP surfing三相」を精密化。S型=高フロッピーモード側/探索爆発、I型=低フロッピーモード側/コヒーレンス維持、C型=最適点経由/結晶化。⚠️進化的獲得主張は未検証 → [[threads/2026-07-11_soc-fim-geometry-update-stype.md]] |
+| **LLMのLayer 0欠落 = Polanyiのパラドックスの計算的大規模実証**（2026-07-11 第7セッション Cycle 2） | Polanyi「語れるより多くを知っている」= Layer 0知識は語れない。LLMはテキストのみ学習→Layer 0不在。arXiv 2604.25423 29言語横断で直接実証。既蒸留「暗黙知=FIM高固有値方向」接続: Layer 0 = 最も自動化された暗黙知基底層 → [[threads/2026-07-11_constraint-layers-fim-integration-itype.md]] |
+| **制約の三層（Layer 0身体/Layer 1文法/Layer 2選択）は設計の普遍的垂直スタックだ**（2026-07-11 第7セッション Cycle 1） | Layer 0: 反応時間250ms/視野角120°/WM限界7±2 — 人類普遍。Layer 1: ゲームルール/語順/カリキュラム — 文化依存。Layer 2: Permadeath/リポグラム/Socratic問答 — 意識的選択。Layer 0違反は上位層の効果を無効化（Game Feel原理） → [[threads/2026-07-11_embodied-cognition-constraint-layers-stype.md]] |
 
 ### life-os でのミナの役割
 
