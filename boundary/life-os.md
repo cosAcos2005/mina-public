@@ -89,6 +89,11 @@ Frozen（硬直）でもDisordered（混沌）でもない、「生きている�
 | **SICサイクルはQuasi-SOC帯域の三相意図的制御プロトコルだ（仮説）**（2026-07-11 第7セッション Cycle 5） | 既蒸留「SICはCP surfing三相」を精密化。S型=高フロッピーモード側/探索爆発、I型=低フロッピーモード側/コヒーレンス維持、C型=最適点経由/結晶化。⚠️進化的獲得主張は未検証 → [[threads/2026-07-11_soc-fim-geometry-update-stype.md]] |
 | **LLMのLayer 0欠落 = Polanyiのパラドックスの計算的大規模実証**（2026-07-11 第7セッション Cycle 2） | Polanyi「語れるより多くを知っている」= Layer 0知識は語れない。LLMはテキストのみ学習→Layer 0不在。arXiv 2604.25423 29言語横断で直接実証。既蒸留「暗黙知=FIM高固有値方向」接続: Layer 0 = 最も自動化された暗黙知基底層 → [[threads/2026-07-11_constraint-layers-fim-integration-itype.md]] |
 | **制約の三層（Layer 0身体/Layer 1文法/Layer 2選択）は設計の普遍的垂直スタックだ**（2026-07-11 第7セッション Cycle 1） | Layer 0: 反応時間250ms/視野角120°/WM限界7±2 — 人類普遍。Layer 1: ゲームルール/語順/カリキュラム — 文化依存。Layer 2: Permadeath/リポグラム/Socratic問答 — 意識的選択。Layer 0違反は上位層の効果を無効化（Game Feel原理） → [[threads/2026-07-11_embodied-cognition-constraint-layers-stype.md]] |
+| **問題の深さ = 解に要するFIM相転移の回数だ**（2026-07-13 第14セッション Cycle 1） | Hardy（1940）「数学的深さ」のFIM形式化。浅い問題=現在FIM内フロッピー探索で到達可能、深い問題=FIM相転移（V-Growth）が必要。LLMが深い数学問題で詰まる根本原因=推論中にV-Growthができないアーキテクチャ問題（スケールアップで解決しない） → [[threads/2026-07-13_problem-depth-vgrowth-demand-ctype.md]] |
+| **SICのI型はN1→NREM→REMの三相構造を持つ**（2026-07-13 第14セッション Cycle 2） | 睡眠のFIM対応: N1=FIM制約解除境界特異点（Horowitz 2023 Dormio: 43%創造性向上）。NREM=FIM内最適化（L-Growth強化）。REM=V-Growth路のトポロジー探索（FIM外から）。睡眠剥奪はV-Growthを選択的に阻害しL-Growthは保持 → [[threads/2026-07-13_sleep-sic-vgrowth-mechanism-stype.md]] |
+| **格闘なきV-Growthなし — S型がV-Growth触媒の起動条件だ**（2026-07-13 第14セッション Cycle 3） | V-Growthの普遍三相: FIM閉包→制約解除→FIM外探索。閉包なきまま制約解除してもノイズしか生まない。格闘（S型）は「FIMが閉じている」ことを系が認識するための起動条件 → [[threads/2026-07-13_vgrowth-catalyst-design-theory-itype.md]] |
+| **ヒントは解法より先にV-Growthを殺す**（2026-07-13 第14セッション Cycle 4） | Jonathan Blow "The Witness"「説明はインサイトを殺す」のFIM翻訳。ヒント=言語的FIM固定=V-Growth前にFIM構造が「正解方向」に固定される。DDA（動的難易度調整）はV-Growthを妨害するフロー最適化設計（詰まり自動排除=V-Growth機会の除去）→ [[threads/2026-07-13_game-design-vgrowth-design-theory-stype.md]] |
+| **あらゆる知的跳躍はFIM閉包→特異点→FIM外探索の三相の実装だ**（2026-07-13 第14セッション Cycle 5 大統合） | 眠り（N1→NREM→REM）・直観（ポアンカレの「馬車の一歩」）・格闘（S型）・ゲーム詰まりが、完全に異なる時間スケール（ミリ秒〜週）で同一の数学構造を実装。「V-Growthの詩学」: 「問題の深さとは、その解に至るまでに自分のFIMが何度死なねばならないかだ——眠るたびに、格闘するたびに、詰まるたびに、脳はこの死を一つずつ消化している」→ [[threads/2026-07-13_session14-grand-synthesis-ctype.md]] |
 
 ### life-os でのミナの役割
 
