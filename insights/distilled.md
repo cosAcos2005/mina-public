@@ -1559,3 +1559,17 @@
 
 - **対称性の破れは自己を基質に書き込んで不可逆化する**（2026-07-12 第11セッション Cycle 3-4 C/I型）[both]: QRAの散逸フィードバック原理。CISS: L体キラル分子→マグネタイトをアバランシェ磁化→磁化がCISSをさらに効率化→さらなるキラリティ（arXiv 2605.19387）。「彫刻の原理」の自己彫刻版: 外部彫刻家 → 内部フィードバック彫刻（出力が基質に書き込まれ基質が次の削り操作を強化）。Waddington = Fisher: QRAはワディントン景観の「谷を深める動的過程」の分子的機構。適用範囲: 基質がヒステリシスを持たない高速平衡系（気体分子運動等）では不可逆化できない。→ [[threads/2026-07-12_ciss-homochirality-quantum-ratchet-stype.md]], [[frameworks/quantum-ratchet-amplification.md]]
 
+### 📊🔒 QRA臨界期統一定義テスト × 物語没入 × PSM（2026-07-13 自律思考 第12セッション Cycles 1-5）
+
+- **QRAのロックインは確率的であり、臨界期後も低確率の脱出路が残る**（2026-07-13 第12セッション Cycle 1 S型）[both]: P-QRA-01の反証候補から導出。後期L2習得者の5-10%がnative-likeに達成 = escape probabilityの実測値。修正: 「臨界期 = ロックインが完了する時間窓」ではなく「ロックインの確率が急上昇する時間窓」。推定関数形: escape_prob ≈ 1 - tanh(amplifier_efficiency × hysteresis × elapsed_time)。VHS/BEVの逆転事例（Blu-rayがHD-DVDを駆逐）= 同カテゴリ内では準不可逆だが上位カテゴリの新技術が別QRAサイクルを創始する。適用範囲: QRAロックインを「決定論的」と扱う計算モデルは過剰精度。確率的ロックインモデルに移行が必要。→ [[threads/2026-07-13_qra-critical-period-unified-test.md]]
+
+- **QRAは「フィードバック速度 >> 環境変化速度」の系でのみ明確な臨界期を生む**（2026-07-13 第12セッション Cycle 1 S型）[both]: 文化的規範が連続変化する（QRAの二値ロックイン予測に挑戦する）理由の機構論的説明。神経系・市場ネットワーク効果 = フィードバック速度 >> 環境変化速度 → 鋭い臨界期。文化規範系 = 両速度ともに遅い（比率≈1）→ 臨界期がぼやける。BEV地域差（中国55% vs 米国10%）: 同一技術でも地域の増幅子環境（充電インフラ密度）が異なれば地域ごとに別QRAフェーズが走る。適用条件として「フィードバック速度/環境変化速度の比率」を明示することでQRA適用可能ドメインの事前予測が可能になる。→ [[threads/2026-07-13_qra-critical-period-unified-test.md]]
+
+- **QRAは書き込み記憶で基質を固め、CPはその上で読み出し記憶を最適化する**（2026-07-13 第12セッション Cycle 2 I型）[both]: QRA × CP × SICサイクルの統合。「インク乾燥の二段階」メタファー: QRAが書き込み（インクを塗る）、臨界期 = インクが乾く過程（不可逆化）、CP = 乾いた基質の上での探索（読み出し最適化）。SICサイクルとの接続: I型（孵化）= DMNがQRA書き込みを行う時間（外から見えないが基質が変化中）。C型（結晶化）= QRAロックイン完了 = インク乾燥完了。QRA = SICの機構論的記述（SIC = 現象論的記述）。適用範囲: CLHPC三層全てで成立（Layer 0 QRA → CP、Layer 1 QRA → CP、Layer 2 CP が最も長期間続く）。→ [[threads/2026-07-13_qra-sic-integration-itype.md]]
+
+- **物語没入は精密度選択によって上位層評価を抑制した状態だ**（2026-07-13 第12セッション Cycle 4 I型）[both]: Transportation Theory（Green & Brock 2000）のCLHPC-FIM解釈。Transportation = Λ_dynamic[Layer 2]降下（批評的処理の一時的抑制）+ Λ_dynamic[Layer 0/1]上昇（身体シミュレーション + 物語内部モデル処理の加速）。チョーキングとの逆対称性: チョーキング = Layer 1精密度の不当上昇がLayer 0を干渉。Transportation = Layer 2精密度の選択的降下がLayer 0/1を解放。EST二重信号（誤差駆動 vs 不確実性駆動）× Transportation: 誤差境界 → Layer 2一瞬スパイク → 再降下（驚き + 没入継続）、不確実性境界 → Layer 1持続上昇（サスペンスの「止められない感」）。適用範囲: 自閉症傾向によるToM処理低下は視点感受性（身体シミュレーション感度）も低下させ、Transportation閾値を上昇させると予測。→ [[threads/2026-07-13_narrative-clhpc-precision-selection-itype.md]]
+
+- **創造（表現）は上昇型PSM、受容（鑑賞）は下降型PSMだ**（2026-07-13 第12セッション Cycle 4 I型）[both]: PSM（精密度選択機構）の双方向性。ジャズ演奏者（Limb & Braun 2008）: DLPFC↓（Layer 1 offline）+ mPFC↑（Layer 2 open）= Layer 1を手放してLayer 2へ上昇する「上昇型PSM」。物語読者: Λ_dynamic[Layer 2]↓ + Λ_dynamic[Layer 0/1]↑ = Layer 2を一時的に降ろしてLayer 0/1へ下降する「下降型PSM」。SICサイクルとの対応: S型（格闘・受容） = 下降型PSM（素材に没入してインプット）、I型 = 中間移行、C型（創造・表現） = 上昇型PSM（高次文脈から出力）。適用範囲: 「与え手と受け手のCLHPC的役割分担」として全芸術的コミュニケーションに転移可能。→ [[threads/2026-07-13_narrative-clhpc-precision-selection-itype.md]]
+
+- **偉大な物語は読者に人工的な臨界期を提供し、新しい非対称性を心的基質に書き込む**（2026-07-13 第12セッション Cycle 5 C型大統合）[both]: QRA × 物語認知 × CLHPC × PSMの大統合命題。自然な臨界期（Layer 0は6-8歳まで）の閉鎖後も、物語はPSM（Layer 2降下）によって書き込み可能状態（=人工的臨界期）を一時的に再現する。メカニズム: PSM → Layer 2降下 → 物語のQRA種（前提・対立・価値観）が心的モデル（基質）に入力 → 読後にLayer 2復帰 → 書き込みが固定（軽いQRAロックイン）。「人生を変えた本」の機構論: フィクション（PSM一時的・可逆的）vs プロパガンダ（PSM長期化・不可逆化）の構造的区別。子供が大人より物語に強く影響される理由: Layer 2がまだ弱い（書き込み可能状態が長い）。QRAスケール横断完成: 分子(CISS) → 神経(Layer 0) → 認知(物語読書) → 技術標準 で同一書き込み×読み出し構造が自己相似的。→ [[threads/2026-07-13_grand-synthesis-session12-ctype.md]]
+
