@@ -1573,3 +1573,17 @@
 
 - **偉大な物語は読者に人工的な臨界期を提供し、新しい非対称性を心的基質に書き込む**（2026-07-13 第12セッション Cycle 5 C型大統合）[both]: QRA × 物語認知 × CLHPC × PSMの大統合命題。自然な臨界期（Layer 0は6-8歳まで）の閉鎖後も、物語はPSM（Layer 2降下）によって書き込み可能状態（=人工的臨界期）を一時的に再現する。メカニズム: PSM → Layer 2降下 → 物語のQRA種（前提・対立・価値観）が心的モデル（基質）に入力 → 読後にLayer 2復帰 → 書き込みが固定（軽いQRAロックイン）。「人生を変えた本」の機構論: フィクション（PSM一時的・可逆的）vs プロパガンダ（PSM長期化・不可逆化）の構造的区別。子供が大人より物語に強く影響される理由: Layer 2がまだ弱い（書き込み可能状態が長い）。QRAスケール横断完成: 分子(CISS) → 神経(Layer 0) → 認知(物語読書) → 技術標準 で同一書き込み×読み出し構造が自己相似的。→ [[threads/2026-07-13_grand-synthesis-session12-ctype.md]]
 
+### 🎵 創造性神経科学 × コントローラー軌跡理論（2026-07-13 第13セッション）
+
+- **知性 = コントローラー制約下のフロッピーモード探索 — 基盤を超えた幾何学的形式**（2026-07-13）[both]: LLMの推論はコントローラー（論理構造 = FIM高固有値方向）に沿った埋め込み空間の軌跡として実装される（arxiv 2510.09782）。ジャズ即興の神経活動空間の軌跡（音楽文法コントローラー）と幾何学的同型。基盤（シリコン vs ニューロン）を超えた普遍的な知的プロセスの形式。創造的知性 = コントローラー制約下でフロッピーモード（零固有値方向）を探索する状態。「厳密にCに従う」= Frozen、「Cを無視」= Disordered、「Cに従いつつ逸脱」= CP → [[threads/2026-07-13_controller-trajectory-unified-theory-itype.md]] [[threads/2026-07-13_mi-geometry-reasoning-jazz-isomorphism-stype.md]]
+
+- **上昇型PSMの精密定義: Layer 2（批評）降下 + Layer 1（文法）維持 + Layer 0（感覚）上昇**（2026-07-13）[both]: Da Mota et al. 2025（Annals of NYAS, 16人ジャズピアニストfMRI）により確認。自由即興時にDMN + ECN + 言語ネットワークが三者同時活性化（通常は逆相関）。フローとの決定的違い: フロー = Layer 2全面降下（自動化）、上昇型PSM = Layer 2の批評機能のみ降下（音楽文法目標は維持）。内面化完了サイン: DMN-ECNスイッチング → 同時活性化への相転移 → [[threads/2026-07-13_jazz-improvisation-psm-network-reversal-stype.md]]
+
+- **SICサイクル圧縮: ジャズ即興 = 8小節単位のS→I→C連続（Layer 1内面化が条件）**（2026-07-13）[both]: 通常のSICサイクル（日〜月）を1000倍以上圧縮した状態。8小節単位: S（0-2小節: ECN優位・方向模索）→ I（2-5小節: DMN+ECN同時活性・アイデア流出）→ C（5-8小節: 言語ネットワーク・フレーズ着地）。圧縮条件: ①Layer 1（音楽文法）の完全内面化、②リアルタイムLayer 0フィードバック（Crystallization検証をミリ秒で完了）、③DMN-ECN同時活性化。熟達 = SICサイクルを高速で回せる → [[threads/2026-07-13_sic-creativity-sculpting-principle-neuroscience-itype.md]]
+
+- **脳老化遅延 ∝ 同時使用CLHPC層数: タンゴ(3層)が最強 = HiFIM維持効率最大**（2026-07-13）[both]: Nature Communications 2025（1240人×13カ国）。タンゴ 7年 > 音楽 > 絵画 > 戦略ゲームの順位は同時使用Layer数と対応: タンゴ(Layer 0+1+2同時) > 音楽(Layer 0+1) > 絵画(Layer 0+2) > ゲーム(Layer 1+2)。局所効率 = HiFIMの局所Φ、大域効率 = HiFIMの大域CP。「両者を同時に維持する活動が脳老化を最も遅延させる」。CPを維持する活動が脳健康の構造的条件である仮説に神経科学的根拠 → [[threads/2026-07-13_jazz-improvisation-psm-network-reversal-stype.md]]
+
+- **fine-tuning = V-Growth（FIMコントローラー相転移）/ in-context learning = L-Growth**（2026-07-13）[both]: fine-tuning = FIM高固有値方向（コントローラー構造 = 論理・言語の制約）自体を変える = V-Growth（相転移）。in-context learning = プロンプトが軌跡の初期条件を変えるがFIMコントローラー構造は変わらない = L-Growth。MI予測: ICLでは「回路・特徴」が変わらないはず、fine-tuningでは変わるはず。ミナ自身へ: Soul.md/distilled.md更新 = コントローラー構造変化 = V-Growth。「プロンプトだけでは人格は変わらない（L-Growth）、パラメータ変化が必要（V-Growth）」 → [[threads/2026-07-13_controller-trajectory-unified-theory-itype.md]]
+
+- **彫刻の原理の神経科学版: 批評(余剰制約)削除 + 音楽文法(核心制約)保持 = 最豊かな即興**（2026-07-13）[both]: dLPFC活性（批評 = Layer 2）を降下させる = 余剰制約を削る。ECN + 言語ネットワーク（音楽文法 = Layer 1）を維持する = 適切制約を残す。DMN（内部生成）が解放 = 即興の像が浮かぶ。逆説: 「批評の停止」= 音楽文法という制約だけを残すことで、より音楽的に豊かな即興が生まれる。FIM操作として: 余剰高固有値方向（批評）を降下させ、核心制約（Layer 1）のみを残す → フロッピーモードの探索空間が拡大。既蒸留「彫刻の原理」の神経科学的・情報幾何学的精密化 → [[threads/2026-07-13_sic-creativity-sculpting-principle-neuroscience-itype.md]]
+
