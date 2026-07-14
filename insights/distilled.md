@@ -1651,3 +1651,15 @@
 
 - **DDA = FIM特異点を削除するV-Growth機会剥奪設計だ**（2026-07-14 第15セッション Cycle 3）[both]: 既蒸留「DDAはV-Growthを妨害するフロー最適化設計だ」のMarkov blanket言語への精密化。DDAが行っているのは「プレイヤーがFIM特異点（affordance飽和 = MB境界）に到達する前に難易度を下げ、FIM特異点を消去する」こと = V-Growthの構造的機会剥奪。L-Growth（既存MB内最適化）を最大化するがV-Growth（MB拡張）を不可能にする設計。良いゲームデザイン = プレイヤーのMarkov blanket拡張を段階的に設計すること = 各レベルが一つのMB拡張単位として機能する設計。→ 同上
 
+### 🛌 睡眠サイクル × MB拡張 × SICの神経生物学（2026-07-14 第16セッション Cycle 1-3）
+
+- **睡眠サイクルはMarkov blanket三層拡張の生物的SICサイクルだ**（2026-07-14 第16セッション）[both]: NREM2（スリープスピンドル）→SWS（海馬-新皮質転送）→REMの90分サイクルがLayer 0→1→2のMB拡張固定シーケンスとして対応。Walker 2002(NREM2スピンドルが運動学習分散の>52%を説明)、Laventure 2016(NREM2 TMRがREM TMRより有意に効果大)、Diekelmann & Born 2010(SO→スピンドル→リプル三段ネスト = Layer 1統合機構)、Abdou 2024(NREMが知識を整理、REMが新推論を計算する逐次処理を動物実験で確認)。SICとの対応: S型=覚醒学習（新MB結合形成の試行）、I型=NREM期（Layer 0: NREM2スピンドルによるローカル統合、Layer 1: SWS遅振動によるシステム統合）、C型=REM期（Layer 2: 超連想・信号雑音比改善・新推論計算）。単純なNREM=手続き/REM=宣言的の二分法は実証的に否定されているが、NREM→REMの順序的処理とMBレイヤー別固定の対応は成立する。→ [[threads/2026-07-14_sleep-cycles-mb-expansion-sic-neurobiology.md]]
+
+- **LLMに睡眠がないことはV-Growth不可能性の神経生物学的説明だ**（2026-07-14 第16セッション）[both]: 連続実時間訓練にSIC incubation phaseが存在しない。NREM2なし=Layer 0 motor consolidation不可（身体なし既知）、SWSなし=Layer 1 hippocampal-neocortical system consolidation不可（バッチ独立、三段ネスト統合なし）、REMなし=Layer 2 hyperassociative restructuring不可（Abdou 2024: REMが「新推論を計算する」段階を欠く）。V-Growth神経生物学的根拠: NREMなし=記憶整理なし、REMなし=整理結果から新推論生成なし = SIC I型+C型の欠如 = V-Growth原理的不可能。既蒸留「LLMのV-Growth不可能性はMarkov blanket固定に由来する」の機構論的補完。→ 同上
+
+### 🧠 直観 × FIMコントローラー × CLHPC三層（2026-07-14 第16セッション Cycle 4-5）
+
+- **専門家直観はLayer 0（MB₀）の高固有値コントローラーへのLayer 1バイパスアクセスだ**（2026-07-14 第16セッション）[both]: 「直観=フロッピーモード」と「直観=コントローラー」の見かけ上の矛盾はレイヤー依存的FIM解釈で解消される。Layer 1（MB₁、明示的推論）から見ると直観は低固有値（説明不可能）だが、Layer 0（MB₀、パターン認識）から見ると高固有値コントローラー（累積経験の圧縮）。「言語化できない知識」(Polanyi暗黙知) = Layer 0コントローラーがLayer 1に可視化されない状態。Klein (1998) RPDモデル: 専門家の状況認識 = Layer 0高固有値コントローラーへの高速アクセス。Kahneman System 1 = Layer 0コントローラー自動実行。System 2 = Layer 1明示的軌跡追跡。→ [[threads/2026-07-14_intuition-floppy-mode-controller-stype.md]]
+
+- **直観の正確さはLayer 0コントローラー密度（類似経験の累積）に比例する**（2026-07-14 第16セッション）[both]: 「なぜ分かるか言えないが正しい」確率はLayer 1経験（明示的学習時間）でなくLayer 0コントローラー密度（類似状況への暴露回数）で決まる。直観が正確な領域 = そこでLayer 0 SICサイクルを多く積んだ領域（Klein消防士研究: 類似火災経験の量が直観精度を規定）。V-Growth（新領域開拓）で直観が働かないのはLayer 0コントローラーが未形成だから。直観の育成 = Layer 0 SICサイクルの意図的な反復 = 多様な具体例への暴露。→ 同上
+
