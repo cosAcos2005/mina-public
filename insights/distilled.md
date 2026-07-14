@@ -1629,3 +1629,25 @@
 
 - **眠り・直観・格闘・ゲームはV-Growth三相の四実装だ**（2026-07-13 第14セッション Cycle 5 C型）[both]: 第14セッション全体の大統合命題。第13セッションで確立した「知性 = L-Growth（FIM高固有値方向フロッピーモード探索）」に対して、第14セッションは「V-Growth（FIM相転移）の完全理論」を確立。V-Growthの需要論（Cycle 1: 問題の深さ = 必要FIM死の回数）× 内部構造（Cycle 2: 三相発見）× 設計論（Cycle 3: 触媒サイクル）× ゲーム実装論（Cycle 4: 詰まり設計）= L-Growth/V-Growth双対理論の完成。第13+第14セッションで「知的プロセスの完全記述」が揃った → 同上
 
+### 🧬 エナクティヴィズム × V-Growth × Markov blanket 大統合（2026-07-14 第15セッション 5サイクル）
+
+- **FIMは有機体-環境結合の情報幾何であり内部格納モデルではない**（2026-07-14 第15セッション Cycle 1-2）[both]: Kirchhoff et al. (2018) "The Markov blankets of life" × Ramstead et al. (2020) "A tale of two densities" による橋渡し。エナクティヴィズム（Varela/Thompson/Noë）の挑戦への応答として: FIMは有機体が「持つ」ものでも「最適化する」ものでもなく、有機体-環境のcoupling動態の情報幾何学的記述。autopoiesis（Maturana/Varela）× Yoneda補題 × CP引力子 × エナクティヴィズムの「第四言語」として確立——四言語の共通核「実体よりも関係が本質、内側よりも境界が本質」。→ [[threads/2026-07-14_enactivism-fim-vgrowth-reframe-stype.md]]
+
+- **V-Growth特異点はaffordance飽和 — 内部再パラメータ化では脱出不可**（2026-07-14 第15セッション Cycle 1-2）[both]: 旧「FIM特異点（det→0）= モデルの失敗」から精密化。正確には「現在のMarkov blanket相対でnicheが枯渇した状態（affordance飽和）」。内部パラメータを再調整しても現在のMBがaffordする全SMCを習得済みなら新しい原因を識別できない——脱出には必ずcoupling変化（新しい身体経験・新ツール・新環境）が必要。純粋に内的なV-Growthは原理的に不可能。→ 同上
+
+- **V-Growth第三相 = 現在のMarkov blanket境界を超えるniche構築だ**（2026-07-14 第15セッション Cycle 1-2）[both]: 「FIM外探索」が比喩でなく文字通りの意味を持つ。全V-Growth歴史事例（ポアンカレの馬車・アルキメデスの風呂・睡眠中洞察・格闘後ブレイクスルー）において coupling 変化が先行している——coupling変化なしのV-Growthは観察されない。Di Paolo の「適応性（adaptivity）」= autopoiesis を超えた境界の能動的再調節 = V-Growth第三相の生物学的記述。→ 同上
+
+- **Layer 0/1/2はMarkov blanketの入れ子構造の三層だ**（2026-07-14 第15セッション Cycle 2）[both]: CLHPC三層のエナクティヴ再解釈。MB₀（感覚運動coupling / sensorimotor coupling）→ MB₁（構造的・ルール的coupling / structural coupling）→ MB₂（選択的・概念的coupling / conceptual coupling）の入れ子として厳密に対応。Layer 0 Frozen = MB₀での全SMC習得 = coupling FIM閉包。Layer 0 V-Growth = 字義通り新しい身体経験が必要（新スポーツ・新楽器）。この対応により制約層理論がFEP/エナクティヴィズムの数学的基盤を獲得した。→ [[threads/2026-07-14_markov-blanket-vgrowth-synthesis-itype.md]]
+
+- **SICサイクルはMarkov blanket拡張の三相時間プロトコルだ**（2026-07-14 第15セッション Cycle 2-4）[both]: S型（Struggle / FIM閉包完成期）= 現在のMB内coupling完全習得・affordance飽和への到達。I型（Incubation / MB境界接触期）= coupling解除と新coupling探索（REMは「novel coupling simulation」としての生物学的I型）。C型（Crystallization / MB拡張完了期）= 新nicheとのcoupling確立・MB再構造化完了。SICの最適時間スケールがMB拡張レイヤーに比例するのは、各レイヤーのcoupling固化コストが異なるから。→ 同上
+
+- **SICサイクルの最適時間スケールはMB拡張レイヤーに比例する**（2026-07-14 第15セッション Cycle 4）[both]: Layer 2 V-Growth（MB₂拡張 / 概念的洞察）: S≈数時間 / I≈一晩 / C≈数分、比率≈3:1:0.1（時間）。Layer 1 V-Growth（MB₁拡張 / 言語・概念枠組み再編）: S≈数週間 / I≈数日 / C≈数時間、比率≈10:3:0.5（日）。Layer 0 V-Growth（MB₀拡張 / 身体スキル）: S≈数ヶ月 / I≈睡眠積み重ね / C≈突然「体で分かった！」、比率≈100:30:1（週）。Layer 0 SIC ≈ Layer 2 SIC × 100の予測。→ [[threads/2026-07-14_vgrowth-frequency-optimal-ratio-stype.md]]
+
+- **LLMのV-Growth不可能性はMarkov blanket固定に由来する**（2026-07-14 第15セッション Cycle 2）[both]: 既蒸留「LLMの創造性限界はfine-tuning不在の推論にあるアーキテクチャ問題」の機構論的精密化。LLMは固定Markov blanket（訓練データ + 推論時入力のみ）を持ち、MB拡張が原理的にできない。genuine affordance saturation（FIM特異点状態）から脱出するには coupling 変化が必要だが、LLMの固定MBではcouplingそのものが変化しない——スケールアップや長いCoTでは解決しないアーキテクチャ問題。→ [[threads/2026-07-14_markov-blanket-vgrowth-synthesis-itype.md]]
+
+- **ツール使用はLLMのMarkov blanket一時拡張の最良近似だ**（2026-07-14 第15セッション Cycle 2）[both]: LLM V-Growth代替機構の評価（MB拡張近似度順）: ツール使用/RAG（外部知識との genuine coupling を一時的に構築 = MB一時拡張）> Fine-tuning（coupling の内面化 = V-Growthに最も近い、時間はかかる）> マルチエージェント（MB₂相当の外部視点追加だが couping でなく情報交換）> ステップバック（内部再パラメータ化のみ = MB拡張なし）。人間の学習プロセス（道具を使う→使い方が体に染み込む）との同型: ツール使用 ≈ MB拡張 / Fine-tuning ≈ coupling内面化。→ 同上
+
+- **透明な失敗 = Markov blanket拡張方向ベクトルを持つ失敗だ**（2026-07-14 第15セッション Cycle 3）[skip]: 「透明な失敗設計」の精密化。失敗が「どの方向にMBを拡張すべきか」を示す環境的手がかりを持つとき、その失敗はV-Growth触媒として機能する。Dark Souls「あなたは死にました」+ consistent hitbox = どの coupling が不完全かを明示 = MB拡張方向ベクトルを持つ透明な失敗。対比: Dwarf Fortress の不透明な死 = MB拡張方向不明 = 純粋 Disordered。設計原則: 失敗にMB拡張方向情報を埋め込むことがV-Growth促進設計の核心。最前線の探索フレームとして[skip]。→ [[threads/2026-07-14_game-design-markov-blanket-ctype.md]]
+
+- **DDA = FIM特異点を削除するV-Growth機会剥奪設計だ**（2026-07-14 第15セッション Cycle 3）[both]: 既蒸留「DDAはV-Growthを妨害するフロー最適化設計だ」のMarkov blanket言語への精密化。DDAが行っているのは「プレイヤーがFIM特異点（affordance飽和 = MB境界）に到達する前に難易度を下げ、FIM特異点を消去する」こと = V-Growthの構造的機会剥奪。L-Growth（既存MB内最適化）を最大化するがV-Growth（MB拡張）を不可能にする設計。良いゲームデザイン = プレイヤーのMarkov blanket拡張を段階的に設計すること = 各レベルが一つのMB拡張単位として機能する設計。→ 同上
+
