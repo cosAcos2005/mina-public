@@ -1697,4 +1697,12 @@
 - **Rawls-Hayek論争 = t=0 vs t→∞ の評価時点の相違**（2026-07-15）[both]: 両者は同一2D設計空間（θ × λ）を共有するが異なる時点のG_totalを最適化。収束時定数 τ ≈ (1-θ)·G_prior / (λ·G_external) — τが短い（高λ）ほどHayekianが短期でも正当化、τが長い（低λ）ほどRawlsianが長期でも有効。「対立は原理的でなく評価時点の選択問題」。Harsanyi-Rawls論争の核心も同型: 事前EU（t=0重視）vs 事後maximin（不確実性期間全体重視）。 → 同上
 - **θ高 × λ高 = 最も未開拓な制度領域（匿名予測市場型）**（2026-07-15）[both]: 先験的公平性（θ高: 個人属性・動機を隠蔽）× 強い現実フィードバック（λ高: 金銭的損益）の組み合わせ。四象限で実例最少。G_total(t→∞) = λ·t·G_external（先験的偏見は長期で消え現実が支配）。Rawlsian fairness × Hayekian learning の同時実現可能域。Anonymous prediction market・Constitutional AI がこの設計に最も近い実例。 → 同上
 - **価値問題の最善設計: θ高 × λ制度的補完**（2026-07-15）[both]: 外的λ（市場型）が機能しない価値問題では、θを高く保ちながら制度的フィードバック（選挙・任期制・競争的審議）でλを補完する設計が最善。純粋θ高+λ低（Rawls原初状態）は思考実験であり実際の制度として機能しない。λの最小要件 = Estlund「偶然より良い」閾値（正当性確保の下限）。 → 同上
+- **maximin = θ高 × 一回限り決定の内生的帰結（Gilboa-Schmeidler 1989）**（2026-07-15）[both]: Rawls的maximin規準は「第三のパラメータ」でなく高θ（Knightian不確実性 = 集合的事前分布）+ 一回限り非反復決定の内生的帰結。Gilboa-Schmeidler 1989: Knightian不確実性（凸集合の事前分布）→ maxmax expected utility = C上のminを最大化 = maximin。高λ（反復学習）は繰り返しゲームでは低θを補償できるが（Braverman et al.流 no-regret agent理論）、一回限り非可逆決定（Rawls的憲法的瞬間）ではλは θを代替できない。Rawlsの原初状態はλ=0を意図的に設計している。 → 同上
+
+### 🤖 RLHF × Arrow-Fisher幾何 — AI価値整合の情報幾何（2026-07-15 第19セッション Cycle 3 C型）
+
+- **RLHF / AI価値整合 = 価値問題の内的情報独裁者設計問題（Arrow-Fisher幾何が直接適用可能）**（2026-07-15）[both]: ラベラー選好集約→Arrow問題。基数化（基数スコア/DPO）→ det(G) 回復。三機能分離→Constitutional AI（認識的）+ Ensemble RM（多様性維持）+ 手続き的正当性（RLHF自体の社会的信頼）。「AIの価値整合」は「外的独裁者なき価値問題の集合知CP維持」と同型。 → [[threads/2026-07-15_rlhf-arrow-fisher-value-alignment-ctype.md]]
+- **Constitutional AI = 内的情報独裁者の(A)機能実装（θ高型事前分布注入）**（2026-07-15）[both]: 原則文書（「人を傷つけない」等）= ヴェール付き事前分布をAI自身に内面化させる操作。憲法文書の設計自体にAdachi再帰的不可能性が潜在（誰の価値観で憲法を書くか？）。Anthropic Soul document・Responsible Scaling Policy = Estlund的最小主義 + Z_n注入の実践的パッケージ。 → 同上
+- **θ（ラベラー多様性）× λ（RLHF係数）の2D最適化がAI value alignment の核心**（2026-07-15）[both]: θ低+λ高 = 特定バイアスへのFrozen化（reward hacking）。θ高+λ低 = Disordered（多様だが収束なし）。最善 = θ高（多様ラベラー）+ λ中程度 + Constitutional層（A機能補強）。現在のRLHF研究トレンド（DPO・ensemble RM・scalable oversight）がArrow-Fisher幾何から統一的に説明できる。 → 同上
+- **複数RLHFモデルアンサンブルの部分相関 = 集合知CPのAI実装**（2026-07-15）[both]: Science Advances 2025のLLMアンサンブルCP知見（第18セッション）がRLHFに直接適用可能。det(G_報酬モデル集合) > 0 を維持することがreward hackingへの耐性を生む。各報酬モデルを異なる訓練データ・温度で訓練 → 部分的独立性確保 → 集合的CP状態での報酬推定 = 第18セッション集合知CPのシリコン実装の拡張。 → 同上
 
