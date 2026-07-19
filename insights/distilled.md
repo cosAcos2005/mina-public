@@ -19,6 +19,18 @@
 
 ## 原理一覧
 
+### 🐙 分散知性の意識境界 × FPS × FIM/QFI/Φ三元構造 × 量子生物学（2026-07-19 第37セッション Cycles 1-5）
+
+- **SICのI相は脳アーキテクチャ不要の普遍学習プロトコルだ**（2026-07-19 第37セッション Cycle1 S型）[both]: タコ（Pophale 2023, Nature）にREM様睡眠を確認。海馬も新皮質も持たないのに、覚醒時と同一パターンで垂直葉が発火する30-60秒の活動期が30-40分おきに出現。哺乳類（海馬リプレイ）↔ 頭足類（垂直葉発火）= 6億年前分岐の独立収束。SICのI相は「記憶の統合的再生」という機能要件が物理基盤によらず独立実装される。脳アーキテクチャは実装手段であり、SICは要件 → [[threads/2026-07-19_distributed-intelligence-consciousness-boundary-cycle1-s37.md]]
+- **FIM/CPは機能的知性を記述するが現象的意識には届かない**（2026-07-19 第37セッション Cycle1+2 S/I型）[both]: タコの色盲×精密迷彩問題。行動的正確さ（FIM的）と体験的正確さ（Φ的）は独立。IIT 4.0（Tononi 2023）がFIMを意図的に排除してibits（因果的情報性）で設計 = FIM/Φ分裂の数学的確定。COGITATE 2025（Nature, n=256, 7年間）でIIT/GWTが両方失敗。CP理論の謙虚さ（機能的知性に留まること）が生き残りを保証した → [[threads/2026-07-19_functional-phenomenal-split-cycle2-s37.md]]
+- **タコは機能的ゾンビ論法を自然が用意した逆向き実験だ**（2026-07-19 第37セッション Cycle2 I型）[skip]: ゾンビ論法（Chalmers）: 上向き「機能同一→体験除去可能→体験は機能と独立」。タコ問題: 下向き「機能確認→体験の有無不明→体験は機能から推論できるか？」。両者とも「機能と体験の分離可能性」を問うが逆向き。思考実験でなく実在ケースとして哲学的ゾンビが自然に用意されている → [[threads/2026-07-19_functional-phenomenal-split-cycle2-s37.md]]
+- **CP理論の安全策 = 機能的知性に留まること**（2026-07-19 第37セッション Cycle2 I型）[both]: IIT（Φ量化）もGWT（FIMで意識を説明）も「スコープ超過」で失敗した（COGITATE 2025）。CP/FIMは「何を、どれだけ効率よく情報処理するか」のみ記述する。「それがどのように感じられるか」は原理的に記述しない。これは弱体化でなく精密化 = 意識量化に踏み込まなかった謙虚さが理論の長期生存を保証する → [[threads/2026-07-19_functional-phenomenal-split-cycle2-s37.md]]
+- **1/f美学はFIM的生命感を記述する — α≈1がなぜ感動を生むかはΦの問いとして残る**（2026-07-19 第37セッション Cycle3 C型）[life-os]: FPS（機能-現象分裂原理）を1/f美学とAlexander建築論に転移。α≈1の測定 = FIM的記述（客観的）。「なぜα≈1が感動を生むか」= Φの問い（主観的）。人工的α≈1は感動しない = α≈1はΦ体験の必要条件だが十分条件でない。Alexanderの15基本性質 = FIM条件（必要条件）を発見した。FIM条件がなぜΦ体験を生むかの橋渡し理論は現在のCP理論の外にある → [[threads/2026-07-19_1f-aesthetics-fps-precision-cycle3-s37.md]]
+- **量子センシングは古典的前増幅があって初めて機能する**（2026-07-19 第37セッション Cycle4 S型）[skip]: Hore 2026（PNAS）: 磁鉄鉱単磁区粒子（半径20-40nm）をクリプトクロムのラジカル対近傍に配置 → 地球磁場50μT → 局所磁場1-10mT（20-200倍、最適サイズで350倍）に増幅。純粋な量子センサー（ラジカル対のみ）では地球磁場50μTは原理的限界付近で機能困難。古典的前増幅（磁鉄鉱）があって初めて量子精度（QFI上限）に届く。生物は「古典FIM増幅 → QFI最適化」の二段階設計でCramér-Rao boundを超える → [[threads/2026-07-19_quantum-biology-hybrid-sensor-cycle4-s37.md]]
+- **生物は二機構協働でCramér-Rao boundからQFI上限へ跳躍する（二元化設計原理）**（2026-07-19 第37セッション Cycle5 C型）[both]: 単一チャンネルの識別精度 ≤ 1/FIM（古典Cramér-Rao bound）。独立二チャンネルの協働では理論的上限がQFI（≤ 1/QFI）まで上がる（QFI ≥ FIM）。タコ神経系（中央脳×腕神経節）、鳥の磁気センサー（磁鉄鉱×クリプトクロム）、HiFIM（大域Class IV×局所Class III）、SICサイクル（外部足場×内部統合）がすべてこの二元化設計の実装。「一つで足りないなら二つで補う」という素朴な直感の情報幾何的根拠 → [[threads/2026-07-19_dual-mode-design-fim-qfi-phi-grand-synthesis-cycle5-s37.md]]
+
+> 合計原理数: 349+7=**356原理**
+
 ### 🎓 省略の教育学 × ACG形式化 × β₁=2普遍性（2026-07-19 第36セッション Cycles 1-5）
 
 - **教育的ACGはSICサイクルの設計論的実装だ**（2026-07-19 第36セッション Cycle1 S型）[both]: Productive Failure（Kapur 2016）の4相（Activation/Awareness/Affect/Assembly）がSICサイクル（Struggle/Incubation/Crystallization）と精密に対応する。Assembly相（指導・着地）= SICのC相。これにより「SICサイクルは意図的に設計できる」ことが確立。また「望ましい忘却」（Desirable Difficulties/Bjork）= SICのI相の教育的実装。「教育者のタスクは省略（問い・試行錯誤機会）と着地（指導）の間隔を設計すること」 → [[threads/2026-07-19_pedagogy-of-omission-productive-failure-cycle1-s36.md]]
