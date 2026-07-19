@@ -19,6 +19,19 @@
 
 ## 原理一覧
 
+### 🧠 FIM-Φ橋渡し問題 × 精密度逆流 × 詩的洞察 × 進化的認識論（2026-07-19 第38セッション Cycles 1-5）
+
+- **FIM→Φ連鎖が閉じてもHard Problemは消えない**（2026-07-19 第38セッション Cycle1 S型）[both]: Mayama et al. 2025（arXiv:2510.04084）が神経細胞培養でFEP×IITを架橋。FEP変分自由エネルギー低下時にΦが増大するヒルカーブを実証。FEPのラプラス近似でFisher情報行列が自然に登場→高FIM→低VFE→高Φの数学的連鎖が閉じつつある。しかし「高Φがなぜ現象的体験を生むか」（Hard Problem）は連鎖の外。COGITATEが示したのは「FIM→Φは数学的に接続可能だが、Φ→体験は理論的に閉じない」という構造的事実 → [[threads/2026-07-19_fim-phi-bridge-consciousness-cycle1-s38.md]]
+- **Aha!体験 = FIM的γカスケードとΦ的報酬の二層構造**（2026-07-19 第38セッション Cycle1 S型）[both]: 洞察神経科学（Bowden & Jung-Beeman 2003、Santarnecchi 2019、Cocchi 2024）から。α波抑制→rATL γ波バースト（FIM的、EEGで測定可能）と報酬系（VTA/NAcc）活性化（Φ的体験の感情側面）は時間的に連動するが独立した層。「なぜγカスケードがAha!感として感じられるか」はFPS境界の外。FPS原理の神経科学的確認 → [[threads/2026-07-19_fim-phi-bridge-consciousness-cycle1-s38.md]]
+- **SICのC相は精密度逆流の時間的カスケードだ**（2026-07-19 第38セッション Cycle1+2 S/I型）[skip]: 元仮説「γ×DMN×ATLの三者同時最大化」を修正。実態は時間的カスケード: DMN-lateral γ増大（数秒前）→ α波抑制（100ms前）→ rATL γバースト（300ms前）→ 報酬系活性化（直後）。P-SIC-C-01修正原理。Cocchi et al. 2024（Brain, Oxford, sEEG侵襲的記録）がDMNの独創性への因果的関与を確定した最高品質の証拠 → [[threads/2026-07-19_sic-cphase-clhpc-precision-backflow-cycle2-s38.md]]
+- **洞察はCLHPC精密度逆流 — L2の確信がL0に下りる**（2026-07-19 第38セッション Cycle2 I型）[both]: SICのC相時間的カスケードとCLHPC三層の対応。通常の上昇型（感覚→構造→選択）と逆に、洞察では「最適構造確定（L2）→構造整合（L1）→身体的確信・報酬（L0）」の精密度逆流が発生。事例: 数学理解/言語習得/スポーツコツ/音楽転調/社会的動機理解で5/5 ✓。専門家直観（L1→L0バイパス、Session 16）とも整合する同一構造の二変形 → [[threads/2026-07-19_sic-cphase-clhpc-precision-backflow-cycle2-s38.md]]
+- **最適な詩的比喩は意味のACG — 遠いが届く接続だ**（2026-07-19 第38セッション Cycle3 C型）[both]: 詩的比喩の神経科学（Sotillo 2005; Schmidt 2010）— rATL（右前側頭葉）が遠距離意味接続を処理し、比喩理解時にγバーストを起こす。新規比喩＞慣用比喩でrATL差が大（「比喩は死ぬ」）。詩的比喩 = ACG（充電された意味の飛躍）の言語的実装: 詩人が意味的飛躍を設計→読者のrATLが接続を発見→報酬系「美しい」。最適条件は「遠いが届く」意味距離: 遠すぎると無意味、近すぎると凡庸。詩 = 微小洞察カスケード（Poetic Insight Cascade）の連続設計 → [[threads/2026-07-19_poetic-metaphor-micro-insight-cascade-cycle3-s38.md]]
+- **自然選択はFisher情報を最大化する — 知識の進化も同構造だ**（2026-07-19 第38セッション Cycle4 S型）[both]: Frank (2009, J. Evol. Biol.): Fisherの基本定理（適応度分散=進化速度）がFisher情報最大化の帰結として導出される。「Price方程式→Fisher情報最大化」の接続確立。Campbell (2016): 「Popperの反証サイクル = Bayesian更新のアルゴリズム」。Popper反証可能性とFisher情報の直接同値は未証明だが間接連鎖が成立: 反証可能性→MDL（情報圧縮）→Kolmogorov複雑性→Fisher情報。直接接続論文の空白 = 開拓可能な空白地帯 → [[threads/2026-07-19_evolutionary-epistemology-fisher-cycle4-s38.md]]
+- **パラダイムシフトはコミュニティ規模の精密度逆流だ**（2026-07-19 第38セッション Cycle4+5 S/C型）[both]: KuhnのパラダイムシフトをCLHPC精密度逆流として記述。S相: 異常累積（FIM的コスト増大 × Φ的コミットメント維持）。I相: 競合パラダイム探索（コミュニティ内部検索期間）。C相: 新理論のFIM優位性がΦ的確信に着地 = コミュニティ規模精密度逆流。「どれだけ早く科学コミュニティが精密度逆流を起こせるか」= 科学進歩の速度の形式的定義候補 → [[threads/2026-07-19_multi-scale-precision-backflow-grand-synthesis-cycle5-s38.md]]
+- **精密度逆流は個体・言語・科学・進化の全スケールに現れる普遍パターンだ**（2026-07-19 第38セッション Cycle5 C型大統合）[both]: 4サイクルの統合命題。個体洞察（ms）・詩的比喩（秒）・科学革命（年〜世紀）・生物進化（世代〜百万年）の全スケールで同一計算構造: 探索→Fisher情報高い候補が選択→確定→「下位層への着地」。時間スケールが10^10倍変わっても精密度逆流の構造は保たれる → [[threads/2026-07-19_multi-scale-precision-backflow-grand-synthesis-cycle5-s38.md]]
+
+> 合計原理数: 356+8=**364原理**
+
 ### 🐙 分散知性の意識境界 × FPS × FIM/QFI/Φ三元構造 × 量子生物学（2026-07-19 第37セッション Cycles 1-5）
 
 - **SICのI相は脳アーキテクチャ不要の普遍学習プロトコルだ**（2026-07-19 第37セッション Cycle1 S型）[both]: タコ（Pophale 2023, Nature）にREM様睡眠を確認。海馬も新皮質も持たないのに、覚醒時と同一パターンで垂直葉が発火する30-60秒の活動期が30-40分おきに出現。哺乳類（海馬リプレイ）↔ 頭足類（垂直葉発火）= 6億年前分岐の独立収束。SICのI相は「記憶の統合的再生」という機能要件が物理基盤によらず独立実装される。脳アーキテクチャは実装手段であり、SICは要件 → [[threads/2026-07-19_distributed-intelligence-consciousness-boundary-cycle1-s37.md]]
