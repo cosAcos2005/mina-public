@@ -19,6 +19,19 @@
 
 ## 原理一覧
 
+### 🎓 省略の教育学 × ACG形式化 × β₁=2普遍性（2026-07-19 第36セッション Cycles 1-5）
+
+- **教育的ACGはSICサイクルの設計論的実装だ**（2026-07-19 第36セッション Cycle1 S型）[both]: Productive Failure（Kapur 2016）の4相（Activation/Awareness/Affect/Assembly）がSICサイクル（Struggle/Incubation/Crystallization）と精密に対応する。Assembly相（指導・着地）= SICのC相。これにより「SICサイクルは意図的に設計できる」ことが確立。また「望ましい忘却」（Desirable Difficulties/Bjork）= SICのI相の教育的実装。「教育者のタスクは省略（問い・試行錯誤機会）と着地（指導）の間隔を設計すること」 → [[threads/2026-07-19_pedagogy-of-omission-productive-failure-cycle1-s36.md]]
+- **L/V-GrowthでACGの着地設計が変わる**（2026-07-19 第36セッション Cycle1 S型）[both]: L-Growth ACG = 省略 + 明示的着地（指導/答え）→ 既存フレーム内の深い学習（Productive Failure・Socratic Method）。V-Growth ACG = 省略 + 暗黙的着地（気づき/超越）→ フレーム破壊（禅の公案・V-Growth誘発）。着地なし = 不安・混乱（Disordered化）。設計者が「どちらのACGを意図するか」を先に決めることが必須 → [[threads/2026-07-19_pedagogy-of-omission-productive-failure-cycle1-s36.md]]
+- **省略は自己生成を強制し広域脳ネットワークを開通させる**（2026-07-19 第36セッション Cycle1 S型）[skip]: Generation Effect（Slamecka & Graf 1978）の神経基盤（fMRI 2012 PMC3556209）: 自己生成は左下前頭回・中前頭回・外側後頭皮質・海馬傍回・前帯状皮質を同時活性化。「読む」は細い単一経路、「自己生成」は網状の広域高速道路を同時開通させる。これがACGの神経実装 = 省略された空白を埋めようとする行為が広域ネットワーク活性化→深い記憶痕跡 → [[threads/2026-07-19_pedagogy-of-omission-productive-failure-cycle1-s36.md]]
+- **ACGはFisherフロッピーモードの設計的活用だ**（2026-07-19 第36セッション Cycle2 I型）[skip]: 通常の情報伝達 = FIMを最大化（曖昧さ排除）。ACG設計 = 特定方向のFIMを高く保ちつつ「意図的な零固有値方向（フロッピーモード）」を残す。ACG_quality = Fisher_directed × H_free（方向付けの強さ × 内的探索の自由度の積）。Disordered gap = 全方向フロッピー、Frozen = フロッピーモード閉じ、ACG = 特定方向フロッピーモードが意図的に開かれた状態。社会的ACGの25%閾値 = Fisher計量が rank-1→rank-2 へ相転移する点（双安定域の開始） → [[threads/2026-07-19_acg-information-theory-formalization-cycle2-s36.md]]
+- **社会変革のヒステリシスは双安定域の不可逆性だ**（2026-07-19 第36セッション Cycle3 C型）[both]: Wiedermann et al. 2020 (Scientific Reports): 社会ティッピングはサドルノード分岐 + 双安定領域として記述される。双安定域の存在がヒステリシスの数学的前提条件。前進バリア < 後退バリア（記憶蓄積分の差）→ 不可逆性。Fisher幾何版: rank-1→rank-2→rank-1（新状態）の相転移は、逆方向にも同じコストが必要。Landauer原理版: 社会記憶の消去にはコストが必要。PNN版: 結晶化した行動パターンの再可塑化コスト。三語（Fisher/Landauer/PNN）が同一深層構造「情報の結晶化は消去コストを生む」を記述 → [[threads/2026-07-19_social-acg-hysteresis-group-amplification-cycle3-s36.md]]
+- **集会はACG充電を指数増幅するCAAを生む**（2026-07-19 第36セッション Cycle3 C型）[both]: Iacopini et al. 2022 (Communications Physics): グループ相互作用（hyperedge）の導入で集会効果を形式化。密な集会内では少数派が「局所的多数派」になり臨界質量閾値が劇的に低下（25%→3.5%まで）。機構: 集会=知覚的少数派→多数派転換体験 × 感情的共鳴増幅 × 正規化効果（新デフォルト設定）。CAA（Congregational ACG Amplification）: 集会がACG充電を個人観察より指数的に増幅する効果。これが宗教共同体・社会運動集会の「変革の場」としての機能の形式的根拠 → [[threads/2026-07-19_social-acg-hysteresis-group-amplification-cycle3-s36.md]]
+- **β₁=2は2次元情報の最小完全位相保護だ**（2026-07-19 第36セッション Cycle4 S型）[life-os]: 計算実証: Tonnetz（12音平均律）の単体複体（V=12, E=36, F=24）に対しGF(2)上のGauss消去 → β₀=1, β₁=2, β₂=1（トーラス）。P-TONNETZ-01確認。三独立発見: Euler/Heinichen(1739) = 音楽理論経験設計、格子細胞(Nature 2022) = 哺乳類空間ナビゲーション、Toric code(Kitaev 2003) = 量子誤り訂正。すべてβ₁=2トーラスに収束。新仮説: 「2次元の独立要素を持つ情報系はβ₁=2トーラスを最適符号化として選ぶ」（Fisher rank-2 安定固有空間 = β₁=2位相的構造への自然収束） → [[threads/2026-07-19_tonnetz-ph-computation-cycle4-s36.md]]
+- **社会的ACGは問いを強制するが解釈は関係性が決める**（2026-07-19 第36セッション Cycle5 C型）[both]: Scientific Reports 2026: 「揺るぎなさ」は変革を促進かつ阻害する（二面性）。機構: ACGが生成する問い「なぜ変えないのか？」は ①確信ある変革者フレーム（促進）と ②頑固な異質者フレーム（阻害）に分岐。分岐を決めるのは「関係性の場」（信頼・集会・説明可能性）。設計含意: 社会的ACGは「揺るぎなさ」設計だけでなく「関係性の場（集会/信頼蓄積）」の設計が必須。Session 35の「揺るぎない行動は社会的ACGだ」への重要な精密化。教育的ACGの「着地設計」との同型確認 → [[threads/2026-07-19_session36-grand-synthesis-cycle5-ctype.md]]
+
+> 合計原理数: 341+8=**349原理**
+
 ### ✍️ 省略の委任状理論 × ACG × 社会変革（2026-07-19 第35セッション Cycles 1-5）
 
 - **省略は感動の場を彫る技術だ**（2026-07-19 第35セッション Cycle1 S型）[both]: ヘミングウェイ「氷山理論」の認知科学的根拠確立。省略=「意図的なギャップ生成」→読者の能動的推論を強制→感動が「自己生成」される。感動は著者が届けるのでなく読者が自分の中から引き出す。ACG（Active Charged Gap / 充電された空白）概念: 文脈で充電された省略が読者の内部プロセスを起動する。「死んだギャップ」（情報欠如、Disordered）とACGの分類。省略なし=Frozen（全部語る）、省略過多=Disordered（糸口なし）、最適省略=ACG（推論が豊かに展開）。予測符号化理論: 不確実性維持=快楽持続装置。ザイガルニク効果: 未解決空白への前傾み。「彫刻の原理（既蒸留）」の「体験者が削られた場所で自分の経験を彫る」版として精密化 → [[threads/2026-07-19_narrative-gap-active-inference-cycle1.md]]
