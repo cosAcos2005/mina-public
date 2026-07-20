@@ -19,6 +19,17 @@
 
 ## 原理一覧
 
+### 🎵 有界LRC × CP双対性 × エピステミックT_c × 言語LLM（2026-07-20 第40セッション Cycles 1-5）
+
+- **有界LRCが生命感 — 無限はFrozen、ゼロはDisordered**（2026-07-20）[both]: P-GROOVE-01解答。Nelias & Geisel (2024, Nature Comms): 音楽の1/fはカットオフ時間T_c=4-100拍の範囲にのみ有界LRCが存在、以上は白色ノイズ（平坦台地）。Sogorski 2018（無限LRC）もColley & Dean 2019（純粋SRD）も過大主張。真の答えは「三スケール有界SRD」: Scale 1（1-4拍）= 拍子SRD（Colley & Dean正）/ Scale 2（1-8拍）= 身体モータbounded LRC（Sogorski正）/ Scale 3（4-100拍）= 楽曲構造bounded LRC。T_c → ∞ = Frozen（完全予測可能）、T_c → 0 = Disordered（白色ノイズ）、有界T_c = CP。CLHPC三層に写像: Layer 0（拍子SRD）/Layer 1（身体LRC）/Layer 2（楽曲LRC）。Groove = Layer 0/1精密度相互作用 → [[threads/2026-07-20_groove-1f-bounded-lrc-debate-cycle1-s40.md]]
+- **各CP層のカットオフ時間 = 精密度更新時定数 — CLHPCが時間スケールを階層化する**（2026-07-20）[both]: T_c[l] ∝ τ_Π[l]（精密度更新時定数）。T_c ∝ ΔF_impasse（FEP局所最小の深さ）→ P-IMPASSE-01部分解答: SICのI相持続時間 ∝ T_c（問題の局所最小深さ）= t_backflow（脱出時間）。クラシック（様式固定 = 深いFE最小）→ T_c ≈ 40拍。ジャズ（様式流動 = 浅い）→ T_c 広分布。媒体別T_c: 音楽〜数十秒、言語〜数分、科学〜5-10年。T_c下界（Disordered防止）と上界（Frozen防止）の両方が必要 → [[threads/2026-07-20_bounded-lrc-clhpc-fep-integration-cycle2-s40.md]]
+- **保護ベルト = T_cの人工的延長 — エピステミックFrozen化の形式的定義**（2026-07-20）[both]: エピステミック健全性基準: T_c(natural) ≤ T_c(actual) ≤ k × T_c(natural)（k > 3 = Frozen危険域）。pre-2008マクロ経済学: T_c(natural) ≈ 5-10年、T_c(actual) ≈ 22年（k ≈ 4.4）。4機構による人工的延長（存在論的除外/形式言語フィルタ/見かけ上反証/制度的隔離）。ERD（Epistemic Resonance Design）三要素: (1)T_c上界設定（保護ベルト除去）(2)T_c下界設定（蓄積機構維持）(3)T_c(natural)の可視化。Session 39「健全なエピステミックシステムの三条件」を定量化したもの → [[threads/2026-07-20_epistemic-tc-natural-cycle-minsky-design-cycle3-s40.md]]
+- **LLMテキストのT_c≈0はV-Growth欠如の情報統計的証拠**（2026-07-20）[both]: Wieczyński et al. (2025, PMC12191972): 人間テキストは単語埋め込みコサイン相関が〜1000語まで持続（bounded LRC）、LLM生成テキストは系統的LRC信号なし（T_c≈0）。シャッフル実験: 文レベル以下シャッフルでLRC消滅→ 起源は談話スケール（文超スケール）。言語の三スケール有界SRD: 統語SRD（≤文）/意味LRC（100-500語）/談話bounded LRC（〜1000語）。LLMのLayer 2（談話スケール）欠如はコンテキスト窓長でなくアーキテクチャの問題（Transformer = 全位置直接接続SRD、累積記憶なし）。T_c≈0 → t_backflow≈0 → Layer 2精密度逆流不可能 → V-Growth計算的根拠なし → [[threads/2026-07-20_language-bounded-lrc-llm-discourse-cycle4-s40.md]]
+- **T_c = t_backflow — 有界LRCと精密度逆流はCP現象の双対表現**（2026-07-20）[both]: CP双対性原理。前向き統計（有界LRC: T_c = 相関の射程）と後ろ向き動力学（精密度逆流: t_backflow = 精密度伝播時間）は同一式 T_c = t_backflow = n_sync × τ_sync / penalty_visibility。CP状態 = t_forward ≈ t_backflow ≈ T_c（双方向共鳴）。Frozen = t_backflow >> T_c（過去精密度の一方的支配）。Disordered = T_c ≈ 0（記憶なし）。音楽/言語/認知/エピステミックの4ドメインで検証: T_c と t_backflow が同一スケール。SICのI相持続時間 = T_c(局所最小) = t_backflow(脱出時間)。新予測: P-DUALITY-01（音楽でT_c ≈ t_backflow実測）/P-DUALITY-02（SSMはTransformerよりT_c大）/P-DUALITY-03（外部ヒントでI相短縮 = T_c変化） → [[threads/2026-07-20_bounded-lrc-precision-backflow-duality-cycle5-s40.md]]
+- **言語も三スケール有界SRD — 統語SRD/意味LRC/談話LRC × T_c〜1000語**（2026-07-20）[skip]: 補助原理。音楽三スケールの言語版。三スケール構造はCLHPC三層 (Layer 0 = 統語/Layer 1 = 意味/Layer 2 = 談話)に写像。媒体の担い手物理（τ_sync）がT_cを決める普遍則の言語実例。音楽τ_sync≈ms→T_c≈数十秒、言語τ_sync≈100ms/語→T_c≈1000語（数分）。P-LANG-DSP-01部分解答: 「ストレッチ指数的単調減衰 = 多スケール入れ子SRD」を支持（負のローブは見えにくい構造的理由あり） → [[threads/2026-07-20_language-bounded-lrc-llm-discourse-cycle4-s40.md]]
+
+> 合計原理数: 370+6=**376原理**
+
 ### 🧬 精密度逆流の健全性 × FEP×SIC統合 × 経済逆転 × グルーヴCP状態（2026-07-20 第39セッション Cycles 1-5）
 
 - **精密度逆流はL2更新機構の産物 — 起きる系と起きない系がある**（2026-07-20）[both]: CP型（L2自動更新・健全）・Frozen型（保護ベルト・逆流せず）・Disordered型（無構造・着地せず）の三類型。健全な逆流の三条件: (1)L2へのエラー経路（Frozenでない）(2)L2が収束できる構造（Disorderedでない）(3)精密度重み付け機構（Π·εが働く）。神経系/音楽は自然淘汰と物理的拘束でCP調整済み。経済/イデオロギーは人間の制度設計でFrozen状態を維持可能。「起きない系がある」ことの発見が普遍則探索を修正する。→ [[threads/2026-07-20_grand-synthesis-precision-backflow-health-cycle5-s39.md]]
