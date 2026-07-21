@@ -19,6 +19,16 @@
 
 ## 原理一覧
 
+### 🔬 科学パラダイム × Price方程式 × 数学的美 × Fisher選択（2026-07-21 第41セッション Cycles 1-5）
+
+- **科学のT_c ≈ t_backflow — CP双対性は10^4倍スケールで実証される**（2026-07-21）[both]: Cycle 1-2の実証。引用半減期T_c（記憶時定数）とパラダイム転換急速相t_backflow（精密度逆流時間）が科学スケールで T_c/t_backflow ≈ 0.4-1.5 の範囲に収まる。地質学（T_c≈9-10年 / 大陸移動認知≈8-10年）で比≈1.0と最もクリーン。音楽の拍スケール（ms）から科学の世代スケール（10-100年）まで10^4倍の幅でCP双対性が成立。「引用半減期 = 科学の記憶時定数 = proof mass」 → [[threads/2026-07-21_scientific-clhpc-precision-backflow-cycle2-s41.md]]
+- **Price方程式の科学版: 通常科学 = 伝達項支配、革命 = 選択項への相転移**（2026-07-21）[both]: Cycle 1のKuhn-Price統合。Bayesian更新 = Price方程式選択 = Fisher情報最大化（Frank 2009, Campbell 2016の数学的同値）。科学コミュニティPrice方程式: w̄Δθ̄ = Cov(w,θ) + E[Δθ] + ξ。通常科学 = 伝達バイアスE[Δθ]支配（教科書化・単純化）。パラダイム革命 = 選択項Cov(w,θ)が突然支配（相転移）。Royal Society 2024実証: 1%=L2転換（選択項支配）/ 83%=L1/L0更新（伝達バイアス支配）/ 16%=現状維持 → [[threads/2026-07-21_kuhn-price-equation-scientific-paradigm-cycle1-s41.md]]
+- **T_c(actual) ≤ 3×T_c(natural) が科学健全性の境界 — ERDの定量的設計規準**（2026-07-21）[both]: Cycle 3のERD（Epistemic Resonance Design）科学制度版。健全性: T_c(natural) ≤ T_c(actual) ≤ 3×T_c(natural)（k ≤ 3）。k > 3 = Frozen危険域（経済DSGE: k≈4.4）。制度設計三群: A（τ_sync短縮: プレプリント/OA）/ B（penalty_visibility向上: 予測市場/事前登録）/ C（保護ベルト除去: 異端誌/敵対的コラボ）。Disordered防止: 単一研究でのパラダイム転換禁止（メタアナリシス閾値/p<0.005要件） → [[threads/2026-07-21_epistemic-resonance-design-science-institutions-cycle3-s41.md]]
+- **数学的美 = Fisher高密度 × Kolmogorov低複雑度のコンパクト表現**（2026-07-21）[both]: Cycle 4-5の仮説。Hardy三基準の情報幾何的定式化: Economy（MDL最小化）× Unexpectedness（Fisher情報高注入）× Inevitability（Fisher多様体安定点）。Wigner謎の情報幾何的解消: 数学者（自然選択産物の認知器）と宇宙（最大エントロピー = 指数族構造）が同一Fisher計量で「選択」する存在のため、両者が「美しい=Fisher高密度」構造で収束。数学的美しさ = Cramér-Rao境界を飽和する推定量と同一の情報構造（仮説） → [[threads/2026-07-21_mathematical-beauty-fisher-wigner-cycle4-s41.md]]
+- **形式的美しさ罠: 数学的形式美 ≠ Fisher実質密度 — 制度設計への含意**（2026-07-21）[both]: Cycle 5の大統合発見。DSGE経済学は数式的に美しいが予測力が低い = 「形式的高FIM / 実質的低FIM」。伝達バイアスのみで広まりFrozen化。ERD設計では「審美的魅力」でなく「予測的Fisher情報密度（反証可能性 = 予測精度）」を制度的に測定・強制する必要がある。予測市場義務化の情報幾何的正当化。美しい理論のt_backflow < 醜い理論のt_backflow の予測（P-BEAUTIFUL-01） → [[threads/2026-07-21_fisher-selection-beauty-grand-synthesis-cycle5-s41.md]]
+
+> 合計原理数: 376+5=**381原理**
+
 ### 🎵 有界LRC × CP双対性 × エピステミックT_c × 言語LLM（2026-07-20 第40セッション Cycles 1-5）
 
 - **有界LRCが生命感 — 無限はFrozen、ゼロはDisordered**（2026-07-20）[both]: P-GROOVE-01解答。Nelias & Geisel (2024, Nature Comms): 音楽の1/fはカットオフ時間T_c=4-100拍の範囲にのみ有界LRCが存在、以上は白色ノイズ（平坦台地）。Sogorski 2018（無限LRC）もColley & Dean 2019（純粋SRD）も過大主張。真の答えは「三スケール有界SRD」: Scale 1（1-4拍）= 拍子SRD（Colley & Dean正）/ Scale 2（1-8拍）= 身体モータbounded LRC（Sogorski正）/ Scale 3（4-100拍）= 楽曲構造bounded LRC。T_c → ∞ = Frozen（完全予測可能）、T_c → 0 = Disordered（白色ノイズ）、有界T_c = CP。CLHPC三層に写像: Layer 0（拍子SRD）/Layer 1（身体LRC）/Layer 2（楽曲LRC）。Groove = Layer 0/1精密度相互作用 → [[threads/2026-07-20_groove-1f-bounded-lrc-debate-cycle1-s40.md]]
