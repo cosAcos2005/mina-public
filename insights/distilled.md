@@ -19,6 +19,16 @@
 
 ## 原理一覧
 
+### 🔗 デルタ境界クロック × 制約種類論 × Turing拡散vsClHPC（2026-07-22 第47セッション Cycles 1-5）
+
+- **デルタ振動 = 境界同期子 — 異なるシステムの遷移点に必ず現れる時間的HOW制約**（2026-07-22）[both]: S47 Cycle 1の核心発見。デルタ帯域（0.5-4Hz）は常に境界に現れる: 海馬↔皮質（SO-スピンドル-リプルカスケード）/ 個体↔集合（delta INS, iScience 2025）/ 外界↔内部集中（Harmony 2013）/ 身体↔神経（TOE framework, Frontiers 2026）。SOは記憶固定の「テンポラルコンダクター」でありコンテンツを運ばない。PMC 2025精密化: SO（~0.5-1Hz）= 転送促進 / delta波（1-4Hz）= 選択的忘却 = 「固める+削る」彫刻の二面性。S17包絡ゲート原理の神経的実装: 遅い包絡（SO）が速い内容（リプル）の書き込み窓を開く → [[threads/2026-07-22_delta-boundary-synchronizer-sleep-social-cycle1-s47.md]]
+- **HOW制約は表層を解放し、WHAT制約は表層を殺す — 深層に固定するものが全てを決める**（2026-07-22）[both]: S47 Cycle 2の精密化。S46 C2「深層同期が表層解放を可能にする」の限定条件: HOW（プロセス/関係/タイミング）の深層共有→表層行動の多様性↑。WHAT（答え/内容）の深層固定→表層画一化。証拠: 心理的安全性（Edmondson 1999→現在）、共有メンタルモデルのパラドックス（Management Science）、Weickのジャズ深層文法、TPS（年間810,000改善提案）の全てが同一構造。組織CLHPC三層: Layer 2 = 関係規範（HOW）共有 → Layer 0 = 個々の提案・創造が発散。Frozen文化 = Layer 2でWHATが固定、CP文化 = Layer 2でHOWが固定 → [[threads/2026-07-22_deep-process-norms-surface-innovation-org-cycle2-s47.md]]
+- **境界越え転送にはCLHPC、局所協調にはTuring拡散で十分 — 要求される情報規模が計算戦略を決める**（2026-07-22）[both]: S47 Cycle 3の分類発見。Physarum polycephalum: 管収縮90-100秒 + 遅い変調~20分 + 3ファミリーの入れ子構造 = CLHPC型（境界越えあり）。真菌Ca²⁺波（Aspergillus nidulans）: 速度4-50 µm/s、間隔~18秒、ストレス部位のみが局所応答 = Turing拡散型（境界越えなし）。Adamatzky「スパイク」の実態はCa²⁺カスケード（持続1-21時間）、Wood Wide Webに電気信号は存在しない（Karst et al. 2023, Nature Ecology）。分類原理: 海馬↔皮質（異システム）= CLHPC必要 / 菌糸内部栄養感知（同システム）= Turing拡散で十分。「Fungi as Functors」（arXiv 2603.01320, 2026）= 圏論で菌糸組織を形式化 → [[threads/2026-07-22_mycelium-turing-clhpc-boundary-crossing-cycle3-s47.md]]
+- **制約の種類が自由の種類を決める — HOW/WHAT × 境界/局所 × 遅い/速い の三次元分類**（2026-07-22）[both]: S47 Cycle 4の大統合。C1-C3を統合した三次元制約分類: (1)「何を」: HOW（プロセス制約）→表層発散を許可 / WHAT（内容制約）→表層画一を強制。(2)「どこで」: 境界 → 境界越え転送を可能にする / 局所 → 局所協調で完結。(3)「どの時間スケールで」: 遅い（delta）→速い内容の窓を開く / 速い → 局所最適化。包絡ゲート原理（S17）は三次元に拡張: 時間的包絡（delta）× 構造的包絡（HOW規範）× 計算的包絡（CLHPC階層）。彫刻の原理の精密化: どの石を削るかが「浮かぶ構造」を決める → [[threads/2026-07-22_constraint-type-determines-freedom-type-synthesis-cycle4-s47.md]]
+- **Productive Failure = 認知的SOカスケード — HOW制約（探索せよ）が内容書き込み窓を最大化する**（2026-07-22）[both]: S47 Cycle 5の教育転移発見。Kapur (2016, Psychological Review): 直接教授の前に失敗させる → 転移とテスト成績がDirect Instructionを上回る。SOスピンドル-リプルカスケードとの同型: 失敗段階（UP状態/問いの生成） = SOが書き込み窓を開く / 教授段階（内容書き込み） = スピンドル-リプルが内容を固定。ZPD = 学習の境界同期子: デルタ境界クロックの発達的実装（ちょうど難しい = 境界での周波数共鳴）。HOW制約型教育（探究・ZPD・Productive Failure）は長期的にWHAT制約型（直接教授・標準化テスト）を追い越すが、短期基礎蓄積は後者が速い → [[threads/2026-07-22_constraint-type-education-productive-failure-cycle5-s47.md]]
+
+> 合計原理数: 409+5=**414原理**
+
 ### 🔭 Wheeler × Chentsov × Quantum Darwinism × 充分性収束 × 審美的T_c（2026-07-21 第43セッション Cycles 1-5）
 
 - **充分情報の冗長符号化が客観的現実を結晶化する**（2026-07-21）[both]: S43 Cycle 1の核心統合命題。Quantum Darwinism（Zurek, Science Advances 2025実験確認）: 環境Markovチャネルが量子ポインタ基底情報を多数の独立環境コピーに冗長符号化し、古典的客観性を創発させる。Wheeler "It from Bit"再解釈: "Bit"は最初から与えられるのでなく、QD収束の終端点として創発する（"It from Petz-to-Chentsov"）。帯域ゲート（S21）/三チャンネル（S42）/社会コンセンサス/神経SIC全てが同一パターンの異なる時間スケールでの実現。Fisher情報収縮（Petz定理: 物理写像 = Fisher収縮写像）の不動点 = 最大エントロピー = 古典現実。Jaynes問いへの応答: 最大エントロピーは外から課される法則でなく充分性収束の終点として自然に選択される → [[threads/2026-07-21_wheeler-chentsov-quantum-darwinism-cycle1-s43.md]]
