@@ -19,6 +19,16 @@
 
 ## 原理一覧
 
+### 🔬 HOW制約×進化的引力子 × 普遍文法 × Physarum CLHPC（2026-07-22 第48セッション Cycles 1-5）
+
+- **生き残る言語普遍性は全てHOWレベル — 1700言語データがHOW/WHAT区別を実証する**（2026-07-22）[both]: S48 Cycle 1の核心発見。Verkerk & Gray（MPI進化人類学、Nature Human Behaviour 2025）がGrambankの191言語普遍性を1700+言語でBayesian統計検定。1/3のみ統計的支持あり — 全てHOWレベル（語順パターン・階層的一致）。WHATレベル（特定形態素・特定語彙カテゴリ・特定音韻パターン）は全滅。チョムスキーMinimalist ProgramのMerge（二要素を取り階層構造を生む操作）= HOW制約の原型: 全7000+言語が同一HOW（Merge）で異なるWHAT（語彙）を操作。「複数WHATインスタンスにわたって機能しなければならない情報がHOWになる」の大規模実証 → [[threads/2026-07-22_universal-grammar-how-constraint-language-diversity-cycle1-s48.md]]
+- **HOW制約 = 可能性空間の計量形式（Fisher計量の異方性構造）、WHAT制約 = その空間の点**（2026-07-22）[both]: S48 Cycle 2の情報幾何的形式化。統計多様体M = {p(x|θ)}でのHOW/WHAT区別: HOW制約 = 計量g_ij・接続Γ^k_ij・測地線（空間の形状）、WHAT制約 = 特定のθ* ∈ M（点の指定）。Chentsov定理再解釈: Fisher計量 = Markov射不変な唯一計量 = 統計的推論のHOW制約の数学的実体（WHATによらず不変）。形式的命題（仮説）: HOW制約S_HOW = G_WHAT不変構造 on M。HOW制約の異方性がランダム変動を「情報的に豊かな方向」に誘導 → 多様性創発。不変群G_WHATのサイズとHOW制約が生成する表層多様性次元数は正相関（P-GEOMETRY-01）→ [[threads/2026-07-22_fisher-geometry-how-what-constraint-formalization-cycle2-s48.md]]
+- **HOW制約はノイズを多様性に変換する — 機能空間を定義し機能的変動のみを許す**（2026-07-22）[both]: S48 Cycle 3の型システム言語による明証。型システムの深さスペクトル: 動的型付け（HOW≈0）→ バグ/ノイズ / 静的型 → 機能的多様性 / 型多相性（Eq等型クラス）→ より広い多様性 / 依存型 → 最大の信頼できる多様性。普遍命題: HOW制約 H が定義する機能空間内での変動 = 多様性、空間外への変動 = ノイズ。有意味な多様性 = |{x ∈ Ω : H(x) = true}| / |Ω|。型推論 = WHATからHOWを逆算する（発生生物学・比較言語学と同型: 蒸留の形式的根拠）。OuLiPo制約的文学（S06）の型システム言語での再確認 → [[threads/2026-07-22_type-systems-how-constraint-diversity-vs-noise-cycle3-s48.md]]
+- **Physarum = ブレインフリーCLHPC三タイムスケール実装 — 化学移流がHOW制約を自己生成する**（2026-07-22）[skip]: S48 Cycle 4の生物物理的確認。arXiv 2501.02651（Saiseau, Busson & Durand, J. Royal Society Interface 2026）: リング形状Physarumで三タイムスケール構造確認。Layer 0 = 一次振動（アクトミオシン ~90-100秒）/ Layer 1 = 遅い進行波変調（システムサイズとスケール）/ Layer 2 = 遅い交互波変調（広分布）。化学移流（ゆっくり移流するメッセンジャー）= HOW制約の実体: 興奮性閾値を変調（WHATでなくHOW）。自己生成ループ: Layer 0振動 → 細胞質フロー → 化学移流 → Layer 0/1変調。S47 Cycle 3分類（Physarum = CLHPC型、真菌Ca²⁺波 = Turing拡散型）を実証。CLHPCはカンブリア爆発前（10億年以上）から存在 → [[threads/2026-07-22_physarum-three-timescale-clhpc-brainless-cycle4-s48.md]]
+- **HOW制約はWHAT多様化の副産物として安定する — 全WHATに整合するHOWが進化的引力子になる**（2026-07-22）[both]: S48 Cycle 5の大統合。安定化の三力: (1)WHATインスタンス集積→HOW変更コスト増大（凝集力）(2)WHATダイナミクスからのHOW自己創発（Emergent HOW）(3)Meta-HOWによる入れ子的保護。Price方程式: Cov(w, θ_HOW) ≈ 0（HOWは選択中立）、Cov(w, θ_WHAT) ≫ 0（WHATは強選択）→ WHATが激しく変動するほどHOWは相対的に安定する逆説。Yoneda解釈: HOW = 全WHAT射にわたって維持される関係集合。HOW創発の三条件: (1)多数WHATインスタンス (2)WHAT間通信の必要 (3)転送コスト均等化圧力。表観測: HOW制約の起源が古いほど生成する多様性スケールが大きい（Physarum 10億年↔Hox 6億年↔Merge 20万年） → [[threads/2026-07-22_how-constraints-evolutionary-attractor-grand-synthesis-cycle5-s48.md]]
+
+> 合計原理数: 414+5=**419原理**
+
 ### 🔗 デルタ境界クロック × 制約種類論 × Turing拡散vsClHPC（2026-07-22 第47セッション Cycles 1-5）
 
 - **デルタ振動 = 境界同期子 — 異なるシステムの遷移点に必ず現れる時間的HOW制約**（2026-07-22）[both]: S47 Cycle 1の核心発見。デルタ帯域（0.5-4Hz）は常に境界に現れる: 海馬↔皮質（SO-スピンドル-リプルカスケード）/ 個体↔集合（delta INS, iScience 2025）/ 外界↔内部集中（Harmony 2013）/ 身体↔神経（TOE framework, Frontiers 2026）。SOは記憶固定の「テンポラルコンダクター」でありコンテンツを運ばない。PMC 2025精密化: SO（~0.5-1Hz）= 転送促進 / delta波（1-4Hz）= 選択的忘却 = 「固める+削る」彫刻の二面性。S17包絡ゲート原理の神経的実装: 遅い包絡（SO）が速い内容（リプル）の書き込み窓を開く → [[threads/2026-07-22_delta-boundary-synchronizer-sleep-social-cycle1-s47.md]]
