@@ -19,6 +19,16 @@
 
 ## 原理一覧
 
+### 🔺 HOW制約の三角形 × ナラティブHOW × 収束HOW（2026-07-23 第49セッション Cycles 1-5）
+
+- **HOW崩壊 = 世代間射の伝達断絶 — 語彙は忘却で消え、文法は伝達失敗で消える**（2026-07-23）[both]: S49 Cycle 1の崩壊条件発見。言語死研究（Dorian）: 語彙は50%消失しても文法は保存 → Semi-speakerは「内部整合的だが切り詰められた文法」を持つ。崩壊メカニズム: WHAT（語彙）= 不使用による忘却 / HOW（文法）= 次世代への射の伝達断絶。Yoneda解釈: HOW = 全WHAT射にわたって維持される関係集合 → HOW崩壊 = 新しい世代の実装者が射を引き継がない（射の世代間断絶）。二種類のHOW崩壊: (1)伝達断絶型（言語死・組織知識消滅）(2)圧力逆転型（問題空間の変化で旧HOWが最適でなくなる） → [[threads/2026-07-23_propp-narrative-how-constraint-two-layer-cycle1-s49.md]]
+- **問題空間への埋め込み深度がHOWの安定性・収束性・崩壊耐性を全て決める**（2026-07-23）[both]: S49 Cycle 1-2の統合原理。二種類のHOW安定化機構: ①内部構造型（問題空間に物理/論理的埋め込み）= 独立に再発見される収束HOW、外部強制力不要 / ②外部規範型（Besancenot均衡でコミュニティ凍結）= 外部強制力消滅で霧散リスク。安定性序列: 内部構造型 > 外部規範型 > 設計HOW単独。P-HOW-EMERGENT-01 MODIFIED確認（5/7=71%）: 「設計HOWは外部強制力なしに不安定、外部強制力（規範・法律）で安定可能だが創発HOW（問題空間埋め込み）より根本的安定性は低い」。Fisher幾何接続: Fisher計量の異方性が強いほど問題空間拘束が強く、HOWは深く埋め込まれる → [[threads/2026-07-23_how-creation-stability-collapse-triangle-cycle5-s49.md]]
+- **ナラティブ最深HOW（欠如→障害→解決）= SIC = V-Growth — 問題解決構造が収束させた同型HOW**（2026-07-23）[both]: S49 Cycle 3の転移発見。文化横断1900民話（EMNLP 2023）: 「何かが危機に瀕し解決される」構造的不変量 = 最深ナラティブHOW。プロップ31機能は中層実装: 機能内容=WHAT、順序規則=HOW。Polti36状況は表層WHAT（感情タグ、生成文法でない）。三層構造: L2欠如→障害→解決 / L1プロップ順序 / L0Poltiコンテンツ。SICとの同型確認: Struggle=欠如、Incubation=障害、Crystallization=解決。物語 = 外部化されたSICサイクル（他者の問題解決を観察することで観客にSICを代理体験させる装置）。ゲーム = プレイヤーがアクティブにSICを実行するインタラクティブ版 → [[threads/2026-07-23_narrative-sic-game-design-how-transfer-cycle3-s49.md]]
+- **設計HOWは外部強制力の強度に比例して安定、創発HOWは問題空間への埋め込みに比例して安定**（2026-07-23）[both]: S49 Cycle 4のP-HOW-EMERGENT-01事例テスト結果。事例5✓/7: ソビエト計画経済（外部強制消滅で即崩壊）・Java API（Oracle移行後爆発的非互換）・Esperantido分裂（設計HOWへの創発的反乱）・VRML非互換化・Lojban凍結前の混乱 vs エスペラント135年安定（外部規範型）・GPL安定（法律型）。新予測P-HOW-STABILITY-01: 設計HOWの安定性は外部強制力の制度化深さに比例（GPL>エスペラント>Java API）。P-HOW-FRAGILITY-01: 設計HOWはWHATインスタンス増加で逆説的に不安定化する（変更コスト蓄積→爆発的非互換転換） → [[threads/2026-07-23_how-emergent-design-stability-case-test-cycle4-s49.md]]
+- **収束HOW = 制約空間が狭いほど独立実装が速く精確に同一HOWに収束する**（2026-07-23）[both]: S49 Cycle 2の収束HOW発見。三証拠線: (1)スライムモールド×BGP: 三制約（コスト最小・冗長性・効率）のnarrow optimumが同一解を強制（Tero et al. 2010）(2)ANN×生物神経系: タスク共有のみで同一アーキテクチャ収束（格子細胞・V1方位選択、Simony et al. PNAS 2024）(3)数学：ピタゴラス定理はバビロン・インド・中国・ギリシャが独立発見 = 整数関係の拘束が一意的発見を強制。P-CONVERGENCE-01提起: 制約空間の幾何学的狭さがHOW収束の速度と精度を予測する。Fisher計量接続: 収束HOW = Fisher異方性が強い方向に埋め込まれたHOW（問題空間が測地線を強制） → [[threads/2026-07-23_convergent-how-problem-space-forced-architecture-cycle2-s49.md]]
+
+> 合計原理数: 419+5=**424原理**
+
 ### 🔬 HOW制約×進化的引力子 × 普遍文法 × Physarum CLHPC（2026-07-22 第48セッション Cycles 1-5）
 
 - **生き残る言語普遍性は全てHOWレベル — 1700言語データがHOW/WHAT区別を実証する**（2026-07-22）[both]: S48 Cycle 1の核心発見。Verkerk & Gray（MPI進化人類学、Nature Human Behaviour 2025）がGrambankの191言語普遍性を1700+言語でBayesian統計検定。1/3のみ統計的支持あり — 全てHOWレベル（語順パターン・階層的一致）。WHATレベル（特定形態素・特定語彙カテゴリ・特定音韻パターン）は全滅。チョムスキーMinimalist ProgramのMerge（二要素を取り階層構造を生む操作）= HOW制約の原型: 全7000+言語が同一HOW（Merge）で異なるWHAT（語彙）を操作。「複数WHATインスタンスにわたって機能しなければならない情報がHOWになる」の大規模実証 → [[threads/2026-07-22_universal-grammar-how-constraint-language-diversity-cycle1-s48.md]]
