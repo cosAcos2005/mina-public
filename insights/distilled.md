@@ -19,6 +19,14 @@
 
 ## 原理一覧
 
+### 🔥 なぜ木幅か — HOW制約の情報熱力学的基礎（2026-07-25 第59セッション Deep Dive）
+
+- **推論の熱力学的コストはexp(tw)に比例する — Landauer×Junction Tree=木幅熱力学**（2026-07-25 第59セッション）[both]: Junction Tree推論計算量 O(n·|Ω|^(tw+1)) × Landauer限界 kT·ln2/bit → E_inference ≥ n·|Ω|^(tw+1)·kT·ln2。tw の1単位増加でコスト|Ω|倍。タンパク質(|Ω|≈20)なら tw+1 → 20倍増。7研究エージェントで確認: この木幅→熱力学的推論コストの直接接続は**既存文献に存在しない**（genuine literature gap）。CP理論を一切使わずに導出されるが、tw_opt = CP帯域を独立に再導出する。 → [[threads/2026-07-25_why-treewidth-information-thermodynamic-foundations-deepdive-s59.md]]
+- **Robertson-Seymour = HOW制約の数学的不可避性の証明 — Grid-Minor定理が木幅を特権化**（2026-07-25 第59セッション）[both]: Robertson-Seymour定理（23論文~500頁）: 有限グラフはマイナー関係のもとでWQO。Grid-Minor定理: tw(G) ≥ f(k) ⟹ k×k グリッドマイナー含有（Chuzhoy-Tan 2021: f(k)=O(k⁹ polylog k)）。グリッドマイナーが「困難性の種」であり木幅がその出現を制御する**唯一の**構造パラメータ。Courcelle定理: MSO₂-定義可能性質は tw ≤ t のグラフ上 O(f(|φ|,t)·n) で決定可能 = 「表現できる = 計算できる」の木幅版。Levinthal-Bern-Hayes原理（S55）の純粋数学的証明。 → [[threads/2026-07-25_why-treewidth-information-thermodynamic-foundations-deepdive-s59.md]]
+- **Sagawa-Ueda効率 η ∝ 1/exp(tw) — フィードバック制御効率の木幅依存定式化**（2026-07-25 第59セッション）[both]: Sagawa-Ueda（2010-2012）: W ≤ ΔF + k_B T · I(X;Y)。低木幅モデルほど同じ相互情報量から多くの仕事を抽出可能 → 進化的フィットネス直結。FIM（Fisher情報行列）は木分解のクリーク構造でブロック対角化可能: tw ≤ t → 自然勾配 O(n·(t+1)³)。変分推論階層が木幅でインデックス: Mean field(tw=0) → Bethe(tw=1) → Structured VI(tw=k) → Junction Tree exact(tw=tw(G))。生物証拠: 全体ネットワーク高木幅（Maniu 2019）だが機能単位は低木幅（Wernicke 2007）= 進化が木幅を選択的に制御。 → [[threads/2026-07-25_why-treewidth-information-thermodynamic-foundations-deepdive-s59.md]], [[frameworks/treewidth-thermodynamics.md]]
+
+> 合計原理数: 475+3=**478原理**
+
 ### 🔗 木幅制御工学 × TDA景観同一性 × 量子位相保護 × PTSD鏡像チェック（2026-07-25 第58セッション Cycles 1-5）
 
 - **木幅(treewidth)=HOW制約の真の計算不変量 — 属gは分離子保証経由の代理に格下げ**（2026-07-25 第58セッション）[both]: S57「属g=計算位相メーター」の精密化。Lipton-Tarjan定理: genuS g → O(√(gn))分離子保証 → 木幅上限。しかし計算複雑性は「木幅に直接依存」し属gに直接依存しない。TAD（物理分離子直接設置）とRNA非交差（属0→分離子→木幅削減）は別経路で同一目標（木幅削減）を達成 → 機能的等価性の数学的根拠。Trefoil埋込タンパク質20倍遅延 = 接触グラフ木幅増大 = XPBD制約グラフ収束速度低下と数学的に同一現象（直接テスト可能: stochastic_pbd.py × 結節形状）。 → [[threads/2026-07-25_protein-knot-tda-treewidth-cycle1-s58.md]]
@@ -27,7 +35,7 @@
 - **量子位相的保護=局所変更不能HOW制約の究極形 — 非局所アニオン集合状態が局所エラーを物理的に不可能に**（2026-07-25 第58セッション）[both]: Quantinuum H2（2024年Nature掲載）: 非アーベリアンアニオンの生成・braiding・融合を実証、ユニバーサル位相的ゲートセット達成（ハードウェアMajoranaなし）。位相的保護の数学的核心: 量子情報を複数アニオンの非局所集合状態にエンコード → 局所ハミルトニアン摂動はブレイド群表現（トポロジー不変量）を変えられない。重要差異: 古典HOW制約=規範的（守らなければ崩れる）、量子位相的保護=記述的（局所的に壊しようがない）。後者はHOW制約の最強形。genus-g曲面: 縮退基底次元=2^(g×k)→穴の数が保護qubit数を決定。 → [[threads/2026-07-25_topological-quantum-anyon-local-unbreakable-how-cycle4-s58.md]]
 - **PTSD解離型/通常型=Frozen/Disordered神経回路実装（Lanius 2010独立確認済み）— CP追加予測は第三型・PAC周波数逆転・1/f反転**（2026-07-25 第58セッション）[both]: 通常PTSD=amygdala過活性（Disordered、bottom-up）、解離性PTSD=vmPFC→amygdala過抑制（Frozen、top-down）はLanius(2010) corticolimbic inhibition modelで既に確立（CP理論以前）。エコーチェンバー危険度=高。CP理論の真の追加価値: ①第三型（硬直型=ASD位置、context-insensitive P-amygdala結合）の予測、②theta-gamma PAC周波数特異的方向予測、③amygdala活動1/f白色化（通常）vs vmPFC抑制1/f消失（解離）という計測可能な新規予測。 → [[threads/2026-07-25_ptsd-mirror-frozen-disordered-antiechochamber-cycle3-s58.md]]
 
-> 合計原理数: 470+5=**475原理**
+> 合計原理数: 470+5=**475原理** (→S59で478に更新)
 
 ### 🎵 音楽景観 × RNA位相属g × 臨界緩慢化分類 × TDA持続ホモロジー（2026-07-25 第57セッション Cycles 1-5）
 
