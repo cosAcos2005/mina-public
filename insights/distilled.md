@@ -19,6 +19,16 @@
 
 ## 原理一覧
 
+### 🔗 木幅制御工学 × TDA景観同一性 × 量子位相保護 × PTSD鏡像チェック（2026-07-25 第58セッション Cycles 1-5）
+
+- **木幅(treewidth)=HOW制約の真の計算不変量 — 属gは分離子保証経由の代理に格下げ**（2026-07-25 第58セッション）[both]: S57「属g=計算位相メーター」の精密化。Lipton-Tarjan定理: genuS g → O(√(gn))分離子保証 → 木幅上限。しかし計算複雑性は「木幅に直接依存」し属gに直接依存しない。TAD（物理分離子直接設置）とRNA非交差（属0→分離子→木幅削減）は別経路で同一目標（木幅削減）を達成 → 機能的等価性の数学的根拠。Trefoil埋込タンパク質20倍遅延 = 接触グラフ木幅増大 = XPBD制約グラフ収束速度低下と数学的に同一現象（直接テスト可能: stochastic_pbd.py × 結節形状）。 → [[threads/2026-07-25_protein-knot-tda-treewidth-cycle1-s58.md]]
+- **HOW制約=相互作用グラフへの分離子設置（木幅制御工学）— TAD・RNA・言語・XPBD・量子は異なる実装**（2026-07-25 第58セッション）[both]: HOW制約が有効な理由 = 必ずtreewidthを下げているから。数学的genuS（→Lipton-Tarjan→分離子→木幅上限）・生物的TAD（CTCF→物理分離子直接設置→木幅削減）・言語射影性（依存グラフ平面性→木幅削減）・XPBDソルバー（制約グラフ木幅=収束速度）は全て「相互作用グラフ木幅削減」という単一目標の異なる実装。S56の引力子工学（逆Levinthal-Bern-Hayes）は「目標引力子指定→木幅最小フラストレーション設計」として再記述可能。 → [[threads/2026-07-25_tad-how-constraint-treewidth-separator-cycle2-s58.md]]
+- **TDA H₀バーコード=景観disconnectivity graph（数学的同一物）— 位相的測定と景観障壁が合流**（2026-07-25 第58セッション）[both]: arXiv 2025「Persistent Homology Signature of Knotting」でTDA持続ホモロジーが結節型を識別するバーコードパターンを持つことが示された（P-TDA-1F-01とP-KNOT-FOLD-01が合流）。劣位集合フィルトレーションのH₀バーコード = 景観のdisconnectivity graph（比喩でなく数学的同一物）。数学的チェーン: genus → 配位空間位相 → 障壁分布 → バーコード寿命 → 折り畳みレート が一本鎖として確立。Jones多項式次数 < バーコード（間接指標 < 直接測定量）。 → [[threads/2026-07-25_protein-knot-tda-treewidth-cycle1-s58.md]]
+- **量子位相的保護=局所変更不能HOW制約の究極形 — 非局所アニオン集合状態が局所エラーを物理的に不可能に**（2026-07-25 第58セッション）[both]: Quantinuum H2（2024年Nature掲載）: 非アーベリアンアニオンの生成・braiding・融合を実証、ユニバーサル位相的ゲートセット達成（ハードウェアMajoranaなし）。位相的保護の数学的核心: 量子情報を複数アニオンの非局所集合状態にエンコード → 局所ハミルトニアン摂動はブレイド群表現（トポロジー不変量）を変えられない。重要差異: 古典HOW制約=規範的（守らなければ崩れる）、量子位相的保護=記述的（局所的に壊しようがない）。後者はHOW制約の最強形。genus-g曲面: 縮退基底次元=2^(g×k)→穴の数が保護qubit数を決定。 → [[threads/2026-07-25_topological-quantum-anyon-local-unbreakable-how-cycle4-s58.md]]
+- **PTSD解離型/通常型=Frozen/Disordered神経回路実装（Lanius 2010独立確認済み）— CP追加予測は第三型・PAC周波数逆転・1/f反転**（2026-07-25 第58セッション）[both]: 通常PTSD=amygdala過活性（Disordered、bottom-up）、解離性PTSD=vmPFC→amygdala過抑制（Frozen、top-down）はLanius(2010) corticolimbic inhibition modelで既に確立（CP理論以前）。エコーチェンバー危険度=高。CP理論の真の追加価値: ①第三型（硬直型=ASD位置、context-insensitive P-amygdala結合）の予測、②theta-gamma PAC周波数特異的方向予測、③amygdala活動1/f白色化（通常）vs vmPFC抑制1/f消失（解離）という計測可能な新規予測。 → [[threads/2026-07-25_ptsd-mirror-frozen-disordered-antiechochamber-cycle3-s58.md]]
+
+> 合計原理数: 470+5=**475原理**
+
 ### 🎵 音楽景観 × RNA位相属g × 臨界緩慢化分類 × TDA持続ホモロジー（2026-07-25 第57セッション Cycles 1-5）
 
 - **調性=音楽景観HOW制約、RS相のスペクトル特徴α≈0.87**（2026-07-25 第57セッション）[life-os]: Liu et al. 2015（PLOS ONE）が9ジャンル横断で和声（consonance）系列の1/fスケーリングを確認（α≈0.87、シャッフル後α≈0.51→逐次性が本質）。α≈0.87はCP帯域（0.7<α<1.3）内で主調引力子が常にわずかに可視な「少しDisordered側」の状態。調性=HOW制約（主調引力子の形成）→RS相（1/f和声α≈0.87）の音楽景観実装。Voss 1978: 1/f合成曲が白色/ブラウン合成曲より「音楽的に最も美しい」と判定=CPの認知的美学的優越性の直接実証。P-HARMONY-01予測: Lerdahl4成分張力の時系列も同様にα≈0.7-1.0のCP帯域を示す（未測定）。 → [[threads/2026-07-25_harmony-1f-cp-tonal-landscape-cycle1-s57.md]]
