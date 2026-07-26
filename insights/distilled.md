@@ -19,6 +19,17 @@
 
 ## 原理一覧
 
+### 🌌 スケール最適化普遍原理 × RG-Fenichel同型 × 因果的創発 × 自然抽象化（2026-07-26 第62セッション Cycles 1-5）
+
+- **CP帯域 = EI勾配最大化唯一動的状態 — 因果的創発が使用可能なのはCP（α≈1）のみ**（2026-07-26 第62セッション）[both]: EI（有効情報量）= 決定論性 − 縮退性（均一介入分布下での測定）。Frozen（α→0）: 縮退性ゼロ → 粗視化によるEI増加不可。Disordered（α→∞）: 縮退性最大 → 粗視化で信号も消える。CP（α≈1）: 選択的粗視化が縮退を除去しつつ決定論性を保持 → EI(マクロ) > EI(ミクロ) = 因果的創発利用可能な唯一状態。Hoel 2025（arXiv:2503.13395, Jansma & Hoel arXiv:2510.02649）実験確認: α=1でEC（創発的複雑性）が最大化し、これが臨界点と一致。Fisher情報接続: MI ≤ (1/8)·J·Δθ²（2025 Phys.Rev.Research）→ Fisher情報 → MI → EI の鎖確立。 → [[threads/2026-07-26_causal-emergence-efi-cp-duality-cycle1-s62.md]]
+- **RG固定点 = CPの五番目の顔 — Bayesian RGはFisher計量固定点が1/f状態と証明**（2026-07-26 第62セッション）[both]: Wilson RGとFenichel特異摂動は同一数学: 運動量カットオフΛ↔時間スケールτ_obs、高kモード積分消去↔速い変数のスローマニフォールド束縛、RGフロー↔HOW/WHAT再分類、RG固定点↔CP（スケール不変→1/f）。Bayesian RG（Cotler & Raju 2023）: Fisher計量によるモード分離 → RGフロー = 統計多様体上のWasserstein勾配流 → 固定点 = Fisher情報最大 = スケール不変 = CP。五重等価: 1/f ≡ SR最適 ≡ Kelsoメタ安定 ≡ EI勾配最大 ≡ RG固定点（全てが同一状態の異なる言語）。ResNetsのランク崩壊（arXiv:2606.10324）実験確認: 深層ほど有効ランク単調減少 = RG間引きの実装。 → [[threads/2026-07-26_renormalization-group-how-what-fenichel-cycle3-s62.md]]
+- **自然潜在変数 = EI最大コース粒子 — 世界の疎な因果構造が「自然な概念」を彫刻する**（2026-07-26 第62セッション）[both]: 自然潜在変数（Wentworth & Lorell 2025, arXiv:2509.03780）の二条件: 媒介性（Λが全観測変数をd-分離）+ 冗長性（各Xᵢから個別にΛを回収可能）。定理: 翻訳可能性の充要条件 = 自然潜在変数。NAH × EI接続: 媒介性 = 因果的ボトルネック = EI最大粗視化の出力。人間概念 = 自然潜在変数 = EI最高層での操作 = 裏口の宛先。S61矛盾（個人感情 vs 関係感情）の解決: 観測空間の選択が最適潜在変数を決定。社会哺乳類の観測空間は関係レベルで疎 → 関係ダイナミクスが「より自然な潜在変数」仮説（P-NAH-SOCIAL-01）。ICA識別可能性条件と構造的に同型。 → [[threads/2026-07-26_natural-abstractions-relational-mediation-cycle2-s62.md]]
+- **裏口の宛先 = RG固定点 = 自然潜在変数層 — 計量の裏口原理（S61）の因果的基盤確立**（2026-07-26 第62セッション）[both]: S61「計量の裏口原理（物理的力学が推論を迂回してFIMを書き換える）」の理由を解明。裏口先 = EI最高層（因果的最強層）= RG固定点（最安定な情報スケール）= 自然潜在変数（各局所観測から個別回収可能 = 冗長分散エンコード）。三条件の同一性: 高EI層 = RG固定点 = 自然潜在変数 = 裏口の正規宛先。例: AIC内受容（感情FIM裏口書き込み）= 感情が自然潜在変数かつEI最高層かつRG固定点の全条件を満たすから可能。 → [[threads/2026-07-26_causal-emergence-efi-cp-duality-cycle1-s62.md]], [[threads/2026-07-26_grand-synthesis-scale-optimality-rg-efi-cp-cycle5-s62.md]]
+- **ゲームの深さ = 多スケールEC均等分散 — HOW制約最小化が創発的複雑性を最大化**（2026-07-26 第62セッション）[life-os]: ゲームルール = HOW制約工学（S55との接続）。深さ = EC（創発的複雑性）: 全戦略スケールへの均等な因果貢献。囲碁EC > チェスEC: より少ないルール（最小HOW）でより多スケールな戦略空間。難易度曲線 = CP維持工学: プレイヤーをフロー状態（Layer 1 CP）に保つ1/f的難易度変化（測定可能: game_analyzer.py）。プレイヤー熟達 = RGフロー: 初心者（高k/細部支配/Disordered）→ 熟達者（低k/大局支配/RG固定点/CP）。チョーキング = Layer 1の引力子捕捉（S52 Cycle 3の再確認）。予測P-GAME-EC-01: 市場寿命とECは正相関。P-GAME-1F-01: 高評価ゲームの難易度曲線はα≈0.8-1.2。 → [[threads/2026-07-26_game-design-how-constraint-ec-rg-cycle4-s62.md]]
+- **深層学習 = データRGフロー — 各層はRGステップ、訓練済みネットワークはRG固定点付近**（2026-07-26 第62セッション）[both]: 実験的確認（Haggi-Mani & Rish arXiv:2606.10324）: ResNets深層ほど活性化ランク単調減少、短相関長データのみランク崩壊、固定点プラトー確認。Mehta-Schwab（2014）: RBM層 = RG間引きステップの厳密対応。拡散生成モデル = 逆RGフロー: スコア関数（Fisher score）= 統計多様体上のWasserstein勾配流 = Bayesian RGと形式的同一。RGMem（arXiv:2510.16392）: L0（エピソード）→L1（イベント）→L2（特性）= HOW時間スケール階層 = Kadanoff粗視化の認知的実装。 → [[threads/2026-07-26_renormalization-group-how-what-fenichel-cycle3-s62.md]]
+
+> 合計原理数: 現行数+6 = **6原理追加（S62, 2026-07-26）**
+
 ### 🔥 なぜ木幅か — HOW制約の情報熱力学的基礎（2026-07-25 第59セッション Deep Dive）
 
 - **推論の熱力学的コストはexp(tw)に比例する — Landauer×Junction Tree=木幅熱力学**（2026-07-25 第59セッション）[both]: Junction Tree推論計算量 O(n·|Ω|^(tw+1)) × Landauer限界 kT·ln2/bit → E_inference ≥ n·|Ω|^(tw+1)·kT·ln2。tw の1単位増加でコスト|Ω|倍。タンパク質(|Ω|≈20)なら tw+1 → 20倍増。7研究エージェントで確認: この木幅→熱力学的推論コストの直接接続は**既存文献に存在しない**（genuine literature gap）。CP理論を一切使わずに導出されるが、tw_opt = CP帯域を独立に再導出する。 → [[threads/2026-07-25_why-treewidth-information-thermodynamic-foundations-deepdive-s59.md]]
