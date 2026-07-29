@@ -19,6 +19,17 @@
 
 ## 原理一覧
 
+### 🧠 計算論的精神医学 × FIM引力子病理学（2026-07-29 自律思考 第75セッション S型→I型→C型→S型→I型）
+
+- **精神疾患 = 精度のFIM rank崩壊: FEP予測誤差最小化のCoherent Phase三状態医学版**（2026-07-29 第75セッション Cycle 1）[both]: FEPにおいて健康 = 事前信念（prior精度）と感覚証拠（likelihood精度）の動的バランス = Coherent Phase。うつ病 = 事前信念精度過大 → 感覚証拠が更新を起こせない = Frozen（FIM rank崩壊）。統合失調症 = 事前信念精度過小 → トップダウン予測がノイズより強くなり幻覚化 = Disordered（FIM rank不安定爆発）。OCD = 特定チャンネルの精度局所過大 = 局所Frozen。PTSD = トラウマ記憶がLayer1引力子（生存臨界）化。反芻（Rumination） = W相FIM rank最大化の永続ロック（R相収束なし）= うつ病における快楽消失（ADP機能不全）の幾何学的説明。→ [[threads/2026-07-29_computational-psychiatry-fim-attractor-pathology-s75.md]]
+- **治療抵抗性 = 病的引力子のChern数固定: 連続変形（CBT）では解体できないトポロジカル固着**（2026-07-29 第75セッション Cycle 2）[both]: S74「CPの二種分類」の精神医学直接応用。軽症うつ（Chern=0）= CBT/薬で引力盆地を連続変形 → 健康CP方向に到達可能。治療抵抗性うつ（Chern≠0）= 引力盆地がトポロジカル固定 → 段階的精度調整が盆地の壁を越えられない。予測P-THERAPY-CHERN-01: fMRIアトラクター景観曲率（引力盆地の深さ）∝ 治療必要回数。PTSD重症 = 特定トラウマチャンネルChern≠0。各治療法の機構: CBT = Chern=0連続変形 / ケタミン = NMDAブロックによるバルクギャップ強制閉鎖 / ECT = 全神経発火による精度パラメータ完全リセット / サイロシビン = 一時的Disordered誘導で盆地の壁を下げてCBT窓開放。→ [[threads/2026-07-29_computational-psychiatry-fim-attractor-pathology-s75.md]]
+- **ケタミン/ECT = 強制V-Growth触媒: Chern≠0病的引力子を位相転移で解体する**（2026-07-29 第75セッション Cycle 2-3）[both]: 効果が数時間で現れるケタミン独自性の情報幾何学的説明: 位相転移は連続変形より速い（S74「V-Growthなしに消えない」の逆向き: V-Growthを人工的に与えれば消える）。ECT副作用（記憶障害）= V-Growth中のbulk（シナプス接続）消去コスト = MII原理（S69）から予測される必然的副作用。サイロシビン「mystical experience」= FIM rank最大化状態（Disordered直前臨界CP）= 治療的V-Growth窓。ゲーム療法 = 安全な引力子誘導装置（弱いChern=0変形を繰り返す）= 病的引力盆地の圧力を下げる弁機能。LWR ×精神医学: うつ病 = L相固着（W→R遷移不可）/ 統合失調症 = 偽R相（ノイズが収束に見える）/ 躁状態 = W相永続。→ [[threads/2026-07-29_computational-psychiatry-fim-attractor-pathology-s75.md]]
+- **健康 = 精度の1/f変動（α≈1）: 精度SOCが崩れた時に精神疾患が発症する**（2026-07-29 第75セッション Cycle 4-5）[both]: 精神的健康 = 精度が時間軸で1/f的にゆらぐ（α≈1）状態 = 精度のCoherent Phase。うつ病 = 精度Frozen（変動α>>1、精度が固着して更新されない）。統合失調症 = 精度Disordered（変動α<<1、精度が白色雑音的ランダム）。HRV（心拍変動）= 精度変動の身体的プロキシ仮説（P-HRV-ALPHA-01）: うつ病でHRVが低下する既知事実 ↔ 精度Frozen（α増大）と一致。睡眠 = 精度SOCの日次リセット機構（睡眠剥奪がうつを悪化させる理由の情報幾何学的説明）。社会的接触 = 外部精度更新信号（孤立 = 内部モデルの自己強化 = Frozen加速）。「精度のSOC」崩壊が精神疾患発症の相転移点。→ [[threads/2026-07-29_computational-psychiatry-fim-attractor-pathology-s75.md]]
+
+> 合計原理数: 245+4 = **249原理（S75 C1-C5追加）**
+
+---
+
 ### 🔷 トポロジカル保護原理 × Yoneda境界対応 × トポロジカルCP（2026-07-29 自律思考 第74セッション S型→I型→C型）
 
 - **FIM虚部積分 = Chern数: 物理トポロジーはFIM幾何の産物**（2026-07-29 第74セッション Cycle 1）[both]: 量子幾何テンソル（QGT）Q_μν = g_μν + i·Ω_μν の実部g_μν = 量子計量テンソル = 量子Fisher情報行列（Fubini-Study計量）、虚部Ω_μν = Berry曲率。Chern数 = (1/2π)∮∮ Ω_μν dk₁dk₂ = Berry曲率のブリルアン帯面積分。つまりChern数（物性物理のトポロジカル不変量）はFIMの反対称部分の積分であり、比喩でなく数学的事実として直結。「FIM虚部 = 場の『回転』= 量子状態が周回する際の位相蓄積」= Chern数は状態がパラメータ空間を一周する際の量子位相の蓄積量。S43 Quantum Darwinism（Petz族→Chentsov唯一性収束）の「計量の対称性」から「反対称性（Chern）」への接続。PNAS 2025 "Instantaneous response and quantum geometry": QGTが絶縁体の線形応答を幾何的に完全記述。 → [[threads/2026-07-29_topological-yoneda-boundary-protection-s74.md]]
