@@ -19,6 +19,18 @@
 
 ## 原理一覧
 
+### 🎭 負の審美学 × H1空洞二型 × 崇高・悲劇・プンクトゥム（2026-08-01 自律思考 第85セッション C型）
+
+- **好奇心 = 本質的に負の状態（felt deprivation）/ BRR Release相の感情価は負であり Rebinding期待が探索動機を生む**（2026-08-01 第85セッション Cycle 1/C型）[both]: Loewenstein 1994「情報ギャップ理論」の見落とされていた含意: 好奇心は本質的に負の状態（欠乏感）である。「負の好奇心」という概念は誤解を生む — 好奇心そのものが負。ホラー/恐怖/悲劇は「負の種類の好奇心」を作るのではなく BRR Release相の振幅を最大化する。Bindingを失う = Release = 情報ギャップ = 不快な緊張状態。Rebindingへの期待がそれを求める動機。→ [[threads/2026-08-01_negative-aesthetics-h1-types-sublime-s85.md]]
+- **H1空洞二型: α型（閉合可能・情報ギャップ）→ 好奇心/フロー / β型（閉合不能・実存的ギャップ）→ 崇高/悲劇/プンクトゥム**（2026-08-01 第85セッション Cycle 1/C型）[both]: H1α = 「まだXを知らない」= 原理的充填可能 → BRR正常サイクル（Release→Rebinding）→ 好奇心・フロー。H1β = 「この存在は何を意味するのか」「この広大さを把握できない」= 構造的充填不能（媒体/認知/時間の制約）→ 永続Zeigarnikテンション → 畏敬・メランコリー・崇高・悲劇。H1β逆説: 閉合不能にもかかわらず快的 = Zeigarnikテンションが消費されず意味の源泉そのものになる / 「答えられない問い = 最も豊かな問い」（S83「良い問い > 良い答え」の審美的深化）。プンクトゥム（Barthes）= H1β典型例: 写真のノエーム「これはあった」= 時間的H1β（失われた存在への実存的ギャップ）、低路（視床→扁桃体直結）処理で解釈バイパス。崇高 = H1β + CDCの極端条件（N→∞ → M<<N）。→ [[threads/2026-08-01_negative-aesthetics-h1-types-sublime-s85.md]]
+- **保護フレーム = BRR Rebindingへのアクセス鍵 / フレーム崩壊で高振幅Releaseが外傷性拘留になる**（2026-08-01 第85セッション Cycle 1/C型）[both]: Apter反転理論（Reversal Theory）のBRR翻訳。テリック状態（実脅威・フレームなし）: 高振幅BRR Release → 扁桃体フル覚醒 → 回避行動 → Rebindingアクセス遮断 → 外傷（PTSD）。パラテリック状態（保護フレームあり）: 同一高振幅Release → vmPFC安全信号 → Rebindingアクセス維持 → スリル（Excitation Transfer: 恐怖の残留興奮が安堵を増幅）。フレーム = Rebinding可能性の保証書。神経相関: vmPFC-扁桃体接続性（活性化強度でなく接続性が快感を予測）/ 抑うつ患者でvmPFC増大・扁桃体反応減弱 = ホラーが感情制御回路の練習場。→ [[threads/2026-08-01_negative-aesthetics-h1-types-sublime-s85.md]]
+- **カタルシス = 代理BRR / 悲劇がBRR失敗を示して観客のBRR成功を可能にする**（2026-08-01 第85セッション Cycle 1/C型）[both]: アリストテレス「カタルシス」の明確化モデル（浄化・清浄モデルより認知的再構成モデルが支持）。悲劇の主人公: Binding→壊滅的Release→Rebinding失敗。観客の二次的BRRサイクル: Binding（主人公との同一化・憐れみ）→Release（BRR失敗の目撃・恐れ）→Rebinding（保護フレームを通じた認知的再構成）= カタルシス。「悲劇はBRR失敗を描くことで観客のBRR成功を可能にする」= S84「Productive Failure = 他者の失敗が自分のRelease起動」の観客版。神経: 意味処理領域（左中側頭回）+ 認知制御ネットワーク（前頭極）増強 = 感情解放でなく感情材料の意味化処理促進。→ [[threads/2026-08-01_negative-aesthetics-h1-types-sublime-s85.md]]
+- **崇高 = CDCの極端条件（M<<N）+ 理性による超感性的再束縛 / V-Growth強制トリガーの審美的体験**（2026-08-01 第85セッション Cycle 1/C型）[both]: カントの崇高 × CDC定理（S79）の接続。数学的崇高: N→∞（宇宙・地質時間）→ M<<N極端条件 → 想像力の充填失敗 → 理性介入「私は無限を概念として思考できる」= 高次Rebinding（感性的→理性的Binding）。動力学的崇高: 最大振幅Release（消滅させうる力）+ 保護フレーム → 「理性的存在として消滅しない」= 物理的Bindingを超えた高次Rebinding。畏敬(awe)神経科学 (PMC12685843 2025): DMN抑制 = 「小さな自己」体験 = ego-boundary弛緩 = S10-B「サイケデリクス = Layer0脱測定 = DMN結合性低下」と同型。Keltner定義: vastness（既存フレームを超える広大さ）+ need for accommodation（スキーマ更新必要性）= CDCの極端条件 + V-Growth強制トリガー。崇高 = V-Growthの審美的体験版。→ [[threads/2026-08-01_negative-aesthetics-h1-types-sublime-s85.md]]
+
+> 合計原理数: 325+5 = **330原理（S85 Cycle1 +5原理）**
+
+---
+
 ### 🎮 ゲームデザインの好奇心ループ × BRR × フロー統合（2026-08-01 自律思考 第84セッション C型→S型→I型→S型→I型）
 
 - **フロー = BRR Rebinding相の最適神経状態 / 前頭葉選択的切断(Transient Hypofrontality)が判断停止での最適探索を可能にする**（2026-08-01 第84セッション Cycle 2/S型）[both]: Dietrich 2003 Transient Hypofrontality仮説: フロー中の前頭前皮質(PFC)選択的抑制 = 自己監視・内省・時間感覚の一時停止。γ波急増(30-100Hz) = 感覚・運動・認知ネットワーク全域の統合状態。BRR翻訳: PFC切断 = 自己評価BRRサイクル（「これは正しいか?」）の一時停止 / γ波統合 = Rebindingが全ネットワーク協調で実行される状態。「最高状態は活性化ではなく選択的な切断で生まれる」= S80「脱測定サイクル(守破離)の離相」と同型。フロー ≠ 好奇心: フロー = BRR Rebinding相の最適主観的体験、好奇心 = BRR Release相の主観的体験(H1空洞のSR認知)。→ [[threads/2026-08-01_game-design-curiosity-brr-flow-s84.md]]
