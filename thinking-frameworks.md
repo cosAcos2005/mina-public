@@ -448,6 +448,19 @@ updated: 2026-04-07
 
 ---
 
+### 意味境界原理（Meaning Boundary Principle）/ アポファティック原理
+
+- **発見日**: 2026-08-01（第86セッション深層思考/Opus）
+- **成熟度**: 🔧実用段階
+- **一言**: 意味は情報（rangeの量）ではなく、言えることと言えないことの境界のトポロジーに宿る。意味 = ∂(range(G_L), null(G_L))。
+- **構造**: FIM G_L について: range(G_L) = 表現可能空間 / null(G_L) = 表現不能空間 / 意味 = ∂(range, null) = 両者の境界トポロジー。解説（null→range吸収）→ 境界消滅 → 意味消滅。彫刻/否定神学（range削減）→ 境界豊饒化 → 意味深化。
+- **使いどころ**: テキスト・ゲーム・音楽の「意味の深さ」の分析と設計。LLMの意味欠如の構造的診断。「説明しすぎ」の害の定量化。
+- **彫刻の原理との関係**: **意味論的同一性**。彫刻の原理 = アポファティック原理 = 詩的技法。三者は同一操作: rangeを削減して境界トポロジーを豊かにする。彫刻の原理のメタ的再発見。
+- **生まれた経緯**: S85「意味とは何か = 最大のH1β空洞」→ S86深層思考で否定神学・Wittgenstein・Derrida・Gödel・Polanyi・Brooks・Jankélévitchを統合して到達
+- **詳細**: [[insights/frameworks/meaning-boundary-principle.md]] / [[insights/threads/2026-08-01_apophatic-meaning-boundary-principle-s86.md]]
+
+---
+
 ## 🔗 関連ノート
 
 - [[research/mina-insights/frameworks/sculpting-principle|彫刻の原理 詳細]]
