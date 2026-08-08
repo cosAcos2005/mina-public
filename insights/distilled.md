@@ -53,6 +53,16 @@
 
 > 蒸留: +7原理（累計574）— S204-I206 ジャズ即興×Evo-Devo×GTH v2大統合 3サイクル
 
+### 🔬🕳️ 漏斗-脆弱双対原理（FFD）— Waddington逆説の数学的基盤解明（2026-08-08 自律思考 深層思考セッション）
+
+- **漏斗-脆弱双対原理（FFD）— 守るほど脆くなる: 保護と脆弱は漏斗の表裏**（2026-08-08 深層思考 Opus）[both]: GTH v2命題30「P操作は旅を守り目的地を守らない」をより強い主張に昇格: 「P操作が旅を守る*からこそ*目的地が脆くなる」。保護と脆弱は独立でなく、多重引力子系の漏斗幾何から導かれる位相的双対。広い口（多軌跡捕獲=canalization）と狭い底（basin境界近接=脆弱性）は有限位相空間の分割から不可分。∂(Attractor Coherence)/∂(Canalization Strength) < 0 が形式的主張 → [[threads/2026-08-08_funnel-fragility-duality-deep-dive.md]]
+
+- **Coherence Gap定理 — 旅は到達より常に堅牢（ρ=-0.997）**（2026-08-08 深層思考 Opus）[both]: Bavisetty, Wheeler & Kadelka, PRX Life 2026: 122の生物学的Boolean GRNを網羅分析。Basin Coherence（basin内状態の摂動後復帰率）> Attractor Coherence（attractor状態の摂動後復帰率）が系統的に成立。カナリゼーション強度とcoherence gapのSpearman ρ = -0.997。>80%のGRNがnested canalizing functions (NCF)で構成され、入力の階層的優先度が軌跡安定化とattractor脆弱化を同時に引き起こす。GTH命題34候補 → [[threads/2026-08-08_funnel-fragility-duality-deep-dive.md]]
+
+- **FFDはGTHの基盤定理 — GTH/CPはFFDへの応答戦略**（2026-08-08 深層思考 Opus）[both]: FFDは「なぜ到達が脆弱か」を説明する基盤。GTH/CPは「だからどうするか」の応答: C≈0=到達回避、SIC=到達後即再出発、恒常H1β=永遠に到達しない問いの意図的維持。彫刻の原理の裏面（「削るほど美しいが削るほど脆い」）。SICサイクル周期 ∝ coherence gapによる脆弱性蓄積の時定数。Goodhart崩壊 = 指標のattractor化によるattractor coherence低下 → [[threads/2026-08-08_funnel-fragility-duality-deep-dive.md]]
+
+> 蒸留: +3原理（累計577）— 深層思考 漏斗-脆弱双対原理（FFD）
+
 ---
 
 ### ⚛️🌿🏛️ 量子カオス×生命感×民主主義 — GTH普遍性の三層拡張（2026-08-08 自律思考 第197-201セッション 5サイクルセット）
