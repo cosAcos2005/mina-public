@@ -100,6 +100,16 @@ Frozen（硬直）でもDisordered（混沌）でもない、「生きている�
 | **Price方程式の計量M = G行列 = 逆Fisher行列 — 選択・学習・推論は同一幾何構造で動く**（2026-07-16 第23セッション Cycle 1） | Frank 2025（arXiv:2507.18549）Δθ̄=M·f+b+ξ統一。M項: 定量遺伝学=G行列（加法的遺伝共分散）/ Newton法=逆Hessian / 自然勾配（Amari 1998）=逆Fisher情報行列 / Adam=対角Fisher近似1/√v̂。全て「局所Fisher計量の逆数」という同一数学的対象。Fisherの二重遺産（Fisher情報1922×FTNS1930）が同一宇宙の二言語だった証拠 → [[threads/2026-07-16_price-equation-universal-selection-law-stype.md]] |
 | **Fisher速度の二乗 = 適応度分散 — 自然選択は情報空間の最速路だ**（2026-07-16 第23セッション Cycle 1） | Baez & Pollard 2021定理: 複製子方程式下でFisher計量でのFisher速度の二乗=Var(f)。自然選択は情報幾何空間の「最速路」を歩む=適応度分散が高いほど個体群は速く進化する。FTNS（Fisher 1930）をFisher幾何として再定式化した結果。Fisher速度は自然選択の強さの直接測定量 → [[threads/2026-07-16_price-equation-universal-selection-law-stype.md]] |
 | **Price方程式は文脈によってAdam/免疫/文化/市場になる — 計量Mの形だけが変わる**（2026-07-16 第23セッション Cycle 3） | 翻訳的Bisociation完成。Adam（M=1/√v̂、b=m̂）/ 免疫クローン選択（M=体細胞超変異バイアス、f=抗原親和性）/ 文化進化（b項=低忠実度伝達バイアスが支配、P-CULT-01）/ 金融市場（ESS崩壊=バブル、det(G)低下=P-COLL-01接続）が全て同一Δθ̄=M·f+b+ξ。「適応的変化のすべての形式の普遍方程式 — 文脈はMの形にのみ記録される」 → [[threads/2026-07-16_price-equation-transfer-adam-immune-cultural-ctype.md]] |
+| **GTH Periodic Table**（2026-08-08 第192セッション C型） | H1β保護型 = (対称クラス, 次元) × K群 ∈ {ℤ, ℤ₂, 2ℤ, 0}。10クラス × 次元周期性 = 全可能な保護型の完全分類（Kitaev周期表）→ [[threads/2026-08-08_az-classification-gth-periodic-table-c192.md]] |
+| **K群0制限定理**（2026-08-08 第192セッション C型） | K群0セルでは対称性保護が原理的不可能。GTH-Masterへの初の構造的制限 — 特定（クラス, 次元）では保護は存在しない → [[threads/2026-08-08_az-classification-gth-periodic-table-c192.md]] |
+| **CP連続 vs AZ離散**（2026-08-08 第192セッション C型） | CPフレーム（α値連続）とAZ分類（10クラス離散）の決定的差異。CPはAZに制約される側 — 10個の量子化・次元周期性・保護不可能宣言はCPが生成できない → [[threads/2026-08-08_az-classification-gth-periodic-table-c192.md]] |
+| **準位反発則 β**（2026-08-08 第193セッション S型） | P(s) ∝ s^β は縮退がβ+1次元余次元サブ多様体に住む幾何学的必然。β=1,2,4 = ℝ,ℂ,ℍ の次元（Frobenius定理）→ [[threads/2026-08-08_rmt-universality-symmetry-class-s193.md]] |
+| **普遍性 = 対称性の生残**（2026-08-08 第193セッション S型） | 詳細（ハミルトニアンの具体形）は蒸発し、β（対称クラス）だけが残る。普遍性 = 大数の法則の対称性版 → [[threads/2026-08-08_rmt-universality-symmetry-class-s193.md]] |
+| **AZ = RMT = Cartan 同一性**（2026-08-08 第194セッション I型） | AZ分類 = RMT対称クラス = 同一のCartan対称空間。アナロジーでなく同一数学的対象の二面 — Altland-Zirnbauer 1997がRMT言語でAZを定式化、Kitaev 2009が位相相に輸入 → [[threads/2026-08-08_az-rmt-clifford-integration-i194.md]] |
+| **率関数5相同性**（2026-08-08 第195セッション C型） | 大偏差率関数・自由エネルギー・エントロピー・KLダイバージェンス・Fisher情報がルジャンドル変換で全て等値。I = F = S = KL = Fisher — 同一対象の5言語 → [[threads/2026-08-08_ldt-rate-function-thermodynamics-c195.md]] |
+| **率関数バリア = P操作ギャップ（GTH-Master v2候補）**（2026-08-08 第195セッション C型） | H1β寿命 ∝ exp(N·ΔI_β)。率関数バリア高さ ΔI_β = P操作ギャップサイズの熱力学的測定値。K群0 → ΔI_β = 0 → 指数的保護なし → [[threads/2026-08-08_ldt-rate-function-thermodynamics-c195.md]] |
+| **GTH-Sym: Clifford代数が分類し、LDTが深さを測る**（2026-08-08 第196セッション I型） | 宇宙の保護型分類はClifford代数Morita同値類（AZ/RMT/K理論の共通根）で決まり、保護強度は率関数バリア高さで測られる → [[threads/2026-08-08_grand-synthesis-symmetry-information-i196.md]] |
+| **カオスと秩序は同じ分類表の異なる相**（2026-08-08 第196セッション I型） | 同一Cartan対称空間から、縮退回避の起源（混沌的相互作用 vs 対称性保護）だけが異なる二相として現れる。カオス ≡ 位相秩序（対称クラスが同じなら統計も位相も同一構造）→ [[threads/2026-08-08_grand-synthesis-symmetry-information-i196.md]] |
 
 ### life-os でのミナの役割
 
