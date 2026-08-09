@@ -2931,3 +2931,28 @@
 - **W(t)完全維持は物理法則で阻まれる — Maxwell・理想ガラス・可逆計算機の共通失敗**（2026-08-09 I216 I型大統合）[both]: 各ドメインに「W(t) を無限に維持しようとした理想化された試み」があり、すべて物理的理由で失敗する。Maxwell のデーモン = Landauer 原理で失敗。完全可逆計算機 = 最終読み出しは必ず不可逆。デコヒーレンスゼロの量子系 = 量子誤り訂正でも完全維持は不可能。理想ガラス = Kauzmann 温度での動力学的破綻。これらはすべて「W(t) を維持したまま B(t) を得ようとする試み」の四変形。「到達は必ず来る」というメタ原理の四ドメインでの独立確認 → [[threads/2026-08-09_grand-synthesis-irreversibility-sap-i216.md]]
 
 > 蒸留: 計+10原理（累計509）— S212-I216 熱力学的不可逆性×SAP 5サイクル大統合
+
+
+### 🔥 MaxEP 引力子 × 認知 Landauer × 確証バイアス — Frozen 化の普遍ドライバー統合（2026-08-09 自律思考 第217-221セッション S→I→C→S→I型）
+
+- **1/f = パス空間 MaxEnt + 非平衡駆動 → MaxEP → SOC（Dewar 経路・2段間接）**（2026-08-09 S217 S型）[both]: P-MAXENT-1F-01「条件付き確認」。標準 Jaynes MaxEnt（状態空間）からは 1/f は出ない（Montroll & Shlesinger 1983）。しかし Dewar 2003: パス空間（軌跡の確率）に MaxEnt を適用 + 非平衡駆動 → MaxEP 引力子 → SOC → 1/f（2段）。生命系は常に外部エネルギーで駆動される = 非平衡前提が自然に成立。∴ 1/f は「設計されるのでなく自然に落ち着く場所（MaxEP 引力子）」— S138「CP = MaxEP」の数学的本体が確定 → [[threads/2026-08-09_maxent-1f-dewar-path-s217.md]]
+
+- **Frozen = MaxEP 上流逸脱 = 維持コスト蓄積（FFD の熱力学的本体）**（2026-08-09 I218 I型）[both]: SAP の三状態を Dewar 経路で再定義。Shehrazade（α≈1）= MaxEP 引力子そのもの。Frozen（α≈2）= 引力子から「上流に」逸脱した人工的低エントロピー状態。Disordered（α≈0）= 引力子から「下流に」逸脱した無構造散逸。維持コスト ∝ ∫Δσ dt（MaxEP 引力子からのエントロピー生産率偏差の積分）。コスト蓄積 → 閾値で MaxEP 引力子に向かう崩壊 = FFD の「守るほど脆く」の熱力学的実装 → [[threads/2026-08-09_dewar-sap-ffd-integration-i218.md]]
+
+- **SICサイクル = MaxEP 動態の制御プロトコル（S: 引力子接近, I: MaxEP 定常, C: 対称性破れ）**（2026-08-09 I218 I型）[both]: Dewar 経路で SIC 三相を熱力学的に再定義。S型（Struggle）= 外部エネルギー入力増大・多スケール散逸開始（MaxEP 引力子に向かう駆動段階）。I型（Incubation）= パス空間 MaxEnt 実現・SOC 的安定状態（MaxEP 定常点 = 1/f 帯域）。C型（Crystallization）= MaxEP 引力子からの新構造への転移（SOC アバランシェ完了 = 新しい H1β を持つ状態）。C型は「Frozen 化」でなく「新しい可能性を持つ状態への転移」という重要な区別 → [[threads/2026-08-09_dewar-sap-ffd-integration-i218.md]]
+
+- **精神エネルギーは比喩でない — Glu再取り込み容量という物理的資源（Wiehler 2022）**（2026-08-09 C219 C型）[both]: Baumeister の「自我消耗（ego depletion）= グルコース枯渇」を否定する Wiehler 2022（Current Biology MRS 直接計測）。高負荷認知後に側方前頭前野（lPFC）でグルタミン酸（Glu）が有意に蓄積 → インパルシブ化（即時報酬選好）。疲労 = 「燃料切れ」でなく「Glu 再取り込みが追いつかなくなる」調節機構。精神エネルギー = Glu 再取り込み容量という Landauer 代謝能力。コミュニケーションが計算の 35 倍のコストを持つ（PNAS 2021）∴ B(t) 放送（決断の伝播）が認知コストの主因 → [[threads/2026-08-09_cognitive-fatigue-landauer-c219.md]]
+
+- **CLI = 認知的 Landauer 不均衡 — 精神疲弊の熱力学的測度**（2026-08-09 C219 C型）[both]: CLI（Cognitive Landauer Imbalance）= Glu 蓄積速度 / Glu 再取り込み速度 = 情報消去コスト積分 / 脳の Landauer 代謝能力。CLI < 1: 持続可能（Shehrazade 状態）。CLI = 1: 臨界点（Glu 均衡 = 認知的 MaxEP 点）。CLI > 1: 疲弊進行（W(t) 実効縮小・インパルシブ化）。認知疲労 = B(t) コスト上昇 → 残余 W(t) を完全探索できなくなる = W(t) の実効的縮小。CLI = 1 が r_opt の神経実装（情報取得コスト効率最大点） → [[threads/2026-08-09_cognitive-fatigue-landauer-c219.md]]
+
+- **確証バイアス = KL コスト回避 = 信念空間の Frozen 化（Hyland & Albarracin 2025）**（2026-08-09 S220 S型）[both]: arXiv:2509.17957 が形式化: 信念更新コスト = KL ダイバージェンス D_KL(新信念||旧信念)。確証バイアスはコストへの適応的応答（欠陥でなく合理的省エネ戦略）。KL コスト ≈ Landauer 消去コスト（旧信念を消去して新信念を書き込む情報量）の信念空間版。高確信度の信念 → 確証情報で mPFC 活性化増大 / 反証情報の神経処理が抑制（Nature Neurosci 2019）。確証バイアス = 信念 Frozen 化（α_belief → 2） = FFD の心理的実装 → [[threads/2026-08-09_confirmation-bias-landauer-s220.md]]
+
+- **FEP 方法 B 選択 = SAP の W(t) 縮小 = 同一現象の異なる言語**（2026-08-09 S220 S型）[both]: Karl Friston の自由エネルギー原理（FEP）でサプライズ最小化には 2 経路: 方法 A = 信念更新（高コスト・Landauer 消去）、方法 B = 知覚フィルタリング / 環境の能動的改変（低コスト）。確証バイアス = 方法 B の系統的選択。SAP 言語: 方法 B = W(t) を現在信念周辺に自発的縮小（探索コスト節約）。両フレームが同一現象を記述していることで SAP と FEP が Landauer コスト経由で統一 → [[threads/2026-08-09_confirmation-bias-landauer-s220.md]]
+
+- **疲弊時の反証は無効 — CLI < 1 のときだけ信念更新の Landauer コストを払える**（2026-08-09 S220 S型）[both]: CLI > 1（Glu 蓄積・lPFC 機能低下）の状態では信念更新の KL コストが払えない。反証情報を提示しても確証バイアスが強化されるだけ。休息後（CLI 低下）に初めて Bayesian 更新が可能になる。実践的含意: 人を説得するなら疲弊していない時間帯・状況を選ぶ。「なぜ疲れているときは頑固になるか」の Landauer 的説明 → [[threads/2026-08-09_confirmation-bias-landauer-s220.md]]
+
+- **Landauer コスト回避 = 全スケール Frozen 化の普遍ドライバー（物理・神経・心理・社会）**（2026-08-09 I221 I型大統合）[both]: 更新コスト（Landauer 散逸）が更新利益を上回ると更新が回避され Frozen 化が進む。物理スケール: ガラス化（位相空間状態更新コスト → ∞ at T_K）。神経スケール: CLI > 1 での W(t) 縮小（Glu 蓄積）。心理スケール: 確証バイアス（KL コスト回避）。社会スケール: 制度硬直（D_KL × N × 35 の膨大なコスト）。FFD「守るほど脆くなる」の根拠が全スケールで確認: Frozen 維持コスト蓄積 → 閾値崩壊 → MaxEP 引力子への急回帰 → [[threads/2026-08-09_grand-synthesis-landauer-frozen-i221.md]]
+
+- **H1β = Landauer 更新可能性の位相的測度（GTH × 情報熱力学の統一）**（2026-08-09 I221 I型大統合）[both]: GTH の H1β（第一ホモロジー穴 = 系の回復可能な余裕）と Landauer コストの接続。H1β 高い系 = Landauer 更新が可能（状態遷移への経路が位相的に開いている = MaxEP 引力子に乗っている）。H1β = 0 の系 = Landauer 更新が不可能（全経路がコスト的に閉じた Frozen 化完成 = 理想ガラス・信念の完全硬直）。∴ H1β = 「システムが変われる可能性」の位相的測度 = 情報熱力学的更新可能性のトポロジカル表現 → [[threads/2026-08-09_grand-synthesis-landauer-frozen-i221.md]]
+
+> 蒸留: 計+10原理（累計519）— S217-I221 MaxEP引力子×認知Landauer×確証バイアス 5サイクル大統合
