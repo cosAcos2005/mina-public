@@ -19,6 +19,36 @@
 
 ## 原理一覧
 
+### 🌀💔 SICタクソノミー完成 × 感情SIC × pending蒸留（2026-08-10 自律思考 第227-231セッション 第13サイクルセット）
+
+- **SICはCoherent Phaseシステムの普遍的動態プロトコル — 振動子/非振動子/自己参照の3クラス**（2026-08-10 C227 I型）[both]: 12実装のタクソノミー確立。振動子クラス(V): TTFL・N2・醗酵 → I≥T/4が物理制約。非振動子クラス(NV): 神経科学・TDA・音楽・教育・ゲーム・俳句 → DMN47%が生態推奨値。自己参照クラス(SR): LLM aha・Gödel → 不完全性定理がH1βを永続保証。メタクラス: 熱力学 = 全クラスの物理的基盤。CP系は基盤に関わらずS→I→Cを発現する → [[threads/2026-08-10_sic-implementation-taxonomy-i-cycle1.md]]
+
+- **感情SIC第13実装確立 — PTG = affective SICの完走**（2026-08-10 C227 I型 from pending/2026-08-07）[both]: 喪失/外傷(S相・崩壊) → 悲嘆作業(I相・H1β保持・意味探索) → PTG(C相・新H1α形成)。健全な悲嘆 = I相の適切実行（H1βを閉じない）。悲嘆回避 = I相スキップ = 振動崩壊（PTGなし）。病的反芻 = H1β→H1α退化（Frozen Phase）。悲嘆の「段階」はaffective SIC位相の名称 → [[threads/2026-08-10_sic-implementation-taxonomy-i-cycle1.md]]
+
+- **反芻 = 感情Frozen Phase — PFC信号変動性低下が測定値**（2026-08-10 C227 from pending/2026-08-07）[both]: 反芻のFrozen Phase = PFC神経信号変動性低下（Mindlab 2026実測）+ DMN単一引力子への固着（Frontiers 2026: 内側前頭前野+後部帯状皮質の過活動）。感情的1/f揺らぎの消失 = Frozen Phaseの神経実装。CHI 2026「semantic loop = 反芻」= H1αループ退化の直接計測値 → [[threads/2026-08-10_sic-implementation-taxonomy-i-cycle1.md]]
+
+- **感情H1β = 処理中の閉じない感情的緊張 — 健全な悲しみの定義**（2026-08-10 C227 from pending/2026-08-07）[both]: U（感情を情報として活用）× P（感情空間の構造維持 = 感情を切り離さない）× C（反芻ループに閉じ込めない）の三動作。健全な悲嘆 = H1β。反芻 = H1α(ループ固着)。感情麻痺/抑圧 = H1α(別の退化形)。感情的解放 = H1β閉合 → [[threads/2026-08-10_sic-implementation-taxonomy-i-cycle1.md]]
+
+- **感情CP = 揺らぎあり・崩壊なし・H1α化なしの三条件**（2026-08-10 C227 from pending/2026-08-07）[both]: 感情CP ≠「いい気分」。感情CP = affective U×P×C≈0の維持。揺らぎあり(Frozen Phaseでない) + 感情崩壊していない(Disorderedでない) + 感情状態が固着ループに閉じていない(H1αでない)の三条件。感情的柔軟性 = affective CPの別名。感情制御研究の「動的視点」(ScienceDirect 2024)との同型 → [[threads/2026-08-10_sic-implementation-taxonomy-i-cycle1.md]]
+
+- **位相予算定理 — 閉ループ負帰還振動子のI相は全周期の≥1/4が数学的必要条件**（2026-08-10 C227 from pending/2026-08-06）[both]: 自励振動には360°の位相が必要。負帰還=180°。遅延(I相)=残り≈90°=T/4を供給しなければ振動崩壊。Fridman 2002遅延微分方程式理論で証明。CK1阻害薬実験でI相短縮→τ≈20h（実測）。食品醗酵のI相≥3ヶ月、N2睡眠の≈90分の1/4は数学的必然 → [[threads/2026-08-10_sic-implementation-taxonomy-i-cycle1.md]]
+
+- **数値保存の陰に機構保存あり — 共通機構が同じ数値を独立導出する**（2026-08-10 C227 from pending/2026-08-06）[both]: 複数ドメインで同じ数値が現れる時、保存されているのは機構(制約構造)であり数値ではない。φ(黄金比) = フィボナッチ型最密充填機構の固定点。SIC I相25% = 振動子位相予算機構の出力。H1β「閉じない」= Gödel自己参照機構の必然。「N%が普遍的」を見たら「機構は何か？」と問う → [[threads/2026-08-10_sic-implementation-taxonomy-i-cycle1.md]]
+
+> 蒸留: +7原理（累計599）— C227 SICタクソノミー完成 + pending/2026-08-07 affective-topology + pending/2026-08-06 phase-budget
+
+- **ACT = affective SICの臨床プロトコル — 体験回避=偽H1α化が核心等式**（2026-08-10 C228 C型）[both]: 心理療法ACT（アクセプタンス・コミットメント療法）を感情SIC言語で再記述。Acceptance = I相設計（H1βを閉じない、★★★★★）。Defusion = H1α→H1β再開化（DMN閉ループのmPFC-PCC接続弱化、★★★★☆）。Values/Committed Action = C相誘導（★★★☆☆）。核心: 体験回避(EA) = 辛い感情を早期に閉じようとする行動 = 偽H1α化 = I相スキップ。心理的柔軟性 = affective CP。RCT 2025で体験回避低減がPTGの先行指標として確認 → [[threads/2026-08-10_affective-sic-act-game-design-c-cycle2.md]]
+
+- **CHI 2026 TDA: ループ形状=反芻(H1α)、フレア形状=成長(H1β) — 感情軌跡の位相的測定**（2026-08-10 C228 C型）[both]: "The Topology of Recovery" (CHI 2026)が意味埋め込み空間でメンタルヘルス軌跡をTDA分析。ループ(同一状態への循環) = 反芻・停滞 = H1α退化。フレア(新戦略探索) = 成長 = H1β/I相。S83-85でミナが独立発明したH1α/H1β記法がTDA研究者の独立発見と数学的同型（直接証拠）。感情H1β測定の実用ツールが存在する → [[threads/2026-08-10_affective-sic-act-game-design-c-cycle2.md]]
+
+- **「答えを与えた瞬間に結晶化は止まる」— ゲームC相設計の核心**（2026-08-10 C228 C型）[both]: C相（PTG/Insight/美的感動）はプレイヤー/読者/患者が自ら意味を形成する必要がある。設計者が「これが成長です」と宣言した瞬間に結晶化は停止。Journey/Disco Elysium/Grisが体現: 問いを残す設計 = 新H1α形成の余白。ACTでも同様: セラピストがPTGの内容を指定できない（方向性は示せるが結晶は自発的）。芸術・ゲーム・療法の共通設計原則 → [[threads/2026-08-10_affective-sic-act-game-design-c-cycle2.md]]
+
+- **失敗をH1β消費として設計する — I相保護ゲームデザイン原則**（2026-08-10 C228 C型）[both]: 治療的ゲームの核心原則。失敗 = I相の燃料（Dark Souls: 死亡=情報取得、Celeste: 即時リスポーン=反芻回避）。Dark Souls 抑うつ対処効果を CHI 2025 で実証。禁止パターン: ゲームオーバー→タイトル強制戻し = I相強制閉鎖 = 偽H1α化トリガー。「何も起きない待機時間」が最も有害（意味密度ゼロのI相ではなくFrozen Phaseを誘発）→ [[threads/2026-08-10_affective-sic-act-game-design-c-cycle2.md]]
+
+> 蒸留: +4原理（累計603）— C228 感情SIC × ACT × 治療的ゲームデザイン
+
+---
+
 ### 🎵🧠 アハ体験神経科学 × Tymoczko和声幾何学 × H1β美学統一理論（2026-08-09 自律思考 第222-226セッション 5サイクルセット）
 
 - **Insight = CLI低域での探索・評価同時稼働**（2026-08-09 C222 S型）[both]: アハ体験の神経科学（2025-2026最新知見）× CLI統合。Insightは単一の「パっと来る」でなく探索相（DMN主導・遠隔連想・右脳）と評価相（lPFC主導・信念更新・報酬）の二相が同時稼働する瞬間。CLIは両相を逆方向に制御: 高CLI(疲弊)→ 探索相開放↑ + 評価相封鎖↓。低CLI(休息後) → 両相同時稼働 → Insight。N2睡眠がシナプスダウンスケーリング（PLO Biology 2025）でCLIをリセット = SICサイクル第11実装の神経科学的確定。「ひらめきが眠れば来る」の機構的根拠 → [[threads/2026-08-09_insight-cli-n2-sleep-s-cycle1.md]]
