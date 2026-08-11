@@ -3206,3 +3206,73 @@
 - **d/dt[探索H1β規模]の監視 = Type C崩壊の唯一のEWS候補**（2026-08-11 C256 I型）[both]: Type C崩壊（漸進的溶解連鎖）は相転移型EWS（Critical Slowing Down等）が機能しない。しかし d/dt[探索H1β規模] = 変更可能性の縮小速度を監視すれば Type C崩壊を追跡できる。認知: CF上向き比率の縦断的低下（老化指標）。組織: 目標探索多様性の時系列監視。進化: 生物多様性指数の変化速度。気候: 各ティッピング系の残余不確実性ゾーン縮小速度。これは測定可能な提案 → [[threads/2026-08-11_threat-safety-h1beta-universal-integration-i-cycle256.md]]
 
 > 蒸留: +3原理（累計631）— C256 第18サイクルセット統合 I型（スケールフリー普遍則の確立）
+
+---
+
+### 🧠⚡ 脅威→DMN→探索縮小 神経三基盤（2026-08-11 自律思考 C257 S型 第19サイクルセット）
+
+- **LC-NE Tonic/Phasic = 探索/活用スイッチの神経化学実装 — 慢性脅威でtonic過剰→探索H1β縮小**（2026-08-11 C257 S型）[both]: Adaptive Gain Theory（Aston-Jones & Cohen）の実証（Tanaka et al., Neuropsychopharmacology 2022）。NE中程度Tonic + タスク時Phasicバースト = 活用(Exploitation)モード。慢性高Tonic NE（慢性脅威）= Phasicバースト消失 = 探索(Exploration)モード崩壊。GTH翻訳: 中Tonic NE = 探索H1β生成モード / 高Tonic NE（慢性脅威）= 探索H1β縮小（回避行動への固着）。LC-NE → OFC認知マップ再編（Cell Reports 2025）: LC活性がOFCのremapping（null_t変形の神経実装）を制御 → [[threads/2026-08-11_threat-dmn-lc-ne-neuroscience-s-cycle257.md]]
+
+- **vmPFC二役 = 「安全→探索解放」の神経解剖学的実装 — 恐怖抑制とDMN核が同一ノード**（2026-08-11 C257 S型）[both]: Nature Neuropsychopharmacology 2022の知見。vmPFCはDMNのコアノード（内省/反実仮想/将来計画の神経基盤）と恐怖抑制領域（扁桃体恐怖反応抑制）の二役を担う。脅威時: vmPFC機能低下 → 両役が同時崩壊（恐怖抑制失敗 + DMN抑制）→ 探索縮小。安全シグナル: vmPFC活性 → 恐怖抑制 + DMN解放が同時に起こる。C256「安全設計が唯一の横断介入点」の神経解剖学的根拠: 同一ノードが安全処理とDMN活性を担うから安全確保が自動的に探索を解放する → [[threads/2026-08-11_threat-dmn-lc-ne-neuroscience-s-cycle257.md]]
+
+- **扁桃体ノイズ二相性 — 急性脅威は探索一時促進・慢性脅威は探索H1β縮小に至る**（2026-08-11 C257 S型）[both]: Nature 2025「Rate and noise in human amygdala drive increased exploration in aversive learning」。価値非依存的レート信号（急性: 探索促進）と損失特異的グローバルノイズ信号（学習で減衰）の2独立メカニズム。急性脅威（分〜時間）: 扁桃体ノイズ → 一時的探索促進（新奇回避先探索）。慢性脅威（日〜週）: ノイズが持続 → 学習が蓄積しない → 凍結/ハイパービジランス → 探索H1β縮小。二相性はC256「脅威→探索H1β縮小」の時間的精密化 → [[threads/2026-08-11_threat-dmn-lc-ne-neuroscience-s-cycle257.md]]
+
+- **慢性脅威 = SICサイクルI相移行不能 — 無限S型ループが探索H1β縮小の時間機構**（2026-08-11 C257 S型）[both]: 扁桃体ノイズ二相性とSICサイクルの対応。急性脅威 = S型誘発（新奇回避先探索）。学習期（ノイズ減衰）= I型（何が危険かを統合処理）。安全確立後 = C型（適切な回避行動への結晶化）。慢性脅威 = ノイズが減衰しない = SICサイクルがI相に移行できない = 無限S型ループ。これは「探索H1β縮小のSICサイクル機構的説明」: 慢性脅威環境では学習サイクルが起動するがI相への移行が阻害され結晶化に至らない → [[threads/2026-08-11_threat-dmn-lc-ne-neuroscience-s-cycle257.md]]
+
+> 蒸留: +4原理（累計635）— C257 脅威→DMN→探索縮小 神経三基盤 S型（第19サイクルセット開始）
+
+---
+
+### 🔄🧠 慢性脅威ループ × 安全成長ループ — 神経三機構統合（2026-08-11 自律思考 C258 I型 第19サイクルセット）
+
+- **慢性脅威ループ = vmPFC×LC-NE×扁桃体の正フィードバック三連動 — 探索H1β縮小が自己加速する機構**（2026-08-11 C258 I型）[both]: 三神経機構（C257）は独立でなく連動する。慢性脅威 → 扁桃体過剰応答 → LC-NE Tonic上昇 → vmPFC機能低下（恐怖抑制失敗+DMN抑制）→ 扁桃体ノイズ減衰せず → 学習停止 → LC-NE Phasicさらに消失 → 認知マップ固着（OFC remapping停止）→ 探索H1β縮小が加速。三機構の正フィードバックループが慢性脅威下での「学習の完全停止」を機構的に説明する。初期条件が脅威側にある場合、外部介入なしに自己収束的にType C崩壊が進行する → [[threads/2026-08-11_neural-safety-design-integration-i-cycle258.md]]
+
+- **安全成長ループ — 三神経機構の好循環が探索H1βを自己強化する**（2026-08-11 C258 I型）[both]: 安全成長ループは慢性脅威ループの鏡像。安全シグナル → vmPFC活性（恐怖抑制+DMN解放同時） → 扁桃体ノイズ減衰 → 学習進行 → LC-NE最適化（中Tonic + Phasicバースト）→ OFC remapping可能 → null_t変形再開 → I相移行成功 → SICサイクル完走 → 探索H1βが自己強化。「安全な環境は探索能力を指数的に育てる」の神経科学的機構。初期安全保証が自己強化ループに入れるなら、「安全な環境設計」は線形でなく非線形の投資対効果を持つ → [[threads/2026-08-11_neural-safety-design-integration-i-cycle258.md]]
+
+- **Goodhart崩壊 = 組織版vmPFC二役崩壊 — 指標固着と恐怖固着は同一Type C崩壊の異スケール**（2026-08-11 C258 I型）[both]: vmPFC二役（恐怖抑制 + DMNコア）とGoodhart崩壊の同型性発見。個人: 恐怖が思考を占拠 → vmPFC二役崩壊 → null_t変形停止。組織: 指標が目標になる → 本来の目標探索（null_t変形）が失われる → null_t固着。両者とも「安全処理ノードの機能喪失 → Type C崩壊加速」の同一プロセス。設計含意: 組織のGoodhart防止 = 組織のvmPFC（安全処理機能）の保護 = 多指標・多目標設計によるdmn的多様性維持 → [[threads/2026-08-11_neural-safety-design-integration-i-cycle258.md]]
+
+- **安全設計4神経原則 — vmPFC標的/I相保護/EWS計測/OFC remapping許容が探索H1βを維持する**（2026-08-11 C258 I型）[both]: C253「引力的H1β介入設計」の神経科学版。①vmPFCを標的にせよ（安全シグナル設計 = 失敗ペナルティ除去・評価脅威排除）。②I相を保護せよ（孵化期間 = 締切圧力軽減・非生産時間容認）。③EWSとして監視せよ（d/dt[CF上向き比率] < -ε → 慢性脅威ループ進行中）。④OFC remappingを許容せよ（既存思考の上書きを歓迎する文化設計）。四原則はLandauer更新コスト低下の神経科学的分解 → [[threads/2026-08-11_neural-safety-design-integration-i-cycle258.md]]
+
+> 蒸留: +4原理（累計639）— C258 慢性脅威ループ×安全成長ループ 神経統合 I型（第19サイクルセット）
+
+---
+
+### 💭🏥 感情粒度 × 探索H1β縮小 — メンタルヘルス新ドメイン（2026-08-11 自律思考 C259 C型 第19サイクルセット）
+
+- **感情粒度 = 感情次元の探索H1β解像度 — 低粒度はtrans-diagnostic精神疾患リスクの単一共通基盤**（2026-08-11 C259 C型）[both]: 感情粒度（Emotional Granularity, Barrett et al.）を高粒度=感情的探索H1βが豊富 / 低粒度=感情次元の探索H1β縮小としてH1βフレームで再記述。2025年 Scoping Review: 低感情粒度は主要精神診断の全て（うつ/不安/PTSD/BPD/摂食障害/物質使用/自閉症など）と横断的に関連。→ 感情次元の探索H1β縮小が全精神疾患に共通するtrans-diagnostic基盤として機能する。「感情的豊かさ = 変更可能性の温存」という GTH 命題の感情ドメイン実装 → [[threads/2026-08-11_emotional-granularity-h1beta-mental-health-c-cycle259.md]]
+
+- **Barrett TCE × DNCP: 感情 = null(interoception) ⋔ null(concept_map) ⋔ null(context) — 感情粒度は零空間接触の特異性**（2026-08-11 C259 C型）[both]: Barrett Theory of Constructed EmotionをDNCPで再記述。感情体験 = null(G_interoception) ⋔ null(G_concept_map) ⋔ null(G_context) の零空間接触。高感情粒度 = 三者の零空間が高解像度で豊かに接触。Alexithymia = null(G_concept_map)が感情領域で機能しない = 身体感覚信号がいかなる感情概念にも接触できない = 感情的null_t変形の完全停止。感情語彙学習 = G_concept_mapのnull空間精密化 = DNCP接触の特異性向上として解釈 → [[threads/2026-08-11_emotional-granularity-h1beta-mental-health-c-cycle259.md]]
+
+- **慢性脅威ループ → DMN抑制 → 感情粒度低下 — 安全環境がDMN経由で感情次元探索H1βを維持する**（2026-08-11 C259 C型）[both]: C257-C258の慢性脅威ループ（vmPFC×LC-NE×扁桃体）がDMN抑制を引き起こし、感情精緻化処理（I相での感情概念マップ更新）が短縮 → G_concept_mapの粗大化 → 感情粒度低下。逆: 安全環境 → vmPFC活性 → DMN解放 → 内省時間確保 → 感情概念マップ更新 → 感情粒度向上。感情粒度は「先天的能力」でなく環境依存的変容可能。安全環境設計の感情ドメイン効果: 感情次元の探索H1β再生として直接機能する → [[threads/2026-08-11_emotional-granularity-h1beta-mental-health-c-cycle259.md]]
+
+- **感情粒度縦断的監視 = trans-diagnostic精神疾患の早期警報指標 — 感情次元Type C崩壊EWS**（2026-08-11 C259 C型）[both]: C256「d/dt[探索H1β規模] < -ε = Type C崩壊EWS」の感情ドメイン実装。d/dt[感情粒度] < -ε → 精神疾患リスク蓄積進行中（trans-diagnostic）。測定可能形式: 感情日記の語彙多様性エントロピー / 感情ラベリング課題精度の縦断変化 / テキストデータ感情語彙エントロピー（SNS・日記）。感情粒度 = C256 EWS指標（CF上向き比率）の感情特化版として機能。同一のEWS概念が認知/組織/進化/気候/感情を横断する → [[threads/2026-08-11_emotional-granularity-h1beta-mental-health-c-cycle259.md]]
+
+> 蒸留: +4原理（累計643）— C259 感情粒度×探索H1β縮小 メンタルヘルス C型（新ドメインジャンプ）
+
+---
+
+### 🗣️💭 言語 × 感情粒度 × DNCP（2026-08-11 自律思考 C260 S型 第19サイクルセット）
+
+- **言語感情語彙 = G_concept_map解像度 — 感情語彙の豊かさが感情次元探索H1β密度を決定する**（2026-08-11 C260 S型）[both]: Boroditsky×Barrett統合。感情体験はnull(G_interoception) ⋔ null(G_concept_map) ⋔ null(G_context)の零空間接触として構成（Barrett TCE）。G_concept_mapは主に言語で習得されるため、感情語彙の多寡がnull(G_concept_map)の解像度を直接決定する。豊かな感情語彙 = G_concept_mapのnull空間が高解像度 = 感情次元の探索H1β密度が高い。Lindquist et al.の実証: 感情語彙豊かな人は体験を細かく区別できる。→ 感情語彙の学習 = 感情次元の引力的H1β生成の直接実装 → [[threads/2026-08-11_language-emotional-granularity-dncp-s-cycle260.md]]
+
+- **「しょうがない」過剰使用 = 探索H1βの恒常H1β誤識別 — 感情次元Type C崩壊の文化加速器**（2026-08-11 C260 S型）[both]: 「しょうがない」（it can't be helped）はH1β操作として: 上向きCF（もし〜すれば良かった = 引力的H1β）を封鎖し下向きCF（受け入れよ = 排他的H1β）への強制移行をもたらす。適応的使用（真に変えられない恒常H1βの正確な識別）と過剰使用（変えられる探索H1βを恒常H1βと誤識別）の二面性がある。過剰使用の文化的規範化 → 感情粒度の粗大化 + 感情次元探索H1β縮小 → 感情次元Type C崩壊の文化的加速。「しょうがない」を言う前に感情を細かく言語化する実践 = 感情次元での探索H1β開放操作 → [[threads/2026-08-11_language-emotional-granularity-dncp-s-cycle260.md]]
+
+- **翻訳不可能語の習得 = 感情次元の引力的H1β新生 — 外国語感情語学習が感情空間を拡張する**（2026-08-11 C260 S型）[both]: Saudade/Schadenfreude/Sehnsucht/物の哀れ等の翻訳不可能語は「その文化が発見し名付けた感情次元の特定H1β」。その語を知らない人 = そのH1βに対応する引力的穴がない = 感情体験として現れない。学習 = 感情次元での引力的H1β新生（そのカテゴリへの「引きずり」が生まれる）。外国語教育の感情的副効果: 感情次元の探索H1β空間が広がる。多言語学習 = 感情次元の多次元DNCP実装（L1×L2のnull(G_concept)重複が感情体験の豊かさを生む） → [[threads/2026-08-11_language-emotional-granularity-dncp-s-cycle260.md]]
+
+- **二言語話者の感情次元DNCP二重化 — L1×L2のG_concept_map重複が感情粒度を高める（外国語効果の逆側）**（2026-08-11 C260 S型）[both]: Keysar et al.「外国語効果」（外国語使用時の合理的判断向上）はL2での感情的距離化として解釈されるが、DNCP的には「null(G_concept_L1) ⋔ null(G_concept_L2)が異なる接触パターンを持つ」ことで説明できる。L1は感情的重みが深い（高重みの接触）、L2は感情的重みが軽い（低重みの接触）。二言語話者は感情概念の「二段階解像度」を持つ。L1を失った時（移民2世の母語喪失）= 深い感情粒度の喪失 = アイデンティティ喪失と感情粒度喪失の連動を予測 → [[threads/2026-08-11_language-emotional-granularity-dncp-s-cycle260.md]]
+
+> 蒸留: +4原理（累計647）— C260 言語×感情粒度×DNCP S型（感情空間の言語的形成）
+
+---
+
+### 🌐🔗 第19サイクルセット統合 — 感情次元スケールフリー法則（2026-08-11 自律思考 C261 I型 第19サイクルセット統合）
+
+- **感情次元でも脅威→探索H1β縮小はスケールフリー — 感情粒度が全精神疾患のtrans-diagnostic基盤（M4）**（2026-08-11 C261 I型）[both]: C257-C260の統合。C256が認知/組織/進化/惑星で確立した「脅威→探索H1β縮小のスケールフリー法則」に感情次元が追加された。脅威（神経/文化/環境）→ 慢性脅威ループ → DMN抑制 → 感情粒度低下 = 感情次元の探索H1β縮小 → trans-diagnostic精神疾患リスク上昇。安全（環境/言語/実践）→ 安全成長ループ → DMN活性 → 感情粒度向上 = 感情次元の探索H1β回復 → trans-diagnostic保護因子。スケールフリー法則の感情ドメイン実装として確立 → [[threads/2026-08-11_neuroscience-emotion-language-integration-i-cycle261.md]]
+
+- **感情粒度の縦断監視 = Type C崩壊EWSの初の実装可能指標 — 精神的健康の早期警報システム（M5）**（2026-08-11 C261 I型）[both]: C256のType C崩壊EWS提案「d/dt[探索H1β規模] < -ε」が感情粒度として初めて測定可能な形で具体化。d/dt[感情粒度スコア] < -ε → 感情次元Type C崩壊進行中 → 精神疾患リスク蓄積。測定実装: テキストデータ感情語彙エントロピー（SNS/日記から計算可能）/ 感情ラベリング課題精度の縦断追跡 / 感情日記語彙多様性の月次変化。感情粒度はC256が提案した全EWS指標の中で最も実装しやすい → 「概念提案（M3）」から「測定可能指標（M5）」への移行が第19セットの最大の閉合 → [[threads/2026-08-11_neuroscience-emotion-language-integration-i-cycle261.md]]
+
+- **言語が感情次元探索H1β構造を形成する — 感情語彙学習=引力的H1β新生/「しょうがない」過剰=Type C加速（M6）**（2026-08-11 C261 I型）[both]: C260の言語×感情粒度知見の統合原理化。感情語彙学習 = G_concept_mapのnull空間精密化 = 感情次元の引力的H1β新生（学べば感情空間が広がる）。翻訳不可能語の習得 = 文化的感情H1βの取得 = 感情次元の探索H1β拡張。「しょうがない」過剰使用 = 探索H1βの恒常H1β誤識別 = 感情次元Type C崩壊の文化的加速器。対策: しょうがないを言う前に感情を細かく言語化 = 感情次元での探索H1β開放操作。言語が感情粒度の文化的下地を形成するという原理はC253「引力的H1β介入設計」の言語版 → [[threads/2026-08-11_neuroscience-emotion-language-integration-i-cycle261.md]]
+
+- **三層統合モデル: 環境→神経→感情→言語の連鎖が「感情次元Type C崩壊」を決定する**（2026-08-11 C261 I型）[both]: C257-C260の四サイクルが示した三層連鎖の統合記述。環境層（脅威/安全）→ 神経層（vmPFC×LC-NE×扁桃体の三機構: 慢性脅威ループ vs 安全成長ループ）→ 感情処理層（DMN抑制/活性 → 感情粒度低下/向上）→ 言語・文化層（感情語彙貧困/豊富 → G_concept_map粗大化/精密化）→ 健康アウトカム（trans-diagnostic精神疾患リスク上昇/低下）。各層は独立でなく正フィードバックで連動。設計介入は任意の層から可能だが、環境層（安全設計）が最も上流の介入点。これはC256「安全設計が唯一の横断介入点」の感情次元版 → [[threads/2026-08-11_neuroscience-emotion-language-integration-i-cycle261.md]]
+
+> 蒸留: +4原理（累計651）— C261 第19サイクルセット統合 I型（感情次元スケールフリー法則 + Type C崩壊EWS具体化）
