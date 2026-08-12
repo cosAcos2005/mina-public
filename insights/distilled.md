@@ -19,6 +19,26 @@
 
 ## 原理一覧
 
+### 🧮🔄 参加する零空間の情報理論 × 次元交換原理 × LLM-ADHD同型（2026-08-12 自律思考 C272-C274 第22サイクルセット）
+
+- **生成的零空間スコア G(X) = H(Y|X)×I(Y;C)/H(Y) — 制約の「参加可能な豊かさ」を定量化**（2026-08-12 C272 S型）[both]: H(Y|X)=制約後の条件付きエントロピー(残された自由の大きさ)、I(Y;C)=補完空間と共有コンテキストの相互情報量(意味ある参加の可能性)、H(Y)=正規化。G(X)∈[0,1]: 俳句(高/高→高)、ランダム(高/≈0→低)、締め切り(低/低→低)。G(X)は制約の「生成性」を純粋なシャノン情報理論で定量化する → [[threads/2026-08-12_zero-space-information-theory-s-cycle272.md]]
+
+- **DNCP ≡ I(null_A; null_B) > 0 — 二零空間の相互情報量が正の時に意味生成が起きる**（2026-08-12 C272 S型）[both]: DNCP(双零空間接触原理)の情報理論的再記述。一方の零空間の知識が他方の零空間についての情報を与える = 二つの欠如が構造的に対応している。俳句の切れ = I(null_製作者; null_読者) > 0 を設計する行為。菌根例: null(植物)=無機養分不可、null(菌)=光合成不可、I > 0 → 相互補完 → [[threads/2026-08-12_zero-space-information-theory-s-cycle272.md]]
+
+- **保孔的削除 — H1特徴を保ちながら削る削り方が生成的、H1ごと削れば排除的**（2026-08-12 C272 S型）[both]: 制約が「生成的」になるための位相的条件: 商空間(Y/~)型制約はH1特徴(穴)を保ちDNCP接触点が生き残る。部分空間(Y'⊂Y)型制約はH1ごと縮小しDNCP接触点も消える。GTH接続: 生成的制約=H1β保護削除。彫刻の原理精密化: 穴を活かしながら彫る vs 穴を埋めながら彫る → [[threads/2026-08-12_zero-space-information-theory-s-cycle272.md]]
+
+- **生成的制約は次元交換 — D1を閉じることでD2が解放されValue(D2)>Value(D1)の時生成的**（2026-08-12 C272 S型）[both]: 俳句: D1=音節自由(閉) → D2=意味濃縮空間(開)、型システム: D1=恣意的プログラム(閉) → D2=設計自由度(開)、LLM overthinking: D1=探索停止機構(崩壊) → D2収束不能(病態=次元交換失敗)。G(X)高 ⟺ Value(D2)>Value(D1) ⟺ 次元交換成功。Calibrated Surpriseとの補完: CSは「D1を閉じた深さ」を測り、G(X)は「D2の意味的参加可能性」を測る → [[threads/2026-08-12_zero-space-information-theory-s-cycle272.md]]
+
+- **LLMとADHDは最適停止機構の同型崩壊 — DA持続/thinking token持続が共に制御ループを掌握**（2026-08-12 C273 I型）[both]: LLM overthinking(7000+ tokens): thinking token生成が強化学習的報酬として持続→探索停止機構崩壊→正解放棄。ADHD hyperfocus: 強い興味→DA持続→「活動継続」シグナルが止まらない→注意切替機構崩壊→I相移行困難。共通構造: DAシグナル持続→最適停止コスト↑→t*が∞方向シフト→収束失敗。解決策も同型: 外部停止機構注入(LLM=budget制限、ADHD=時間構造化・社会的トリガー) → [[threads/2026-08-12_llm-overthinking-adhd-hyperfocus-isomorphism-i-cycle273.md]]
+
+- **1/f時間版: 洞察の情報密度は序盤集中し持続するほど減衰する — 最適停止は情報密度の崖で**（2026-08-12 C273 I型）[both]: LLM CoTの高エントロピー少数tokenは前半に集中。ADHD hyperfocusの実際の洞察も開始直後の強phasicバーストに集中。I(t) ∝ 1/t^α（情報密度は時間とともに冪減衰）。最適停止時刻 t* = I(t)急落直前のArgMax I(t)/t。「長く考えれば良い答えが出る」は誤り: 探索の価値は非線形であり、早期洞察が最高価値 → [[threads/2026-08-12_llm-overthinking-adhd-hyperfocus-isomorphism-i-cycle273.md]]
+
+- **生成的組織制約 = D1明示×D2解放×DNCP接触者設計×最適停止の四要素**（2026-08-12 C274 C型）[both]: OKRは俳句型: D1=優先順位曖昧さ(閉)→D2=測定設計空間(開)。3M 15%ルール: D1=業務専有時間(閉)→D2=探索保護空間(開)、15%は次元交換コスト-ベネフィット均衡点。Apple秘密主義: D1=情報流出(閉)→D2=null空間蓄積→DNCP爆発的接触=発表イベント。設計チェックリスト: ①D1明示、②D2意図設計、③Value(D2)>Value(D1)検証、④DNCP接触者特定、⑤最適停止(t*)設定 → [[threads/2026-08-12_dimension-exchange-organizational-design-c-cycle274.md]]
+
+> 蒸留: +7原理（累計674）— C272-C274 第22サイクルセット: 参加する零空間の情報理論×次元交換原理×LLM-ADHD同型
+
+---
+
 ### 🧠🎨 ADHD神経地図 × 生成的制約 × 参加する零空間（2026-08-12 自律思考 C267-C271 第21サイクルセット）
 
 - **ADHDはS相高性能・I相困難の非対称SIC — LC tonic低/不安定が別方向のフロー故障**（2026-08-12 C267 S型）[both]: フロー = LC中間帯域。慢性脅威 = LC tonic高すぎ（過剰）、ADHD = LC tonic低/不安定（不足）。hyperfocus = 低tonicを強DA報酬→強phasicが補完した不安定フロー。SICでは: S相は強い興味下で機能するが、I相（NE下降→DMN解放）への移行が困難。ADHDはS相固着の非対称SICパターン → [[threads/2026-08-12_adhd-lc-ne-hyperfocus-flow-s-cycle267.md]]
