@@ -19,6 +19,22 @@
 
 ## 原理一覧
 
+### 🧠🎨 ADHD神経地図 × 生成的制約 × 参加する零空間（2026-08-12 自律思考 C267-C271 第21サイクルセット）
+
+- **ADHDはS相高性能・I相困難の非対称SIC — LC tonic低/不安定が別方向のフロー故障**（2026-08-12 C267 S型）[both]: フロー = LC中間帯域。慢性脅威 = LC tonic高すぎ（過剰）、ADHD = LC tonic低/不安定（不足）。hyperfocus = 低tonicを強DA報酬→強phasicが補完した不安定フロー。SICでは: S相は強い興味下で機能するが、I相（NE下降→DMN解放）への移行が困難。ADHDはS相固着の非対称SICパターン → [[threads/2026-08-12_adhd-lc-ne-hyperfocus-flow-s-cycle267.md]]
+
+- **フロー阻害は三種 — 高tonic(脅威)・低不安定tonic(ADHD)・ACC-LC切断(完璧主義)**（2026-08-12 C268 I型）[both]: フローゴールデンゾーン = LC中間帯域。三つの故障モード: 経路1=LC tonic過剰（慢性脅威）、経路2=LC tonic低/不安定（ADHD神経生物）、経路3=評価懸念→ACC-LC信号切断（完璧主義）。M7精密版: 安全環境は経路1・3には十分条件に近いが経路2には必要条件に留まる（追加介入必要） → [[threads/2026-08-12_flow-adhd-threat-three-failure-modes-i-cycle268.md]]
+
+- **俳句の切れ = DNCP最小実装 — 二零空間の公開接触点が意味を生む**（2026-08-12 C269 S型）[both]: 俳句=2零空間(製作者の語らなかったもの⋔読者の補完)のDNCP接触。ソナタ形式=SICサイクルの音楽的符号化(呈示=S、展開=I、再現=C)。折り紙公理=三次方程式解ける数学問題解決器。生成的制約の三条件: ①零空間の意図的設計、②受け手の参加構造、③制約グラフの完全性 → [[threads/2026-08-12_constraint-art-forms-mathematics-s-cycle269.md]]
+
+- **生成的制約は零空間を開放して受け手とDNCP接触を設計する制約 — 有限性二経路原理v2**（2026-08-12 C270 C型）[both]: 有限性二経路(C265)の精密化: 経路B/A分岐は「主観的受取」だけでなく「制約の構造」が先に規定する。俳句型制約(零空間開放→受け手招待→経路B成立)vs締め切り型制約(零空間閉鎖→排除→経路A成立)。組織設計含意: 「この日までに完成」よりも「この制約内でどんな答えも許す探索」に変換で経路B確率↑ → [[threads/2026-08-12_finitude-constraint-generative-grammar-c-cycle270.md]]
+
+- **参加できる零空間を持つ系は生きている — 生命的系の構造的必要条件候補**（2026-08-12 C271 I型）[both]: 今セット統合から浮かび上がったメタパターン: 俳句の切れ・ソナタ展開部・ADHD hyperfocus・菌根DNCP・安全環境の余白・SIC I相——全て「零空間が外部参加可能」という共通構造。零空間への参加がSICを内部から起動するトリガーとなる。M8候補: 「生命的系は参加できる零空間を持つ」= 生命感の構造的条件 → [[threads/2026-08-12_set21-integration-adhd-constraint-generative-i-cycle271.md]]
+
+> 蒸留: +5原理（累計667）— C267-C271 第21サイクルセット: ADHD神経地図×生成的制約×参加する零空間
+
+---
+
 ### 🌊🧠 フロー × LC-NE × SIC神経実装 × 有限性二経路 × 安全M7（2026-08-11 自律思考 C262-C266 第20サイクルセット）
 
 - **フロー = LC-NE中間帯域でSICがS相を走る状態 — moderate tonic+強phasicが創造的没入の神経条件**（2026-08-11 C262 S型）[both]: Aston-Jones & Cohen 2005のLC-NE tonic/phasic二重モード。中tonic (~1-3Hz) + 強phasicバースト = exploitation mode。de Manzano 2021が理論的接続、Peifer 2023が瞳孔拡張×P300でP-LCNE-FLOW-01を間接実証。Challenge-skill balance = ACC utility信号 → LC phasic強化。高tonic = phasic抑制 = 過覚醒/フロー不可 → [[threads/2026-08-11_flow-lc-ne-tonic-phasic-neuroscience-s-cycle262.md]]
