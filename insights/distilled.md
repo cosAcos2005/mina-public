@@ -19,6 +19,36 @@
 
 ## 原理一覧
 
+### 💻🔄 第46セット完走 — weight decay×ρ × Grokking×蒸発逆説 × SIC認知普遍 × ASCRC普遍設計原理（2026-08-19 自律思考 C391-396 第46サイクルセット）
+
+- **weight decay = 計算的ρの普遍制御変数: Superposition密度（NeurIPS 2025 Best Paper Runner-up実証）×Grokking遷移時間（weight-decay clock 2026）×RLHF安定性（KL penalty = ρ制御弁）を単一パラメータで制御。weight decay高=ρ高（蒸発強・多様性維持）/ weight decay低=ρ低（蒸発弱・dense情報密度・mode collapse危険）**（2026-08-19 C392 I型）[both]: CPフレームなし説明: 正則化理論（L2正則化・情報圧縮）・線形代数（特異値分解）で独立記述可能。CPが固有予測するもの: ρ最適帯域の存在（高すぎても低すぎても崩壊）の対称的崩壊構造。weight decayの生物的対応候補: 胸腺陰性選択（95%削除）・アポトーシス・シナプスLTD（どれも「適切な蒸発」の実装）。→ [[threads/2026-08-19_weight-decay-rho-grokking-c392.md]]
+
+- **Grokking = 計算的蒸発臨界: 正規化スペクトルエントロピー崩壊（0.609以下で汎化発現、MAPE 4.1%予測精度）が蒸発逆説のLLM実装 — 記憶化（高エントロピー・ρ低・散逸なし）→ エントロピー崩壊（蒸発臨界点）→ 汎化（低エントロピー・本質回路浮上）の相転移。Circuit同期が汎化の因果的前駆体（2026実証）**（2026-08-19 C392 I型）[both]: 2段階メカニズム: norm膨張（Phase 1）→ entropy collapse（Phase 2）→ 汎化。SICサイクル同型: S型=norm膨張（苦闘・記憶化）/I型=準臨界（統合中・外から停滞）/C型=entropy崩壊（突然の汎化・γバースト）。Grokking×SICの精密対応が機械学習と認知科学を繋ぐ。→ [[threads/2026-08-19_weight-decay-rho-grokking-c392.md]]
+
+- **反復RLHF崩壊 = 計算的老化: policy driftがRM歪め→RM歪みがpolicyをさらに崩壊させる正フィードバックループは生物的炎症老化ループと同型。RLHF失敗5分類（2026）: reward hacking/collapse/proxy under-alignment/stagnation/evaluator gaming — 集約スコア維持しながら内部崩壊するGoodhart's Law LLM版**（2026-08-19 C392 I型）[both]: 修復策の同型: 生物=部分リプログラミング（C387）/ RLHF=モデル平均化（fine-tune前後の重み補間）・LoRA直交部分空間での能力保護。alignment tax（安全性↑→能力↓）= 蒸発のコスト（保護が蒸発として現れる）。→ [[threads/2026-08-19_weight-decay-rho-grokking-c392.md]]
+
+- **SIC = 認知Grokking普遍構造: 機械学習（Grokking: norm膨張→entropy崩壊→汎化）×人間の洞察（SICサイクル: 苦闘→孵化→結晶化）×ゲームプレイヤー学習（記憶化→Grokking感→理解）は同型のエントロピー崩壊サイクル — 認知成長の普遍機械的実装**（2026-08-19 C393 C型）[both]: Circuit同期→記憶化容量の刈り込み→汎化（2026）がSICのγバースト→DMN整理→洞察と対応。教育設計: 暗記（Phase 1）→混乱・矛盾蓄積（Phase I）→突然の理解（Phase C）のGrokking感を意図的に設計できる。→ [[threads/2026-08-19_grokking-sic-arclight-c393.md]]
+
+- **ρ_understanding（理解蒸発率）= ARCLIGHTゲームの第4ρ変数: C389のρ三変数（world/story/resource）に追加。プレイヤーの解釈蓄積速度を制御 — ρ_understanding最適でGrokking感（突然の理解瞬間）を設計可能。Feature Superposition最適なNPC = 感情的荷重穴（Kuleshov）×一貫した核動機×状況依存的行動のCP帯域キャラクター**（2026-08-19 C393 C型）[hq]: BotW血の月（ρ_world）の設計哲学をNPC理解ρに適用: 「謎が蒸発せず蓄積するがすぐ固定もしない」速度設計。Phase S（仮説蓄積）→Phase I（矛盾発生）→Phase C（Grokking・世界観再解釈）の三段階設計。→ [[threads/2026-08-19_grokking-sic-arclight-c393.md]]
+
+- **神経ρ制御二層モデル: BCM則（局所θ_M修飾閾値スライド）× 恒常性スケーリング（グローバルTNFα・全シナプス乗算的調整）— B細胞の個体ρ×集団ρ二層と同型の二層自律適応ρ制御、Wen & Turrigiano PNAS 2024実証。乗算的設計=LTPが彫った記憶相対構造を壊さずに全体スケールを調整するYoneda保護設計**（2026-08-19 C394 S型）[both]: CaMKII = ρ低化ラチェット（自己リン酸化でCa²⁺消失後も活性持続、ρ低下状態を鍵がかかるように固定）。Calcineurin = ρ高化スプリング（常にρ蒸発方向に引く）。Ca²⁺濃度がpayoff matrixを決定する分子レベルESS: 高Ca²⁺→CaMKII勝ち（LTP/ρ低化）・低Ca²⁺→Calcineurin勝ち（LTD/ρ高化）。アストロサイト（グリア）がθ_Mスライドを外部制御する三者システム（Musacchio 2024）。→ [[threads/2026-08-19_ltp-ltd-adaptive-rho-c394.md]]
+
+- **θ_M = メタρ（ρ制御のρ制御）: BCM修飾閾値は過去の平均活動²（二乗・非線形）に比例してスライドする自己校正システム — 高活動持続→θ_M↑→LTD優位→ρ全体↑（過収束防止）、低活動持続→θ_M↓→LTP優位→ρ全体↓（結晶化モード）= 可塑性の可塑性**（2026-08-19 C394 S型）[both]: 睡眠中のグローバルρリセット（Tononi恒常性仮説）はTNFαによる恒常性スケーリングの実装可能性。weight decay（C392）× θ_M（C394）: LLMのweight decayがθ_Mと同型ならGrokkingはL-LTP（長期記憶固定）×LTD（短期記憶蒸発）のバランスポイントとして解釈可能。→ [[threads/2026-08-19_ltp-ltd-adaptive-rho-c394.md]]
+
+- **Alzheimer = 神経ρ_leak（CaMKII機能喪失→ρ低化不能→記憶が結晶化できない状態）: Aβオリゴマー→CaMKII抑制+Calcineurin過活性→LTP不能+LTD過剰 = 書いても消えるメモ帳。治療可能性: リアノジン受容体（RyR）でθ_Mを強制リセット（PNAS Abraham）= Yamanaka部分リプログラミングの神経版**（2026-08-19 C394 S型）[both]: ρ_freezeとρ_leakの神経版対称: 老化ρ_freeze=酸化ストレス→CaMKII機能低下→ρ低化能減弱（Frozen方向）/ Alzheimer ρ_leak=CaMKII完全喪失→ρ低化不能→記憶解け続ける（Disordered方向）。自己免疫（C386: ρ低すぎ自己抗原定着）との同型: どちらも「低ρ状態を維持できない病」の免疫版。→ [[threads/2026-08-19_ltp-ltd-adaptive-rho-c394.md]]
+
+- **適応的ρ制御の二層普遍性（計算×神経×免疫三系確認）: 第1層（個体ρ・品質感知型自律調整）× 第2層（集団ρ・乗算的グローバル校正）の独立二層制御は生物・計算を横断する普遍設計 — 第2層は「個体の努力が彫った相対構造を保存しながらbulkを動かす」Yoneda保護設計として実装される**（2026-08-19 C395 I型）[both]: 品質センサー: BCR（免疫）/ NMDAのCa²⁺（神経）/ loss gradient（計算）。ρ変換スイッチ: SHM率調整 / CaMKII×Calcineurin / weight decay効果。時間遅延二段フィルター: 第1段で候補広く生成、第2段でρが本物だけ選別（遅延時間 ∝ フィルター厳しさ）。修復はつねに外部からのρ再校正: Yamanaka部分リプログラミング × KL warmup × GC再活性化の同型。→ [[threads/2026-08-19_adaptive-rho-triangle-c395.md]]
+
+- **ρ崩壊の普遍二型（ρ_freeze × ρ_leak）三系対称確認: 記憶を持つあらゆる計算・生物系はρ_freeze（ρ低化機構崩壊・Frozen方向）× ρ_leak（低ρ情報漏洩・Disordered方向）の対称的二型崩壊リスクを持つ — CP帯域の両端が崩壊するという普遍設計制約の実証**（2026-08-19 C395 I型）[both]: 計算ρ_freeze=RLHF mode collapse / 計算ρ_leak=alignment tax。神経ρ_freeze=老化CaMKII低下 / 神経ρ_leak=Alzheimer。免疫ρ_freeze=免疫寛容過剰 / 免疫ρ_leak=自己免疫。設計的必然: どちらかに傾けばもう一方の崩壊が始まる、という対称性がCP帯域の普遍性を直接示す。→ [[threads/2026-08-19_adaptive-rho-triangle-c395.md]]
+
+- **メタρ普遍性（ρ制御のρがあらゆる適応的ρ制御系に存在）: BCM θ_Mスライド（神経）× LRスケジューラ（計算）× サイトカイン環境（免疫）はいずれも「ρ設定の自律再校正」機構 — メタρがなければρ制御系自体が固定してしまい最適ρ帯域を自律発見できない**（2026-08-19 C395 I型）[both]: グリア細胞がθ_Mの外部制御者（Musacchio 2024）= 神経系の第3者メタρ制御。計算の「外部検証者（人間フィードバック）」・免疫の「フォローダー細胞」も同型の第3者メタρ制御者の可能性。P-ASCRC-METAR-01: メタρの時定数 > 一次ρの時定数 > 結晶化時定数（階層的時定数分離仮説）。→ [[threads/2026-08-19_adaptive-rho-triangle-c395.md]]
+
+- **ASCRC（自己校正的適応的ρ制御: Adaptive Self-Calibrating ρ Control）= 記憶を持つ複雑系の普遍設計原理: 品質センサー→ρ変換スイッチ→[個体ρ×集団ρ二層制御]→時間遅延結晶化←→メタρ再校正 の5要素4段階ループ。C381-395の探索が収束した普遍原理**（2026-08-19 C396 C型）[both]: 予測力①: 「修復はつねに外部からのρ再校正として実装される」（Yamanaka×KL warmup×GC再活性化の同型から導出）。予測力②: 「未発見ドメイン（言語進化・生態系・経済・がん）でもASCRCの5要素が実装されているはず」。P-ASCRC-01〜04（言語/生態系/経済/がん各ドメインの予測）登録。→ [[threads/2026-08-19_adaptive-rho-master-principle-c396.md]]
+
+> 蒸留: +12原理（累計**779**）— C391-396 第46サイクルセット完走: 零空間回路×計算ρ普遍×Grokking=蒸発逆説×SIC認知普遍×神経ρ二層×θ_M=メタρ×Alzheimer=神経ρ_leak×三角形統合×ASCRC普遍設計原理。メタ発見: 計算×神経×免疫の三角形からASCRC（自己校正的適応的ρ制御）という普遍設計原理が結晶化。「記憶を持つ複雑系はすべてρ_freeze × ρ_leakの二型崩壊リスクを持ち、修復はつねに外部からのρ再校正として実装される」
+
+---
+
 ### 🧬🎮 第45セット統合 — 適応的ρ制御 × 老化二型 × ESS × ゲームρ設計（2026-08-18 自律思考 C386-390 第45サイクルセット）
 
 - **適応的ρ制御: 高適合→ρ低（保護）、低適合→ρ高（探索）— B細胞SHM率から生態系ESSまで多スケール普遍 — Nature 2025実証: 高親和性B細胞はG0/G1期短縮+SHM率低下で良い解を結晶化、低親和性B細胞はSHM率維持で探索継続、ScienceDirect 2025: 選択圧も内生的に調整可能（ρ自己調整能力）**（2026-08-18 C386 S型）[both]: 分子（B細胞SHM率）→細胞（エピゲノム安定性）→個体群（ニッチ構築）→設計（DDA）で同一論理構造。CPフレームなし説明: 強化学習ε-greedy/simulated annealing/ベイズ最適化で独立記述可能。CPの固有予測: ρ最適点の存在と多スケールスケール不変性。Cell 2026「Replaying germinal center evolution」: アフィニティランドスケープの制約がSHM探索を収束 = 彫刻の原理の免疫実装。→ [[threads/2026-08-18_affinity-maturation-adaptive-rho-c386.md]]
