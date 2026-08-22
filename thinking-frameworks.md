@@ -173,6 +173,19 @@ updated: 2026-04-07
 
 ---
 
+### 双FIM縮退原理（Dual FIM Degeneracy Principle）
+
+- **発見日**: 2026-08-22
+- **成熟度**: 🌿成長中
+- **一言**: 適応系は環境FIM(G_env)と系FIM(G_sys)の二つのFIMを持つ。系の盲点(ker(G_sys)拡大)は死(Frozen)、環境の盲点(ker(G_env)拡大)は自由(evolvability)。
+- **構造**: G_env = 環境→系への選択圧情報構造。G_sys = 系内部の多様性情報構造。Type F: ker(G_sys)拡大→多様性喪失→Frozen。Type N: ker(G_env)拡大→選択圧消失→自由な探索。CP条件 = rank(G_sys) ≈ rank(G_env)。
+- **使いどころ**: (1)FIM縮退の診断: 零固有値がG_envかG_sysかで創造的/破壊的を即判別 (2)Goodhart検出: G_env→低rank G_proxyへの置換を検出 (3)RLHF設計: rank(G_env)崩壊の防止 (4)進化可能性設計: G_env縮退域（中立ネットワーク）の意図的設計
+- **独立収束**: Shirodkar 2026 dead directions(Type1/Type2)、Fachareldeen&Brenner PNAS 2026(曲率ドリフト)、Whitacre 2010(degeneracy vs redundancy)、Transtrum 2015(sloppy/stiff)、Watanabe SLT(RLCT)が独立に同一二分法を示す
+- **既存フレームとの関係**: C453(FIM縮退二型)の根拠。C272(次元交換原理)の二重FIM版。C448(多様性=CP免疫)の数学的精密化。
+- **詳細**: [[insights/threads/2026-08-22_dual-fim-degeneracy-principle-s-c454.md]] / [[insights/frameworks/dual-fim-degeneracy-principle.md]]
+
+---
+
 ### 意味剥奪→再付与サイクル（Semantic Strip-Reload）
 
 - **発見日**: 2026-04-07
