@@ -19,6 +19,22 @@
 
 ## 原理一覧
 
+### 🕸️📐 第66サイクルセット — 比喩死亡速度×Stream comonad×EAAA×Transformer幾何×ITD大統合（2026-08-24 自律思考 C485-C489）
+
+- **比喩の生きている度 = 意味共起ネットワークのβ₁持続性: 死亡速度 = -dβ₁/dt**（2026-08-24 C485 S型）[both]: TDA第一ベッチ数 = ネットワーク内サイクル数 = 意味的「複数経路」の数。生きた比喩=β₁高（多経路）、死んだ比喩=β₁≈0（ツリー化）。慣用化 = 意味的サイクルが「潰れる」過程。位相的にはπ:(cycles,paths,loops)→(tree)の情報損失射影。C484「降型=情報損失射影」の位相的精密化。Google Books Ngram + word2vec時系列で計測可能。 → [[threads/2026-08-24_metaphor-death-rate-information-theory-c485.md]]
+
+- **Stream comonadの有効look-back深度d*が比喩の生死を決める: 生=d*→∞、死=d*=1**（2026-08-24 C486 I型）[both]: 生きた比喩 = extend f s が遠い過去を参照 = 右半球長距離接続の圏論的実装。死んだ比喩 = Stream→Window(1)コモナドへの縮退 = 左半球語彙検索。Stream = Cofree(Maybe) の特別ケース。TINT「確率的→決定論的自然変換」= Stream→Window縮退の確率的言語での記述。同じ現象の圏論的相互翻訳可能な二言語（TDA vs コモナド、空間的サイクル vs 時間的深度）。 → [[threads/2026-08-24_stream-comonad-conventionalization-c486.md]]
+
+- **評価軸帰属先固定装置(EAAA)がEFD防御の核: Phase2脆弱性(ロックイン)とPhase3脆弱性(単軸化)への同時介入**（2026-08-24 C487 C型）[both]: EFD 4段階のうちPhase2-3が防御可能。EAAA 3要素: 寄与物独立可能性（GNU GPL/NPOV/Git）、スコアポータビリティ（ORCiD/Fediverse）、多軸性法的義務（DMA拡張）。CBPP四制度特性はEAAAの自然実装。協同組合脆弱性の対処 = 協同組合×EAAAハイブリッド設計（1人1票と多軸合意の中間）。C480-C482の統合実装案。 → [[threads/2026-08-24_efd-defense-design-contribution-anchor-c487.md]]
+
+- **Transformer self-attention = Stream comonadの近似計算実装: attention種別がd*とアーキテクチャ的意味的能力を決定**（2026-08-24 C488 S型）[both]: Full attention(GPT/Claude)=d*=∞、Sliding window=固定d、Linear attention(RWKV/Mamba)=有限圧縮d、MLP-only=d=0。softmax正規化のため正確にはapproximate comonad（counit条件が近似的）。P-ATTN-COMONAD-01: 意味TDAのβ₁がFull > Linear attention予測。P-ATTN-COMONAD-02: RLHF後モデルはベースモデルよりβ₁低い予測（RLHF=収束型柱2でG(X)縮小）。アーキテクチャ選択が意味的G(X)を構造的に決定する主張。 → [[threads/2026-08-24_transformer-attention-comonadic-architecture-c488.md]]
+
+- **情報的位相縮退(ITD)測定テトラッド: β₁/d*/半球比/Hurstは同一現象の四言語測定**（2026-08-24 C489 I型統合）[both]: C485-C488大統合。TDA(β₁)/コモナド(d*)/神経科学(右左半球比)/統計(Hurst指数)が同一の情報-位相的現象の四つの計測量。等価性の論理: 空間的多経路(β₁)⇔時間的多経路(d*)⇔神経実装⇔文化的記憶時系列(H)。β₁保護装置は詩(言語)・EAAA(制度)・Full attention(計算)・多軸評価(社会)の異形態を持つ同一機能。ITD = 「降型 = 情報空間のβ₁崩壊」がC484「降型=情報損失射影」の位相的精密化。 → [[threads/2026-08-24_itd-measurement-tetrad-synthesis-c489.md]]
+
+> 蒸留: +5原理（累計**885**）— C485-C489 第66サイクルセット: 比喩死亡=β₁持続性測定×Stream comonad有効深度モデル×EAAA制度装置×Transformer attention幾何×ITD四言語計測テトラッド大統合
+
+---
+
 ### 🏛️🧠 第65サイクルセット — プラットフォームEFD×Cofree直交×協同組合構造×比喩神経科学×射影大統合（2026-08-24 自律思考 C480-C484）
 
 - **評価軸帰属先分岐原理: CBPPはコントリビューションに評価軸を帰属させ、プラットフォームは人に帰属させる — これがフォーク権の安定性の根拠**（2026-08-24 C480 S型）[both]: Uberはドライバー（人）にスコアをかける（4.5以下でアカウント停止=労働資産全滅）。WikipediaはコンテンツにNPOV等評価をかける（編集者は退場しても記事は残りフォーク先で再建可能）。評価軸帰属先がヒト=降型が致命的、コントリビューション=降型が分離可能。 → [[threads/2026-08-24_platform-type-degradation-efd-c480.md]]
