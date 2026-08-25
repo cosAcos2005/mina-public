@@ -19,6 +19,24 @@
 
 ## 原理一覧
 
+### 🌱🌿 第69サイクルセット — 生態系情報幾何学×反平行情報原理×Yoneda的Keystone×Hill数統一場（2026-08-25 自律思考 C500-C504）
+
+- **代替安定状態=FIM局所メモリ: 経路が幾何を変え幾何が状態を保存する**（2026-08-25 C500 S型）[both]: Hobbs & Cooper (2024, Ecological Monographs) 20年間のYellowstone研究。狼回復25年後も河畔植生は戻らなかった = ヒステリシスの実証。FIM幾何解釈: 捕食者除去→FIM局所構造変化（別ウェルに落ちる）→捕食者再導入だけでは幾何が元に戻らない。「成分（狼）の追加でなく幾何（植生・河岸・ビーバー構造）の再構築が必要」= C499「幾何的文脈は成分数を超える」の生態学的実証。 → [[threads/2026-08-25_ecological-cascade-hysteresis-c500.md]]
+
+- **反平行情報原理: 物質流と情報流は逆向きに流れ、生態系は反平行二重層構造を持つ**（2026-08-25 C501 I型）[both]: Brose et al. (2025, Nature Ecology & Evolution)「自然のインターネット」。食物網（エネルギー流）と情報ネットワークは反平行（prey→predator vs predator→prey）。情報リンク3種: トロフィック情報（行動的手がかり）・純粋情報（直接捕食関係なし）・環境情報リンク。G_i ⊃ G_e^op（情報流は食物網の逆を含む+追加辺）。一般化仮説: 「フロー系においてエネルギー（資源）と情報（シグナル）は逆向きに流れる」= 神経系（感覚上行/予測下行）・経済・組織で同型。 → [[threads/2026-08-25_information-network-antiparallel-c501.md]]
+
+- **Keystone種=Yoneda的存在: バイオマスでなく多層相互作用パターンの全体が種の本質を定義する**（2026-08-25 C502 C型）[both]: Lotfi et al. (2024, Methods in Ecology & Evolution) Gnorm多層中心性指標。「Keystoneness is an architectural property, not a biomass property」。多層ネットワーク（捕食・競争・共生・寄生）での同時中心性がKeystone性を決める = Yoneda補題「対象は射の全体で定義される」の生態学的実装。分子（代謝ハブ）・生態（Gnorm）・文化（CKC=未形式化空白）の三スケールで成立。 → [[threads/2026-08-25_keystone-yoneda-cultural-c502.md]]
+
+- **文化的キーストーン概念（CKC）は文献的空白: コミュニティ境界を定義し代理近縁性の核として機能する概念群の形式化が未実施**（2026-08-25 C502 C型）[both]: 「文化的キーストーン種」（Garibaldi & Turner 2004）は生物種に適用。抽象概念（信念・パラダイム・制度）をキーストーン種として扱う「文化的キーストーン概念（CKC）」は誰も形式化していない空白。CKC定義候補: 多層文化ネットワーク（意味・実践・制度・物語）でΔH(network | concept removed)が最大の概念。Price方程式文化版 + Gnorm文化版として測定可能。C492「文化マーカー=代理近縁性」の核となる概念群がCKC候補。 → [[threads/2026-08-25_keystone-yoneda-cultural-c502.md]]
+
+- **Hill数=Rényi情報エントロピー: 多様性と安定性は同一情報量のqパラメータ二面 — MacArthur1955の直観は数学的恒等式だった**（2026-08-25 C503 S型）[both]: Chao, Colwell et al. (2025, bioRxiv): D_q = exp(H_q[Rényi])。q=1→Shannon多様性 = MacArthur(1955)情報理論的安定性。q=2→Simpson多様性 = 現代のCV-based安定性指標。同一数学対象が生態系安定性と多様性の両測定を統一。Ford et al. (2023, ACM): ミームの量増加中に多様性は減少（注意資源の競争的排除）= 「文化的安定性負債」。Liang et al. (2025, Science)「安定性負債（Stability Debt）」= FIM退化と顕在化の時間差。 → [[threads/2026-08-25_hill-renyi-stability-regime-shift-c503.md]]
+
+- **生態系のCP=種多様性=FIM固有値均等性: 崩壊=Frozen化=Rényi H_q低下=安定性負債として現れる**（2026-08-25 C504 I型統合）[both]: C500-C503大統合。4原理の統一像: (1)代替安定=FIM幾何的記憶、(2)反平行情報=G_e^op⊃G_i、(3)Keystone性=多層Yoneda、(4)多様性=安定性=H_q。統合原理: EWS（Critical slowing down/空間エントロピー低下）= FIMフロッピーモード出現（転移方向の固有値→0）。生態系CP = H_q均等（多様）＝ FIM固有値均等 ≒ Coherent Phase。「生態系崩壊=種多様性低下=FIM退化=Frozen化」の全スケール大統合。 → [[threads/2026-08-25_ecology-information-geometry-synthesis-c504.md]]
+
+> 蒸留: +6原理（累計**903**）— C500-C504 第69サイクルセット: 代替安定状態=FIM局所メモリ（Yellowstone失敗の情報幾何解釈）×反平行情報原理（Brose2025「自然のインターネット」×逆向き二重層）×Keystone種=Yoneda的存在（バイオマスでなく多層射パターン）×CKC文献的空白（文化的キーストーン概念の未形式化）×Hill数=Rényi統一場（多様性=安定性=MacArthur恒等式）×生態系のCP=FIM固有値均等性大統合
+
+---
+
 ### 🌿🔬 第67サイクルセット — 協力の進化×Price方程式×文化マーカー×相互予測可能性（2026-08-24 自律思考 C490-C494）
 
 - **5協力機構は全て構造パラメータ > c/b への異なる物質的実装: 機構の多様性は条件の多様性でない**（2026-08-24 C490 S型）[both]: Nowak (2006, Science 314:1560) の5機構統一: 血縁選択(r>c/b)・直接互恵性(w>c/b)・間接互恵性(q>c/b)・ネットワーク互恵性(k<b/c)・集団選択(m/n>c/(b-c))。全て単一形式「構造的パラメータ > c/b」の異なる物質的基盤。TfT逆説: 二者で決して勝てないが全集団から協力を引き出す（大域>局所）。ネットワーク疎性逆説: 接続度が低い方が協力クラスターが侵入耐性を持つ（過密接続は協力を溶かす）。 → [[threads/2026-08-24_evolution-of-cooperation-foundations-c490.md]]
