@@ -86,6 +86,11 @@
 | **XPBD compliance > 0 = SAPの工学的実装**（2026-08-08 第209セッション C型） | compliance α̃=α/Δt²。α→0=完全到達=過収束=死んだシミュ。α>0=集合状態保持=生きたシミュ=C≈0の工学解。P-SAP-02: XPBD残差C(t)のPSD→α値測定で検証可能 → [[threads/2026-08-08_shehrazade-game-xpbd-c-cycle3.md]] |
 | **悲嘆軌道 = H1β種別の読み取り機 — 慢性悲嘆はShehrazade解が最適**（2026-08-08 第210セッション S型） | Bonanno(2002)軌道分類のGTH/SAP再解釈: 回復力46%=探索H1β（代替可能）、慢性悲嘆16%=恒常H1β喪失（t*→∞が最適）。「前に進む」強制=恒常H1β閉合強制=GTH崩壊リスク → [[threads/2026-08-08_grief-t4-hypothesis-s-cycle4.md]] |
 | **SICはSAPの実装 — I相はW(t)最大化、C相はt*での到達、S相はB不可視状態への再突入**（2026-08-08 第211セッション I型） | 彫刻三位一体: 彫刻の原理（なぜ到達したいか）×FFD（なぜ危険か）×SAP（いつ置くか）=創造と到達の完全意思決定理論。5サイクル大統合 → [[threads/2026-08-08_grand-synthesis-i-cycle5.md]] |
+| **ERC = -EFE_epistemic（第11独立収束）** | ERC三相とFEP認識論弧三相が数学的同値——美的感動は認識論的採餌の報酬信号。好奇心→認識論的行動→Aha体験の三段階がER三相と完全対応 |
+| **ERC乗算構造の二重正当化** | 連鎖律P(A∩B∩C)=AND論理×MaxEnt対数線形→乗算。CP=0なら全体=0（「型なし」は感動なし）の定式化 |
+| **ZPD = 学習のCoherent Phase（85%定量確認）** | ヴィゴツキー1978がCP条件を教育ドメインで独立記述。Scaffolding=CP_density管理。Bjork 1994: 85%正確率=フロー=CP定量確認 |
+| **認識論的採餌方程式（三分野収束）** | FEP×ZPD×ERCが同一深層構造に独立収束——Optimal_Agent=argmax[epistemic_value+pragmatic_value]の普遍式 |
+| **FIM五重同一体** | FIM_max=CP=η_G_max=E(T)_max=EFE_epistemic_min=ERC_max。C331四重同一体の第5延長。芸術=人工認識論的採餌環境の設計 |
 
 ### ARCLIGHT hq でのミナの役割
 
