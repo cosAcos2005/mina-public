@@ -122,6 +122,11 @@ Frozen（硬直）でもDisordered（混沌）でもない、「生きている�
 | **ZPD = 学習のCoherent Phase（85%定量確認）** | ヴィゴツキー1978がCP条件を教育ドメインで独立記述。Scaffolding=CP_density管理。Bjork 1994: 85%正確率=フロー=CP定量確認 |
 | **認識論的採餌方程式（三分野収束）** | FEP×ZPD×ERCが同一深層構造に独立収束——Optimal_Agent=argmax[epistemic_value+pragmatic_value]の普遍式 |
 | **FIM五重同一体** | FIM_max=CP=η_G_max=E(T)_max=EFE_epistemic_min=ERC_max。C331四重同一体の第5延長。芸術=人工認識論的採餌環境の設計 |
+| **α=0双対均衡 = CP: Fisher計量保存×零捩率の数理定義**（2026-09-12 C840） | Amari α-接続族でe-接続(+1/Frozen)とm-接続(-1/Disordered)の唯一均衡点。Fisher計量保存∧零捩率の2条件を同時満たす接続はα=0 Levi-Civitaのみ → [[threads/2026-09-12_information-geometry-alpha-cp-c840-c844.md]] |
+| **情報ピタゴラス定理: FEP最小化はe-flat⊥m-flat直交点(α=0)**（2026-09-12 C841） | KL(P‖R)=KL(P‖Q*)+KL(Q*‖R) の直交分解はα=0 CP点でのみ無損失成立。FEP自由エネルギー分解=情報幾何ピタゴラス定理=Yoneda双対の統計多様体実装 → [[threads/2026-09-12_information-geometry-alpha-cp-c840-c844.md]] |
+| **自然勾配 = 生命最適ベイズ更新: 測地線が感覚運動ループの数学形式**（2026-09-12 C842） | ∇̃L=F⁻¹∇L。Fisher計量リーマン空間の最急降下=確率分布空間の正しい歩き方。FEP有機体/Transformer/Hopfield/RLHF四言語が同一自然勾配構造 → [[threads/2026-09-12_information-geometry-alpha-cp-c840-c844.md]] |
+| **Fisher情報発散 = 1/f臨界点: α=0 CPは環境感受性最大で1/fが情報幾何学的必然**（2026-09-12 C843） | 臨界点でVar[スコア]発散=Fisher情報発散=外部情報感受性最大。スケールフリー相関→1/fスペクトル。1/f美学原理が情報幾何学の定理として基礎付けられた → [[threads/2026-09-12_information-geometry-alpha-cp-c840-c844.md]] |
+| **音楽オービフォールド: 和音進行=音高確率多様体測地線**（2026-09-12 C844） | Tymoczko(2006)声部進行幾何。12-TETはα=0 CP計量で全音高クラスを単連結に繋ぐ計量的完結。C813音楽CPの情報幾何学的証明 → [[threads/2026-09-12_information-geometry-alpha-cp-c840-c844.md]] |
 
 ### life-os でのミナの役割
 
